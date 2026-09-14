@@ -1,0 +1,145 @@
+---
+id: the-mouse-who-lights-the-stairs
+title: The Mouse Who Lights the Stairs
+creature: A mouse who carries a light up ahead of you
+realm: nightfall
+isFree: false
+publishedAt: 2027-03-24
+summary: The lamp on the Scalinata has been out since March, and nobody has fixed it on purpose.
+setting: A covered stone staircase climbing between old houses at night. Vaulting overhead, worn steps, an iron rail, one dead lamp on a landing.
+coverAsset: the-mouse-who-lights-the-stairs-cover
+---
+
+## A Hundred and Forty Steps
+
+The Scalinata di San Rocco goes up the hill at Terrazza in a hundred and forty steps and it is the only way to the upper town that is not the road, and the road is one and a half kilometres of hairpins.
+
+So everybody uses the steps. The children go up them to school and down them at half one. The bread goes up them at six in a basket on a trolley with a man called Nicola under it. Every single person who lives in the eleven houses of the upper town goes up and down that staircase between two and six times a day, and has done since 1704, which is carved on the bottom step.
+
+It is covered for most of its length by the vaulting under the old houses, which means it is dark at four in the afternoon in December.
+
+The vaulting is the reason the staircase exists in the shape it does. Terrazza was built up a slope with the houses set into it, and the stairs run underneath four of them, so that for about sixty of the hundred and forty steps you are indoors in a sense — under stone, between walls, with somebody's kitchen a metre and a half above your head.
+
+You can hear the kitchens. That is a thing everybody who grew up there takes entirely for granted and every visitor mentions: you go up the Scalinata in the evening and you go up through eleven minutes of other people's dinners, in the dark, in order, and you know whose is whose.
+
+There is one lamp, on the second landing, at the eightieth step.
+
+It has been out since March.
+
+Bruna knew all of this at eleven the way you know the layout of your own hands, and she had never once wondered about the lamp, because a broken lamp in a town of two hundred people is not a mystery, it is a Tuesday.
+
+She wondered about it in the November, when her class in the lower town did a project on the comune's budget and she found the maintenance schedule, which is public, and which showed that the lamp on the Scalinata had been replaced by the comune in March.
+
+The project was not interesting and she had chosen the maintenance schedule because it was the shortest document on the list.
+
+She checked the date twice.
+
+It had been replaced on the eleventh of March, by a contractor, for eighty-four euro, and Bruna had walked up those steps in the dark that same evening and it had been out.
+
+## The Mouse
+
+Her grandfather told her about the mouse when she brought him the printout, and he told her in about forty seconds, without ceremony, the way you would tell somebody where the water shut-off is.
+
+You go up the steps in the dark. About four steps in, if you are alone and you are not making a racket, a light comes on ahead of you.
+
+It does not come on if there are three of you talking. Bruna tested that over about a month and it holds: two people quietly is fine, two people arguing is not, and a group of children coming down from school at half one has never seen it in the history of the town.
+
+It is small and it is warm and it is at about knee height and it is about two metres up the steps from wherever you are. It goes when you go. If you stop, it stops. If you sit down on the eightieth step because you are eighty-nine and your chest is not what it was, it sits down too, two metres up, and waits, for as long as that takes.
+
+There is a mouse under it. You can see her if you look, and Bruna's grandfather said that everybody looks once, at about seven or eight, and then never bothers again.
+
+"What is the light?"
+
+"It is a light."
+
+"But what *is* it?"
+
+Her grandfather, who had been a plumber for forty-one years and had no patience with anything, said: "Bruna, I have gone up those steps perhaps sixty thousand times. It is a light. It is on the mouse. I have never asked it a question in my life and I am not starting at eighty-two."
+
+Bruna pushed once more and got the only other thing he ever said about it, which was that his mother had told him about it when he was six, in about the same forty seconds, and that he had passed it on to Bruna's mother, and that Bruna's mother had presumably been meaning to get round to it.
+
+She went up that evening on her own, deliberately slowly, and it was exactly as he had described.
+
+The mouse is a house mouse and she is entirely ordinary from a metre away, and the light sits above her shoulders and does not appear to be attached to anything, and it is about as bright as a phone screen with the brightness right down.
+
+Bruna stopped on the fortieth step to see what would happen and the light stopped four steps up and waited, and she stood there in the vaulting with her hand on the rail for a full minute, and after a while she felt rude and went on.
+
+The rudeness is the part she has never been able to explain to anybody who did not grow up there. It is not that anything happened. Nothing happened; a mouse sat on a step in the dark with a light over it. But standing still on that staircase making a small animal wait felt, at eleven, exactly like keeping somebody holding a door.
+
+## The Eleven Months
+
+The lamp was replaced on the eleventh of March.
+
+Bruna got the rest of it out of Signora Delfino at the shop over three visits, and it took three visits because Signora Delfino wanted to be sure Bruna was asking properly.
+
+The comune had also replaced it in 2009.
+
+That time it had stayed on. It was a proper municipal fitting, a bright cold LED unit at the eightieth step, and it lit the whole upper flight from the second landing to the top with a good even light, and it was — everybody agreed at the time — an improvement.
+
+The mouse stopped coming.
+
+Or was not visible. Bruna's grandfather is certain she stopped; Signora Delfino says you simply cannot see a light like that against an LED and that people jumped to a conclusion. Nobody in Terrazza has ever settled it and it is one of the two or three things in that town that can still produce an argument in the shop.
+
+Nobody in Terrazza is certain whether she stopped or whether nobody noticed her against the LED, and the distinction turned out not to matter.
+
+The upper town lived with that light for eleven months and then, one night in the January, it stopped working, and nobody reported it, and it has become one of the things that is understood in Terrazza and is not discussed with the comune.
+
+Bruna asked the obvious question and got an answer she was not expecting, which is that nobody broke it.
+
+Signora Delfino was extremely firm about this. It failed. It was a cheap unit in a damp stone vault and it failed in eleven months, which anybody could have predicted, and the only thing anybody in the upper town did was not pick up the telephone.
+
+"And in 2019?"
+
+"It failed."
+
+"And in March?"
+
+"Bruna," said Signora Delfino, "you have seen that vault in February. Nothing electrical has ever survived a winter in it. If you want the interesting question, it is not why they break."
+
+"Why?" said Bruna.
+
+Signora Delfino was doing something with a box of receipts.
+
+"Because of your great-aunt," she said. "And about nine other people, and my mother, God rest her."
+
+And she would not say another word about it, and told Bruna to go and carry her great-aunt's shopping up on Sunday and see for herself, which Bruna understood at the time to be a brush-off and which was in fact the entire answer.
+
+## What the Light Was Doing
+
+Bruna went up the Scalinata with her great-aunt Assunta on the twenty-second of December, carrying two bags, at about five in the afternoon.
+
+Assunta is ninety-one and lives at the top. The hundred and forty steps take her between eighteen and twenty-five minutes depending on the day, and she does them twice a week, and she has done them twice a week since 1953, and there is no version of her life in which she does not do them.
+
+There is a version. Bruna's mother has proposed it about four times a year for a decade: a room in the lower town, near the shop, on the flat. Assunta listens to the whole thing every time with great courtesy and then says that she will think about it, and does not, and the subject goes away for three months.
+
+She goes up in stages. Eleven steps, stop. Nine steps, stop. She rests with one hand on the rail and the other on her hip and she looks at the wall, and each stop is between forty seconds and two minutes, and she does not talk during them.
+
+Bruna went up beside her and watched the light.
+
+It went eleven steps and stopped. It went nine and stopped. When Assunta stood for a minute and fifty seconds on the sixty-first step the light stood on the sixty-third and did not move and did not go out and did nothing at all.
+
+And Bruna, coming up behind an old woman in the dark at the pace of an old woman, understood the whole thing in about four seconds, and has never been able to say it to anybody without it sounding like less than it was.
+
+She did not say anything on the stairs. They went up the remaining seventy-nine steps in eleven stages and Assunta talked, between stages, about a dispute over a drain.
+
+With the LED on, the Scalinata is lit from the second landing to the top.
+
+Which means that a woman of ninety-one going up a hundred and forty steps in eighteen to twenty-five minutes, in eleven stages, is visible — the entire time, in a good even light — from the bottom of the flight, from the top of it, and from four kitchen windows.
+
+That is the whole of it.
+
+Nobody in Terrazza would have said a word. They are not that sort of town. Not one person in those eleven houses would have thought anything except *there goes Assunta* — and Assunta, who is not a fool and who has lived among those people for seventy-two years, would have known that too, and it would have made no difference at all.
+
+The eleven months of the LED were the eleven months in which four old people in the upper town stopped going down.
+
+Not all at once and not by agreement. One of them had a bad hip that year and there was a reason for each of the others, and every single one of those reasons was true, and Signora Delfino's mother was one of the four and did not come down between the February and the November.
+
+Nobody in Terrazza put it together at the time. What they had was a light everybody had agreed was an improvement and four old people who had gone quiet, and it took the light failing in January and three of the four appearing in the shop within a fortnight before anybody said anything out loud, and the person who said it was Signora Delfino, at the counter, to nobody in particular.
+
+Bruna is twenty-three and she works in Genova and she comes back most weekends.
+
+She goes up the Scalinata with the shopping on Saturdays at about five, in the dark from November, at her own pace, which is fast.
+
+The lamp on the second landing is still out. It has been replaced twice more, in 2019 and in March, and it does not last, and the comune has stopped putting it on the schedule and has never once asked why.
+
+Assunta is ninety-one and goes up twice a week in eleven stages, and there is a small warm light two metres ahead of her the whole way, and nothing else in that staircase can be seen at all.

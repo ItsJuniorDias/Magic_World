@@ -1,0 +1,131 @@
+---
+id: the-stork-of-apologies
+title: The Stork of Apologies
+creature: A stork who delivers the apology you could not say
+realm: skies
+isFree: false
+publishedAt: 2027-04-14
+summary: It arrives. It is not signed. You are never going to find out who.
+setting: An Alsatian village church in late August. A stone north wall, a small wire basket on a bracket, tiled roofs, a stork nest on a chimney.
+coverAsset: the-stork-of-apologies-cover
+---
+
+## The Third Week of August
+
+In the villages along that stretch of the Ill the storks go in the last week of August, and in the third week of August you can send an apology.
+
+Camille had known the rules since she was small and had never had occasion to use them.
+
+You write it on paper. Not a card and not a screen; paper, and small, because it has to fit. You do not sign it and you do not put a date and you do not include anything that identifies you, and this is not optional — an apology with a name on it comes back, or does not go, or goes and is not delivered, and nobody in Hindisheim can tell you which of those three things happens because nobody has ever seen one arrive with a name.
+
+You fold it in four and you put it in the wire basket on the church wall, which is about the size of a shoebox and which is empty for fifty-one weeks of the year.
+
+The basket is at about chest height on the north side, out of sight of the square, which everybody assumes was deliberate and which the parish records show was where the old poor-box bracket happened to be.
+
+Nobody watches it. That is a rule too, and it is the one that is taken most seriously. You do not stand in the square in the third week of August. You do not walk past twice. If you are going to the church at that time of year you go round by the school, and visitors who do not know this get told, once, kindly, by the first person who sees them.
+
+And in the last week of August they are gone, and some time in the following fortnight, people get them.
+
+Not everybody. Nobody keeps count and there is a certain amount of arguing about the numbers, but a reasonable estimate for a village of nine hundred is somewhere between forty and eighty a year.
+
+The arguing is not about the mechanism. Nobody in Hindisheim argues about whether it happens; everybody has had one or knows four people who have. The arguing is about whether it is fewer than it used to be, which is a conversation that village has been having since at least the 1950s and which is conducted with the same weary vigour as the one about the storks themselves, of which there are, in fact, measurably more.
+
+They arrive on doorsteps and windowsills and once, memorably, on the roof of a car.
+
+The car was in 2016 and belonged to a man from Sélestat who had parked in the square overnight, and there is no agreement in the village about whether the apology was for him or whether his roof was simply in the way, and he took it home with him, which several people thought was poor form. They are folded in four and they are unsigned and they are unmistakable, because there is a particular way the paper is creased along the fold — a hard flat crease with a slight bevel to it that nobody in Hindisheim has ever been able to reproduce with their hands.
+
+Camille got hers on the ninth of September when she was twelve.
+
+## What Was In It
+
+It was on the windowsill of her bedroom, on the outside, which is on the first floor.
+
+It was three lines long and she is not going to reproduce it, and the reason is not that it is embarrassing. The reason is that in the years since she has come to understand that an unsigned apology is the property of two people and only one of them chose to be in the arrangement.
+
+Her mother asked what it said, once, in the October, and Camille said she would rather not, and her mother said all right and never asked again — which Camille understood at twelve as ordinary politeness and understands now as the single most useful thing that woman ever did for her.
+
+What she is prepared to say is this.
+
+It was an apology for something that had happened when she was nine, at the school, over about three months, and that she had told nobody about at the time and had told nobody about since, and that she had assumed for three years that she had entirely got over.
+
+It was specific. That is the part that took the ground out from under her. It named the thing. It named the room. It got a detail right that Camille herself had half forgotten and that came back complete the moment she read it, and it was not a large detail and it was not one that anybody would remember unless they had been there.
+
+She checked the paper against the crease. It was the crease — the hard flat fold with the bevel that everybody in that village can identify by feel and nobody can make.
+
+She checked the windowsill. It is on the first floor above a stone wall with no drainpipe and there is no way to reach it from the ground, and she went out into the garden that evening and stood underneath it and looked up at it for a while.
+
+She sat on her bed and read it perhaps forty times.
+
+The first thing she felt was not relief and it was not comfort, and she has been careful about this ever since because people expect a story about an apology to arrive at relief.
+
+The first thing she felt was that somebody had known.
+
+For three years the entire weight of that autumn had been that it was hers alone — that whatever had happened in that room had happened only inside her head, that everybody else had walked out of it and gone on with their lives, and that being the only one still carrying it was proof that she had made too much of it.
+
+The paper on the windowsill said, in three lines, without a name on it: no.
+
+Then she went downstairs and had dinner and did not mention it, and it stayed in the pocket of a coat for the rest of that autumn, and she got it out roughly every second day.
+
+## The List
+
+She made a list, which she now finds difficult to look at.
+
+There were eleven names on it. She wrote them in the back of a maths book and she went at it the way she went at everything, which was thoroughly and without much idea of what she would do at the end.
+
+The eleven were everybody who had been in that room in 2019 and who still lived in Hindisheim. She did not seriously consider the two teachers and put them on the list anyway, out of a completeness she now recognises as a way of not starting.
+
+She ruled some out by handwriting, which took a month and involved a quantity of low cunning she is not proud of — asking people to write things down, getting hold of a class list from 2019, comparing capitals. She got the eleven down to four.
+
+The class list came from a folder in the corridor outside the office and she took a photograph of it and put it back, and she has never decided whether that counts as anything.
+
+She ruled one of the four out because he had moved to Colmar in 2020 and the crease is not something you can do at a distance, or so everybody says.
+
+Three.
+
+And then she stopped, in the second week of November, on the road home from the bus, quite suddenly, and did not go back to it.
+
+What stopped her was not a scruple and she wants that clear, because she has had eleven years to be honest about it and she has decided to be.
+
+What stopped her was that she worked out, standing at the corner by the Speck farm, that she was about four questions away from knowing — and that the moment she knew, the apology would stop being an apology and would become a fact about a person she had to see at the bus stop every morning.
+
+Right now it was the truest thing anybody had ever said to her.
+
+In four questions it was going to be a thing somebody had done and had felt bad about, which is smaller, and which she would then have to have opinions about, and manage, and be gracious or ungracious about for the rest of her life in a village of nine hundred people.
+
+She went home and put the maths book in the stove.
+
+It went up in about four seconds and she stood and watched it and then went and did her homework, and she has never told anybody about the list, including the person she married.
+
+## Sending One
+
+She sent her first in the August she was fifteen.
+
+It is difficult to describe how much harder it is than it sounds. You have a week. You have a piece of paper the size of a hand. You cannot sign it, which means you cannot explain, which means you cannot say *this is why I did it* or *I was going through something*, because every one of those sentences narrows you down and the whole arrangement depends on not being narrowed down.
+
+So what you can write is the thing itself and nothing else.
+
+That constraint is the whole design and Camille did not see it until she was about nineteen.
+
+An apology with a reason in it is not an apology; it is a case. Everybody who has ever apologised knows the pull of the next sentence — the *but*, the *I was*, the *you have to understand* — and every one of those sentences is a small request that the other person do something for you.
+
+The basket on the north wall will not take them. Not for any moral reason: purely because a reason narrows you down, and a narrowed-down apology comes back or does not go.
+
+Camille sat at the kitchen table for four evenings and produced, in the end, two lines, and she has sent one nearly every year since and has never got past four.
+
+The first one was about a girl called Léa and a thing that had gone round the year before, and Camille's part in it had been small and entirely deliberate.
+
+She has never found out whether any of them arrived. That is the other half of the arrangement and it is the half nobody warns you about. There is no receipt. The person does not tell you, because they do not know it is you, which is the entire point — and you will be in the shop with them in October and they will be perfectly ordinary and you will have no idea whether they are perfectly ordinary because it landed or because it did not.
+
+Her mother told her, when she was about seventeen, that this was the part people find hardest and that a great many people in Hindisheim send one once and never again.
+
+Camille is twenty-three and works in Strasbourg and comes home for the third week of August, which her colleagues assume is about the holidays.
+
+One of them worked it out in 2024 — not the mechanism, only that the week was fixed and non-negotiable — and asked, and Camille said it was a family thing, which is true.
+
+She has three of them, received, in a tin: the one from when she was twelve, one from eighteen, and one that arrived last September that she has read perhaps four hundred times and that she cannot place at all — no room, no year, no detail she recognises, an apology from somebody about something that as far as she can establish never happened.
+
+She has thought about that one a great deal.
+
+The explanation she has settled on is the dull one, which is that somebody got the wrong windowsill, and it is almost certainly right.
+
+The other one, which she takes out about twice a year and looks at and puts back, is that it is not the wrong windowsill and that she is the one who has forgotten.

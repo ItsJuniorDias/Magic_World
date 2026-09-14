@@ -1,0 +1,145 @@
+{
+  "storyId": "the-reindeer-with-the-first-snow",
+  "chapterIndex": 2,
+  "duration": 182.47,
+  "sentences": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.57,
+      "text": "Morag did the arithmetic that winter because she wanted her mother to be wrong."
+    },
+    {
+      "index": 1,
+      "start": 4.57,
+      "end": 23.77,
+      "text": "She had twenty-one years of her mother's notebook — the date he came down, in her mother's handwriting, in among the feed orders — and she got the snow dates from the weather station at Cairngorm summit, which has been recording since 1977 and which is public and which anybody can download."
+    },
+    {
+      "index": 2,
+      "start": 23.77,
+      "end": 26.9,
+      "text": "She was expecting to find that the gap was noise."
+    },
+    {
+      "index": 3,
+      "start": 26.9,
+      "end": 38.44,
+      "text": "Eighteen good years and three bad ones is exactly what a coincidence looks like, and she was twelve by then and had done a term of statistics and was extremely pleased with herself about it."
+    },
+    {
+      "index": 4,
+      "start": 38.44,
+      "end": 47.62,
+      "text": "The plan, which she had thought about for a week and which she still thinks was a reasonable plan, was to show her mother a scatter plot with no trend in it and say *there*."
+    },
+    {
+      "index": 5,
+      "start": 47.62,
+      "end": 49.81,
+      "text": "The gap is not noise."
+    },
+    {
+      "index": 6,
+      "start": 49.81,
+      "end": 51.27,
+      "text": "It is a trend."
+    },
+    {
+      "index": 7,
+      "start": 51.27,
+      "end": 58.93,
+      "text": "It is not a dramatic one and it does not go up in a straight line, and there are two years in the middle where it goes backwards."
+    },
+    {
+      "index": 8,
+      "start": 58.93,
+      "end": 72.01,
+      "text": "But you can put a line through those twenty-one points and the line has a slope, and the slope says that the interval between him coming down and the snow arriving has been getting longer by a bit under a day a year since about 2011."
+    },
+    {
+      "index": 9,
+      "start": 72.01,
+      "end": 80.4,
+      "text": "She checked it against the summit temperature series and got the thing she was not looking for, which is that the two lines are the same shape."
+    },
+    {
+      "index": 10,
+      "start": 80.4,
+      "end": 84.2,
+      "text": "She would like to be clear about the limits of this."
+    },
+    {
+      "index": 11,
+      "start": 84.2,
+      "end": 86.17,
+      "text": "It is twenty-one points."
+    },
+    {
+      "index": 12,
+      "start": 86.17,
+      "end": 97.39,
+      "text": "It is one bull at a time on one plateau, and the come-down dates were written by one woman who was mainly writing about feed, and Morag was twelve and taught herself the regression off the internet."
+    },
+    {
+      "index": 13,
+      "start": 97.39,
+      "end": 116.64,
+      "text": "She has since had it looked at by a teacher who does statistics properly and who was kind about it and who said the sample was small, the effect was real, and the conclusion was correct for reasons that had almost nothing to do with the reindeer — because the summit temperature series alone says the same thing on its own without any animals in it at all."
+    },
+    {
+      "index": 14,
+      "start": 116.64,
+      "end": 118.13,
+      "text": "He is not late."
+    },
+    {
+      "index": 15,
+      "start": 118.13,
+      "end": 127.05,
+      "text": "That is what Morag understood, sitting on the floor with a laptop in the January she was twelve, and it took her about a fortnight to stop feeling sick about it."
+    },
+    {
+      "index": 16,
+      "start": 127.05,
+      "end": 135.96,
+      "text": "The fortnight is worth explaining because she was not upset about the climate, which she had known about since she was seven and which is on the news."
+    },
+    {
+      "index": 17,
+      "start": 135.96,
+      "end": 138.99,
+      "text": "What got her was smaller and more specific."
+    },
+    {
+      "index": 18,
+      "start": 138.99,
+      "end": 151.82,
+      "text": "For eighteen years there had been an arrangement — an animal came down a hill and the weather did a thing — and it had been in her family and in that notebook and nobody had built it or maintained it and it had simply been true."
+    },
+    {
+      "index": 19,
+      "start": 151.82,
+      "end": 159.46,
+      "text": "And it had stopped being true during her own childhood, quietly, in three years, without anybody doing anything wrong."
+    },
+    {
+      "index": 20,
+      "start": 159.46,
+      "end": 165.5,
+      "text": "He is doing exactly what he has always done, on exactly the same cue, at more or less the same point in the autumn."
+    },
+    {
+      "index": 21,
+      "start": 165.5,
+      "end": 180.03,
+      "text": "The lichen goes, and the ground gets soft and sour, and a bull who has been on that plateau for eleven years decides it is not worth it any more and walks down off Cairn Lochan in a straight line the way he has every year of his life."
+    },
+    {
+      "index": 22,
+      "start": 180.03,
+      "end": 182.47,
+      "text": "The snow is what has moved."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+---
+id: the-goose-under-the-ice
+title: The Goose Under the Ice
+creature: A goose in the lake ice who is not dead
+realm: frost
+isFree: false
+publishedAt: 2027-02-24
+summary: Every child in the village has been told not to look. Sanna looks.
+setting: The frozen edge of a northern lake. Clear black ice, reeds, a low bank of birch, something pale held a few centimetres below the surface.
+coverAsset: the-goose-under-the-ice-cover
+---
+
+## The Rule
+
+The rule was: you do not go along the north shore between the first ice and the thaw.
+
+It was not phrased as a warning about ice, which is what every visitor assumed, and which was convenient enough that nobody in Vuorela ever corrected them. The ice on that lake is a metre thick by January and you could drive a tractor on it, and everybody in the village has driven a tractor on it.
+
+The rule is about looking.
+
+There is a path along the north shore and it is a perfectly good path and it is used in summer by everybody in Vuorela, including for the midsummer walk, which goes along it in both directions with about sixty people and a lot of noise.
+
+From the first ice to the thaw it is empty. Not fenced, not signed, not discussed. Empty.
+
+Sanna once counted, at about nine, how many separate instructions in her life had been given without a reason attached, and got to four, and three of them were about that path.
+
+Sanna got it at four, the way you get all the rules at four — *we don't go along there* — and she got the second layer of it at about seven, which is when children in Vuorela are told, in a short and slightly awkward conversation, that there is a goose in the ice off the north shore and that it is not dead and that they are not to look at it.
+
+She asked the obvious question and her mother said the thing that mothers in that village have said since before there was a road.
+
+"Because if you look you'll want to get it out. And if you get it out it dies."
+
+Sanna asked how they knew.
+
+"Because it happened."
+
+"When?"
+
+"A long time ago and it is not a story we tell."
+
+Her mother said it in a voice that closed the subject, and Sanna, who was seven and knew that voice, did not push.
+
+She asked her father the same evening and got a shorter version and the same voice. She asked her aunt a year later and got: *ask your mother.* She asked her grandmother at nine, in the sauna, on the theory that people say things in a sauna, and her grandmother looked at the stove for a while and said, "It was before me."
+
+That is the whole of the instruction and it is, Sanna thinks now, quite a lot to hand a seven-year-old. It contains an animal, and a prohibition, and a death, and a piece of village history that has been deliberately sealed, and it is delivered in about eleven seconds at a kitchen table and then never mentioned again.
+
+She was fine with it until she was eleven.
+
+That is not quite true. She was fine with it in the sense that she kept it, which is what the village needs and which is all anybody ever asked of her.
+
+What she was not fine with, from about nine onwards, was the shape of it. Every other rule she had been given had a mechanism underneath it that an adult would explain if you pushed. Thin ice cracks. Hot stoves burn. This one had a mechanism that four adults had declined to describe, and a consequence — *it dies* — that was stated flatly and never once expanded.
+
+## Looking
+
+She went on the fourteenth of January, in the afternoon, in that flat blue light that the north gets for about three hours in the middle of the day, and she went alone and told nobody.
+
+She had thought about it for two years and she had a justification worked out that she now finds embarrassing, and the justification was: *I only want to see.*
+
+It is embarrassing because it is exactly what everybody says. She has since learned that the same sentence, in almost the same words, is what people say before they do a great many things that other people have asked them not to do, and that the giveaway is the word *only*.
+
+The north shore is about a kilometre round from the village and there is a spit of reeds and then a long low bank of birch, and the goose is off the third birch from the end, ten metres out.
+
+She found it in about a minute. She had expected to have to search.
+
+That is worth stating plainly, because a village that does not want a thing found does not usually leave it four metres from a path.
+
+It is not hidden and it is not hard. Any child who goes along that shore in winter will find it inside two minutes, and every adult in Vuorela knows that, and the entire arrangement rests on nothing but a sentence said once at a kitchen table when you are seven.
+
+It is a greylag and it is on its side, three or four centimetres under the surface, in ice so clear that Sanna could see the individual barbs of the wing feathers. One wing is half open. The neck is out straight, the way they go in flight. The feet are tucked.
+
+And the eye was open, and the eye was not the eye of a dead bird.
+
+Sanna has had eleven years to think of a better way to say that and has not found one. She knows what a dead bird looks like; she had grown up on a lake with a lot of birds and a lot of winter, and there is a specific quality that a dead eye has that a person does not need training to recognise.
+
+That eye was wet, and dark, and it was doing the thing that a live eye does even when it is not moving, which is that it is a surface with something behind it.
+
+She lay down on the ice with her cheek on it. She stayed there for a long time — long enough that her face went, long enough that she had to be careful getting up.
+
+The ice at that time of year is not clear all the way through; there is a milky band about halfway down where it froze fast in December, and above it the top few centimetres are like window glass. So you are looking at a bird through a pane of glass with a fog under it, and the bird is above the fog.
+
+She could see snow crystals inside the ice between her eye and the wing. She could see, along the edge of the half-open wing, a line of very small bubbles that had frozen in place while going up.
+
+And in that time the eye moved.
+
+Not much. Not a blink; she is very clear that it was not a blink and she has never claimed one. The angle of it changed by some small amount, in the way an eye does when the thing it is looking at moves, and the thing that had moved was Sanna's head.
+
+## Wanting to Get It Out
+
+What her mother had said was true and it was true within about four seconds.
+
+Sanna got up off the ice and she was already looking for something to break it with, and she had gone eleven or twelve metres up the bank towards the birch scrub before she caught herself doing it.
+
+It is not a decision. That is what nobody had explained. She had spent two years imagining that the rule was about temptation — that you would look, and you would think about it, and you would weigh it up, and the grown-up thing would be to weigh it up correctly.
+
+That is not what happens. What happens is that you see an eye under ice and your body starts looking for an axe, and the thinking arrives afterwards and has to catch up.
+
+She stood in the scrub with her hands on her knees and made herself go through it slowly, out loud, because there was nobody to say it to.
+
+She was eleven and it took her about six minutes and she did it in the order her mother did arithmetic, which is the only way she knew.
+
+The goose is under four centimetres of ice at minus eighteen. If she breaks the ice, the goose is in water at minus something with no ice over it, in January, at eleven in the morning, four hundred metres from anything. It cannot fly, because it has been in ice, and its feathers are not going to work, and there is nowhere for it to go and nothing for it to eat and no way to warm it.
+
+If she breaks the ice she will have moved a bird from a situation she does not understand into a situation she understands perfectly, which is a wet goose on a frozen lake in the middle of a Finnish January.
+
+That is what happened, whenever it happened, to whoever did it.
+
+Sanna has never found out who. She looked, at nineteen, in the parish records in Kuusamo, on a wet afternoon, for anything at all — and there is nothing, which is what she expected and which took her a day to accept.
+
+Whatever happened on that shore was handled the way that village handles everything: once, quietly, among the people who were there, and then not written down.
+
+And that is why it is not a story they tell — because the story is about somebody who was kind, and who was a child, and who was right about the kindness and wrong about everything else, and the village has decided in some way nobody ever wrote down that the way to prevent it happening again is not to explain it but to make it not be looked at.
+
+Sanna walked home the long way and did not tell anybody for six years.
+
+The person she eventually told was her mother, at seventeen, in a car, and her mother drove for about a kilometre and then said, "The fourteenth of January."
+
+"How do you know that?"
+
+"Because you came in with your face and you didn't eat, and I looked out of the window at about four and your boots were wet up the back, which they only get on the reeds." Her mother indicated and turned. "I've known for six years. I was waiting to see how long you'd carry it."
+
+## The Thaw
+
+The ice goes off that lake in the third week of April, over about four days, and everybody in Vuorela watches it because it is the only entertainment.
+
+Sanna was on the shore on the twenty-second with about eleven other people, on the village side, a kilometre from the north bank.
+
+She saw it go up.
+
+It went up at about four in the afternoon off the north shore, and it went up wrong — not the way a bird takes off from water, which is a run and a lot of noise. It came up out of the surface directly, as if it had been let go of, and it went round once over the reeds low and slow and then climbed and went north.
+
+At a kilometre, in flat spring light, over dark water, it is a grey mark that goes up and turns and goes. There is no detail in it. Sanna has never once seen it through binoculars and has decided not to own a pair.
+
+Nobody else on that shore reacted at all.
+
+Sanna has asked, since, carefully, over years. Old Reijo said yes, of course, every year, third week of April, always north. Her mother said she had not seen it that particular year and had seen it plenty of others. Her aunt said she had never once watched for it and did not intend to start.
+
+Not one person in Vuorela finds it remarkable. It is a thing the lake does, like the ice going off, like the ferry coming back on.
+
+That is the part that took Sanna longest and that she now thinks is the actual centre of the whole business.
+
+She had grown up assuming the goose was a secret. It is not a secret. Every adult in Vuorela knows about it, has known since they were seven, and would tell you if you asked in the right way — and none of them think about it from one year to the next, and none of them go along that shore in winter, and none of them have ever needed a fence or a sign to manage that.
+
+Sanna is twenty-two and at university in Oulu and she comes home at Christmas and at Easter.
+
+She has not been along the north shore since she was eleven and she is not going to.
+
+What she does — and she has told two people about this, and one of them was not interested — is that at Easter, if the ice is going, she stands on the village shore in the afternoon and watches the north bank.
+
+She has seen it four times in eleven years.
+
+Her mother stands out there with her most years and neither of them has ever said what they are doing, and Sanna has recently begun to suspect that her mother has been doing it since long before Sanna was born, and that this is what the rule is actually for: not to stop you knowing about the goose, but to get you to the point where you can know about it from a kilometre away.

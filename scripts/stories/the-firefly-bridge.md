@@ -1,0 +1,131 @@
+---
+id: the-firefly-bridge
+title: The Firefly Bridge
+creature: Fireflies who light a crossing one night a year
+realm: nightfall
+isFree: false
+publishedAt: 2027-06-30
+summary: The bridge fell in 1998. For one night in June you can still see where it was.
+setting: A steep wooded gorge in Japan at night. Concrete bridge anchors on the near rim, cut cable stubs, a loud river far below, dense cedar.
+coverAsset: the-firefly-bridge-cover
+---
+
+## Where It Was
+
+The gorge at Ōnuki is about sixty metres across and about forty deep and the river at the bottom of it is small and extremely loud.
+
+There was a bridge. It was a suspension footbridge with wooden decking and two steel cables and it was built in 1961 to replace an older one, and it went in a typhoon in September 1998, and nobody was on it.
+
+It went at about two in the morning and the first anybody knew was that a man on the near side got up at six and looked out and there was nothing there.
+
+Haruto has seen four photographs of it. Two are family snapshots taken from the near anchors with somebody standing on the deck, one is from a newspaper in 1961 with about thirty people on it for the opening, and one is from the prefectural records and shows the cable anchorage in a way that has since turned out to be extremely useful to him.
+
+The anchors are still there. Two concrete blocks on each side, waist high, with the cable stubs cut off flush, and Haruto has sat on the near ones many times.
+
+Somebody cut the cables flush in about 2000 because children were swinging on the stubs, and there is a photograph of that being done and the man with the angle grinder is Haruto's father, aged twenty-six, which is a fact Haruto did not learn until he was nineteen and which reorganised a certain amount of how he thought about his father.
+
+The road round is eleven kilometres and takes twenty-five minutes and it is a perfectly good road and there is a bus twice a day.
+
+Twenty-five minutes to go sixty metres. That is the whole geography of the place and everybody in that valley can say the numbers without thinking, and they say them cheerfully, and there is nothing in the tone that suggests a grievance.
+
+Nobody rebuilt the bridge because there were nine households on the far side in 1998 and there are two now, and a footbridge over a gorge costs what a footbridge over a gorge costs, and every single person in that valley agrees that the decision was correct and can tell you exactly who made it and in what year.
+
+The estimate in 2001 was a number that Haruto's father can still quote and that was, in the terms of that village, unarguable. It was put to a meeting. The meeting agreed. The minutes are two pages and there is no dissent recorded and Haruto has read them.
+
+There are photographs of that meeting and his grandmother is in the second row.
+
+And on one night in the middle of June, the fireflies do the line of it.
+
+## What It Looks Like
+
+Haruto's grandmother had described it to him for years before he saw it and her description was, he thinks, better than the thing, in the way that descriptions of things by people who love them usually are.
+
+What it actually is: on one night — never more than two, usually one, between about the eighth and the twentieth of June depending on the season — the *genji-botaru* over that gorge concentrate along a line.
+
+Not a solid line. It is not a rope of light and anybody expecting that is going to be disappointed and Haruto has watched several visitors be disappointed.
+
+It is a band, perhaps four metres deep, running from the near anchors to the far anchors, sixty metres, in the dark, at about the height the decking used to be. There are maybe two or three hundred insects in it, flashing in the slow synchronising way that the Genji firefly does, and it holds for about ninety minutes from a quarter past eight and then it is over.
+
+The synchronising is worth a word because it is the part that does not photograph. Genji fireflies in a group settle into rhythm — not perfectly and not all at once, but over a few minutes a group will drift into flashing together, and the interval in that part of Japan is about two seconds.
+
+So what you are watching is not two hundred lights. It is a band sixty metres long that goes on and off, slowly, with stragglers, for an hour and a half.
+
+You can see the far side lit. That is the part that catches people. The far anchors are sixty metres away and there is no light in that valley at all after eight, and for ninety minutes on one night a year there is enough of a glow at the far end that you can make out the concrete.
+
+The rest of the gorge has fireflies too. That is important and it is the thing everybody leaves out. There are fireflies up and down that river for two kilometres and the whole gorge is full of them all through June.
+
+Haruto has walked that river at night in June perhaps forty times and there are good stretches and thin stretches and the good ones move about between years depending on what the water has done.
+
+The line is a concentration, not an exclusion. And the concentration is real and it is on the line of a bridge that has not existed since 1998, and Haruto has photographed it four times with a long exposure and the shape is a shape.
+
+He has also, at nineteen, done the thing that ought to have been done first, which was to go up and down the gorge on the same night and look for other bands.
+
+There are none. The rest of the gorge that night is fireflies in the ordinary distribution — low, near the water, in the vegetation, scattered over about thirty vertical metres — and there is one band, in one place, at one height, for ninety minutes.
+
+## The Reason
+
+He got the reason from a woman at the prefectural university when he was fifteen, in an email, and she was extremely patient and gave him more of her time than he deserved.
+
+Genji fireflies need clean flowing water for the larvae and a particular kind of bank for the pupae, and the adults gather over water and drift on the air.
+
+And the air in a gorge is not uniform. Warm air comes off the rock faces where the sun has been on them and cold air sits over the water, and where those two meet you get a layer — a horizontal boundary, running the length of the gorge, that stays put on a still evening and that anything light enough will accumulate at.
+
+She sent him a paper about aerial plankton at inversion boundaries, which he did not understand at fifteen and read again at twenty-two and did understand, and which is not about fireflies at all and is the most useful thing anybody has ever sent him.
+
+There is such a layer in the gorge at Ōnuki. It is at about thirty metres below the rim, plus or minus a few, on a still June night.
+
+Which is about where the decking was.
+
+Because the decking was there for the same reason: a bridge over a gorge goes at the height where the two banks can be got to sensibly, and that height was chosen by an engineer in 1961 for reasons of rock and cost that have nothing whatever to do with fireflies and everything to do with the shape of the gorge.
+
+The gorge produced both. The bridge and the line of light are two answers to the same question about a piece of rock.
+
+Haruto thinks that is a much better fact than a ghost bridge and he has never once got that across to anybody.
+
+He tried it on a group of visitors from Nagoya in 2021 who had come specifically for it and who had driven four hours, and he watched their faces do the thing faces do, and afterwards one of them thanked him politely for the explanation in a tone that meant it had been taken away rather than given.
+
+He has stopped explaining it at the gorge. He explains it afterwards, in the car park, if anybody asks, and about one in eleven does.
+
+## The Two Households
+
+His grandmother crossed that bridge twice a day for thirty-one years.
+
+She lived on the far side until 1998 and worked at the school on the near side, and she went over at ten past seven in the morning and back at about six, and it took four minutes and she did it in every kind of weather including, on two occasions she would talk about, snow that came over her boots.
+
+Twice a day, thirty-one years, about two hundred and twenty days a year. Haruto did that arithmetic at thirteen and got something over thirteen thousand crossings, and asked her, and she said that sounded about right and that it had never once occurred to her to count.
+
+She moved to the near side in the November of 1998 because there was no bridge and because she was fifty-nine and the road is eleven kilometres.
+
+She has lived four hundred metres from where she grew up for twenty-seven years.
+
+Haruto took her to the gorge on the June he was twelve, which was the first year she had asked, and it took them a long time to get down the path.
+
+They sat on the near anchors from about eight.
+
+The line came up at twenty past and it was, he thinks, roughly a two-hundred-insect year, which is average, and his grandmother did not say anything for ninety minutes.
+
+He was twelve and he spent most of that ninety minutes looking at her rather than at the gorge, which he does not regret.
+
+Afterwards, on the path, going extremely slowly, she said one thing about it, and it was not what he expected and it is why he has told this story perhaps eleven times in his life.
+
+She said: "It's the wrong height."
+
+He said it looked right to him.
+
+And his grandmother said that the decking had been about two metres lower than that, and that she had crossed it twice a day for thirty-one years and had looked at that water from it about twenty thousand times, and that she knew exactly how far down it was, and that the light was too high.
+
+Haruto went back the following year with a tape and a laser measure that he borrowed and did not really know how to use.
+
+The band that year was centred about thirty-one metres below the rim. The anchors, from which the cables sagged, are at twenty-eight, and a suspension bridge deck hangs below its anchors by an amount that depends on the sag, and Haruto has an old photograph and has done the trigonometry twice and gets somewhere between thirty-two and thirty-four.
+
+So she was right. It is about two metres high.
+
+He has never told her. She is eighty-six and she goes down there most years and it takes two of them to get her back up the path, and she sits on the anchors for ninety minutes and says nothing, and Haruto sits next to her and looks at a line of light two metres above a bridge that fell down before he was born.
+
+He has thought about telling her about eleven times and has got as far as the sentence twice.
+
+What stops him is not that it would upset her. She is not a woman who gets upset by a measurement and she would very likely be pleased to be right.
+
+What stops him is that she said it once, on a path, in the dark, in a tone he has never heard her use about anything else, and she has not mentioned it in fourteen years. She has sat on those anchors every June since and looked at that line and said nothing at all about the height.
+
+Haruto thinks she is not looking at the fireflies. He thinks she has been looking, every June since 2011, at a strip of air two metres below them, and that she does not require his tape measure to know where it is.

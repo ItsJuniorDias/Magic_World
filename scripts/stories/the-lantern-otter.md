@@ -1,0 +1,171 @@
+---
+id: the-lantern-otter
+title: The Lantern Otter
+creature: An otter who carries a light underwater
+realm: tides
+isFree: false
+publishedAt: 2026-09-02
+summary: Under the pier the water goes black at two metres. Something down there is carrying a lamp.
+setting: Under a wooden pier at night. Barnacled pilings going down into black water, weed, the underside of the decking, one small warm light below.
+coverAsset: the-lantern-otter-cover
+---
+
+## The Dark Under the Pier
+
+Under the pier the water went black at two metres, and everyone in the town agreed that this was simply how it was.
+
+They had reasons, and the reasons were good. The pier had been built on the silt side of the bay, and silt comes up when the tide turns, and where silt hangs in the water the light does not get through. Any of the fishermen would tell you this. Nuria's father had told her, twice, in the voice adults use when they are explaining something for the last time.
+
+Nuria did not disagree with the reason. She disagreed with the tone.
+
+She was of the opinion — and she held this opinion at fourteen and holds it still — that a thing being always true is not the same as a thing being explained. The water had gone black under the pier for as long as anyone remembered. That was a fact. It did not stop being a question just because everybody had got used to it.
+
+So she lay on the boards at low tide with her face in the gap between two planks.
+
+This was not comfortable. The planks were rough and salted and there was a splinter situation on the left one that she learned about the hard way. But if you got your eye right down into the gap and let it adjust — five minutes, more on a bright day — the dark under there stopped being a flat black surface and became a *space*. You could see the near pillar going down. You could see the crust of barnacles and, below that, the green weed lying along the current all in one direction like brushed hair. And then, about two metres down, everything stopped, and there was nothing, and the nothing had no bottom to it.
+
+She saw the light for the first time in April.
+
+She assumed, immediately and sensibly, that it was a reflection. Something behind her — a car windscreen up on the front, a window, the sun off somebody's phone.
+
+She turned round to check.
+
+Behind her was the beach, and the beach was empty, and beyond the beach was the ice cream shop, which was shut and had been shut since October and had a board across the window.
+
+She turned back and it was gone.
+
+The second time was three weeks later, in May, on a flat grey afternoon with no sun at all to reflect off anything.
+
+That time she did not turn round.
+
+It was small. It was warm — properly warm, the orange of a lit room seen from a garden, not the blue-white of anything electric. And it was moving.
+
+That was what settled it for her. Reflections do not move like that. Reflections slide when you move, or they stay put, or they shiver with the water. This went sideways, behind the second pillar, paused, and came back, and then went down and away until it was the size of a full stop and then was not there.
+
+It was moving with purpose.
+
+Nuria lay on the boards with her cheek on the wood for a long time after it had gone, working out what she was going to do about it, and knowing, in the way you sometimes know, that she had already decided.
+
+## Six Weeks of Sundays
+
+Between the second time she saw the light and the Sunday it came up, there were six weeks.
+
+Nobody ever believes this part. When she tells it, people want the light and then the otter, one after the other, the way it goes in a story. But there were six weeks, and they were mostly boring, and she has come to think that the six weeks were the actual point.
+
+She learned the tides first.
+
+She got the table from the harbourmaster's board and copied it into the back of her maths book, and then she discovered that a printed tide table tells you when the water is high and low and tells you nothing whatsoever about when the silt lifts, which is the thing that actually matters. So she watched instead. She sat on the steps at different hours with a notebook and wrote down, in a column, what she could see and how far down she could see it.
+
+*Tues 4pm — nothing, brown. Weds 7am — two pillars, weed moving. Weds 4pm — nothing. Thurs 7am — two pillars.*
+
+It took her nine days to see it, which she was annoyed about afterwards, because it is obvious: mornings were clear and afternoons were not, and it had nothing to do with the tide at all. It was the boats. The bay had six working boats and they all went out and came back through the same channel, and they stirred the bottom, and the silt took about six hours to lie down again.
+
+Nobody had told her that. She is fairly sure that every fisherman in the town knew it, in the way you know the shape of your own kitchen, and that not one of them had ever said it out loud, because why would you say a thing everybody knows.
+
+Then she learned the hours.
+
+Sunday between one and two was the only window when the front was empty *and* the water was still. She got there by elimination and a certain amount of lying to her mother about where she was going.
+
+And then she waited.
+
+That was the six weeks. Nine days of the notebook, and then five Sundays of sitting on cold steps with her feet in the water from one until two, and nothing, and nothing, and nothing, and once a plastic bottle, and nothing.
+
+She thought about giving up on the fourth Sunday. She wants that on the record. She sat there in the wind with her jeans wet to the knee and thought, with total clarity, *this is stupid and I have made it up and I am going to keep coming here until September and nothing is going to happen.*
+
+She came back on the fifth.
+
+Her father found the notebook once, years later, doing something else entirely, and read the tide column all the way through without comment and then said, "You worked out the boats."
+
+"It took nine days."
+
+"It took me until I was twenty," he said, "and somebody had to tell me."
+
+That is the only compliment she ever got out of him about the whole business, and she has decided it was a large one.
+
+## The Otter With the Light
+
+It surfaced near the third pillar on a Sunday.
+
+She had been coming down every day for six weeks by then and she had worked out the hours. Sunday between one and two is when the town is at lunch, when the front is empty and the beach belongs to nobody and even the gulls have gone up to the car park where the bins are.
+
+She was sitting on the steps with her feet in the water when it came up.
+
+There was no drama about it. The water opened and closed and there was a head, round and slick and dark, with the water beading and running off it, and two eyes set close together looking at her from about four metres away.
+
+An otter. From the neck back, an entirely ordinary otter — she could see the shape of it under the water, the flat tail, the way it hung upright with its paws tucked, the way they do.
+
+In its front paws it held a lamp.
+
+It was about the size of a jam jar and it was made of something that was not glass, or was glass but very old glass, thick and slightly green and full of tiny bubbles like the good marbles. The light inside it was not a flame. It did not flicker. It was slower than a flame — it moved, but the way honey moves, and it was the colour of the inside of a peach.
+
+Water ran off it and the light did not care.
+
+The otter looked at her.
+
+It looked at her for a long time, and Nuria understood, with complete clarity, that she was being decided about. She sat very still on the steps with her feet in the cold and did not say anything, because whatever she said was going to be the wrong thing.
+
+Then it went under.
+
+It did not go away. It went down about a metre and stopped, and hung there in the green murk with the lamp held out in front of it in both paws, and waited.
+
+She could see it perfectly. That was the worst part. It was a metre down and it was looking up at her and it was *plainly waiting*, and there was nothing ambiguous about it at all.
+
+Nuria was not a strong swimmer.
+
+This is a fact she has never dressed up. She could swim — she had done her badges at the pool in Torreblanca like everyone else — but she was not strong, and the water under the pier was cold in a way that pool water never is, and it was the last week of May.
+
+She went in anyway.
+
+She has thought about that afternoon many times since, and she thinks about it with an uncomfortable mixture of pride and alarm, because both are correct. It was the bravest thing she has ever done and it was also, by any reasonable measure, extremely stupid, and she has never worked out how to hold both of those at once. She has stopped trying.
+
+## What Was Down There
+
+There were steps.
+
+That is the whole of it, and it was enough.
+
+She followed the lamp down along the third pillar with her ears aching and her eyes stinging, and the light went ahead of her into the dark, and about four metres down the silt came up out of the murk to meet her and it was not silt.
+
+It was stone.
+
+A flight of stone steps, wide ones, going down and away from her at a shallow angle. Nine of them, or ten — she counted nine on the way down and ten on the way up and has never resolved this.
+
+They were worn in the middle.
+
+That was what she understood immediately, and it was the thing that went through her properly, colder than the water. Steps worn by water wear at the edges; water takes the corners off. These were worn in a dish in the centre of each tread, deepest in the middle, exactly the way the steps of the church on the hill are worn, exactly the way any step is worn by five hundred years of feet going up and down in the middle where feet go.
+
+At the bottom the steps stopped at a wall.
+
+It had been a doorway. The arch was still there, filled in with different stone, rougher, done in a hurry by somebody who wanted it shut. Over the arch there was a carving, and the otter went up close to it and held the lamp against it so that the light came across it sideways and she could see it.
+
+It was a boat.
+
+A small one, with a high curved bow, and something above it that might have been a star or might have been a bird and that she could not make out because her chest had begun to insist.
+
+She went up.
+
+She came out under the pier making a noise she was not proud of, and got to the steps, and sat on them shaking for about a quarter of an hour before she could be trusted to walk.
+
+She told her father that evening.
+
+He listened all the way through, which she had not expected, and did not laugh, which she had expected even less. When she got to the steps he put his cup down.
+
+"The town was further out," he said. "Everybody knows that. Before the sea came in. There are maps of it in the museum in Cadaqués — my father took me. Half of it's under the bay."
+
+"You knew?"
+
+"Everybody knows, Nuria."
+
+And she said the thing that she had been carrying up from the water all afternoon without knowing she was carrying it:
+
+"Everybody knowing a thing is not the same as anybody having seen it."
+
+Her father sat with that for a moment.
+
+He was a fisherman's son and a practical man and he was not in the habit of losing arguments to eleven-year-olds, and Nuria watched him decide, quite visibly, not to win this one.
+
+"No," he said. "It isn't."
+
+Then he asked her not to swim under the pier alone again.
+
+She agreed to the part about alone.

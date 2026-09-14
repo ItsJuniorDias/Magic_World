@@ -1,0 +1,169 @@
+---
+id: the-glass-heron
+title: The Glass Heron
+creature: A heron made of river glass
+realm: tides
+isFree: true
+publishedAt: 2026-07-29
+summary: The year the river came into the streets, a bird made of glass stood on Wren's roof and would not leave.
+setting: A flooded village lane at first light. Water up to the gate tops between two rows of houses, fence posts breaking the surface, wet slate roofs.
+coverAsset: the-glass-heron-cover
+---
+
+## The Flood Year
+
+The water came up on a Tuesday, which Wren thought was an unremarkable day for something so large to happen.
+
+She had gone to bed with the river where the river belonged, down past the allotments, behind the willows, making the noise it always made. She woke to a different noise. It was softer and much closer, and it was coming from the stairs.
+
+By morning the lane was a river and the river had no idea it was in the wrong place. It went about its business between the houses exactly as it had gone about its business between the banks, carrying a fence panel, a plastic crate, and one green welly boot, all at the same unhurried speed.
+
+Her grandmother had already moved the chairs upstairs. She had done it in the dark, alone, without waking anybody, and she was drinking tea on the landing when Wren came out in her socks.
+
+"Don't go down past the fifth step," her grandmother said. "The carpet's ruined and I don't want you slipping on it."
+
+That was all. No panic, no explanation. That was how Wren knew it had happened before.
+
+From the landing window she could see the tops of the fence posts, each one wearing a little collar of foam. The Hendersons' shed had come loose and turned itself round to face the wrong way, which struck her as somehow ruder than the flood itself. Beyond that, where the road should have been, there was a wide brown sheet of water going quietly out towards the fields.
+
+The town had become an archipelago overnight. Every house was an island. The people in them stood at their upstairs windows and waved, and after a while stopped waving, because there is only so long you can wave at somebody you cannot reach.
+
+That was when she saw the bird.
+
+It stood on the ridge of the roof of the house opposite, with its neck folded down into its shoulders the way herons do when they have decided to wait. It was very still. She thought at first that it was one of those plastic ones people put on ponds to frighten the fish.
+
+Then the light moved, and went through it.
+
+It was clear all the way through, like a bottle held up to a window. The grey morning went into it at the top and came out at the bottom the colour of the river, a soft moving brown-green, as if something were being stirred inside it very slowly.
+
+Wren did not call anyone.
+
+She had the strong feeling, the way you sometimes do about a wild thing that has come close, that a creature like that should be allowed to arrive without a fuss. If she shouted, her grandmother would come, and then her grandmother would explain it, and then it would be a thing that had been explained.
+
+So she stood at the window in her socks and watched it, and it did not look at her once, and after twenty minutes it lifted, and its wings when they opened were the thinnest thing she had ever seen, and it went across the water to the roof of number eleven and folded itself down again.
+
+Her grandmother came and stood beside her, eventually, with a second cup of tea.
+
+"Ah," she said. "It's back, then."
+
+And she went downstairs to see about the carpet, which was, Wren thought, an extraordinary thing to say and then simply leave lying there.
+
+## What the Heron Carried
+
+By the second day the shouting had stopped.
+
+It had been fun on the first day, in a grim way. Mr Adeyemi at number nine had a good carrying voice and had shouted news across the water like a town crier: the electricity was off at the bottom end, the shop had moved its stock to the upper shelf, somebody had seen a pike swimming past the postbox. People had leaned out and laughed.
+
+But shouting all day makes a person hoarse, and it makes them tired, and by Wednesday afternoon the windows had gone quiet and everybody was alone in their own house being sensible.
+
+Wren wrote a note.
+
+She did it mostly to have something to do. She tore a page out of the back of an exercise book, and she wrote *are you all right over there*, and she did not put a name on it because she did not know which house she was writing to. She folded it small, and she put it on the outside sill under a stone.
+
+She did it the way you throw a coin in a well. Not really expecting anything. Just doing it.
+
+In the morning it was gone.
+
+In its place was a different piece of paper, damp at one corner, folded the same way. It said: *yes, and we have too much bread.*
+
+Wren stood at the window with it in both hands for a long time.
+
+After that, nobody needed to explain anything to anybody. That was the strange part, the part she thought about for years afterwards — how quickly a thing becomes normal when it is useful. By Thursday there were notes on four sills. By Friday there were notes on twelve.
+
+The heron went from roof to roof with its long careful step, and it never hurried, and it never went to a house that had not put something out. Where its feet touched the water at the edge of a roof, the water rang, very faintly, like a wine glass tapped with a spoon. If you were listening for it you could tell where in the town it was.
+
+The notes were not dramatic. That was what Wren liked about them.
+
+*We have too much bread. Mrs Pryor has a cough and no honey. Can anyone reach the Kellys, nobody has seen a light at the Kellys. There is honey at number four, tell Mrs Pryor. The Kellys went to their daughter's on Sunday, they are fine, please stop worrying about the Kellys.*
+
+And later, when it had gone on for five days and everybody was bored and frightened in equal measure: *Tomas is eight today and there is no cake.*
+
+A dozen houses put something on their sills that night. Wren saw the heron cross the water nine times before it got dark, going slower each time, and once it came so close to her window that she could see the river turning over inside its chest.
+
+In the morning Tomas at number six had a paper crown, a chocolate bar, a drawing of a dog signed by somebody called Iris, a book about submarines with the first page torn, and four separate notes that said *happy birthday* in four different handwritings.
+
+Her grandmother watched all of this from the landing chair without much comment.
+
+"Doesn't it want anything?" Wren asked. "For doing it?"
+
+Her grandmother thought about that with the seriousness the question deserved.
+
+"Some helpers," she said, "don't care to be thanked. It isn't rudeness. It's just that thanking makes it into a favour, and it was never a favour. It was only ever the thing that needed doing."
+
+## The Night It Did Not Come
+
+On the sixth night the heron did not come.
+
+Wren put her note out at the usual time, under the usual stone, and she watched the sill from the landing until her grandmother made her go to bed, and in the morning the note was still there. Damp, and curling at the corner, and unread.
+
+She thought at first that she had done something wrong. She read her own note back four times looking for the mistake in it. It said: *Mrs Pryor's cough is worse, does anyone have a thermometer.*
+
+She put it out again the next morning with a stone on top and went to the window every twenty minutes.
+
+By eleven o'clock the sills along the lane had started to fill up. She could see them from the landing: white squares appearing at number four, at number nine, at the Hendersons', at number eleven. Everybody had written something. Everybody was waiting.
+
+Nothing came.
+
+It is difficult to describe what that day was like without making it sound worse than it was. Nobody was in danger. The water had not risen; there was food in every house; the electricity was on at the top end of the lane and people were charging their phones at the Adeyemis' by passing them across on a boat hook. Nothing had actually changed except that thirteen notes were sitting on fourteen windowsills getting wet, and everybody could see everybody else's note not being collected.
+
+The town had got used to it in five days. That was the thing. Five days is nothing — it is less than a school week — and it had been long enough for a whole way of living to establish itself and start to feel permanent.
+
+Wren's grandmother made lunch and did not mention the notes.
+
+At four o'clock Mr Adeyemi shouted across the water. It was the first shouting in three days and it sounded rusty and much too loud, and he asked whether anybody had a thermometer, and somebody at number four shouted back that they did, and there followed a slow, difficult, forty-minute business involving a bucket, a length of washing line, and a great deal of instruction being shouted from three directions at once.
+
+The thermometer arrived at Mrs Pryor's dry.
+
+The whole thing had taken forty minutes and twelve people, and it had worked, and Wren stood at the landing window watching the bucket go back across the brown water on the line and understood something that she did not have the words for until much later.
+
+The heron had not been doing something they could not do.
+
+It had been doing something they had stopped doing.
+
+She said so to her grandmother, more or less, in worse words, over tea.
+
+Her grandmother listened to the end without interrupting, which she always did, and then said: "It came the year I was nine, as well. Four days that time. And when it stopped coming, the lane put a line across from the Hendersons' gatepost to ours and left it up for six years." She stirred her tea. "It was still up when your mother was born. Somebody took it down in the end because it had gone green."
+
+"Why did it stop?"
+
+"I've had sixty years to think about that and I've only got the one answer, and you won't like it."
+
+Wren waited.
+
+"Because we were managing," her grandmother said.
+
+The heron came back on the eighth night.
+
+Wren saw it from the landing at about six in the morning, working its way along the roofline of the odd-numbered houses in the grey light, unhurried, exactly as before, collecting six wet notes that by then said things like *the line worked, use the line* and *Mrs Pryor is better* and, from number six, in a child's writing, *where did you go.*
+
+It took them all. It did not, as far as anybody could tell, bring anything back that morning.
+
+And the line stayed up between the gateposts, because by then people had got used to that too.
+
+## When the Water Went Down
+
+The river left the way it had come — without apology, over four slow days.
+
+First the fence posts came back, then the tops of the gates, then the gates. The lane reappeared under a layer of silt the colour of milky tea, and it smelled of cold pennies and something older underneath. There was a fish in the Hendersons' garden and nobody could agree on what to do about it.
+
+Wren went up to the landing on the last morning, before school, in the grey part of the day when everything looks unfinished.
+
+The heron was still there.
+
+But it had stopped being clear.
+
+It stood on the ridge of the roof opposite in exactly the place it had stood on the first morning, and the light did not go through it any more. It was green at the edges and cloudy in the middle, the way glass is when the sea has finished with it. There was nothing moving inside its chest.
+
+She went across the lane in her wellies through six inches of silt and got the ladder from the Hendersons' shed, which was still facing the wrong way, and she climbed up, which she was not supposed to do, and she put her hand on it.
+
+It was cold, and it was heavier than it looked, and it did not move.
+
+She carried it down under one arm with the ladder wobbling and set it on the corner fence post at the end of the lane, where the light comes along the road in the late afternoon.
+
+It is still there. Somebody put a stone slab under it eventually so it would not sink when the ground softened. People walking past assume it is an ornament, and it is, now, but it is also a heron.
+
+The notes went into a biscuit tin under Wren's bed. There were thirty-one of them, from twelve different houses, including one that said *there is honey at number four* and one that just said *yes*.
+
+Her grandmother said they ought to keep the tin somewhere sensible.
+
+They kept it under the bed.

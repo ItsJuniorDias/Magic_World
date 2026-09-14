@@ -1,0 +1,137 @@
+---
+id: the-musk-ox-where-wind-starts
+title: The Musk Ox Where the Wind Starts
+creature: A musk ox who stands at the place the wind begins
+realm: frost
+isFree: false
+publishedAt: 2027-01-20
+summary: Kenna walks north to ask him to stand somewhere else, which is not how any of it works.
+setting: A saddle between two low arctic hills. Bare frozen ground, no vegetation above ankle height, an enormous flat sky, snow driving from one side only.
+coverAsset: the-musk-ox-where-wind-starts-cover
+---
+
+## The Place It Comes From
+
+The wind at Sanngiq came from the north-north-east and it came from a particular place, and this was not a figure of speech.
+
+Everybody has a wind. Every settlement in the world sits in some relationship to a prevailing direction and the people there know it in their bones and build their doors accordingly. That is ordinary and it is not what Kenna is talking about.
+
+What she is talking about is that at Sanngiq you could walk to it.
+
+Nine kilometres north-north-east, up the long shallow rise past the two lakes, there is a place where the ground flattens out into a saddle between two low hills. On one side of that saddle there is no wind at all. On the other side, three metres further on, there is the wind — the whole of it, at full strength, exactly as it arrives at the settlement nine kilometres away.
+
+Not building. Not gathering. At full strength, immediately, the way water is at full depth the moment you go off a shelf.
+
+There is no gradient. There is a line.
+
+Kenna has spent a good deal of her adult life explaining to people why this is not how weather works, which is a strange position to be in, since she agrees with them.
+
+Wind is a pressure gradient. It does not begin. It is a slope of air from a high place to a low one, and it is smeared out over hundreds of kilometres, and asking where it starts is like asking where a hill starts. Every meteorologist she has ever worked with has told her this, patiently, and she has told it to herself, and it remains true.
+
+There is still a line in the saddle north-north-east of Sanngiq and you can stand on it.
+
+Kenna walked to it for the first time when she was nine, with her father, on a day in April, and she remembers standing with one boot on either side of it and being unable to make sense of what her face was reporting.
+
+Her father let her stand there for a while and then said the thing that everybody at Sanngiq says to a child at that point, which is: "Don't go over and stand in front of him."
+
+He did not explain it and she did not ask, because at nine you take that kind of instruction the way you take *don't go on the ice by the outflow* — as a rule about a real danger that adults have already thought about on your behalf.
+
+It was years before it occurred to her that her father had never said what the danger was, and years after that before she worked out that he did not know either.
+
+## Him
+
+He is a bull musk ox and he is on the far side of the line, about forty metres in, facing south-south-west.
+
+That is all he does.
+
+Kenna has seen him perhaps two hundred times in her life and she has seen him move on four occasions, all of them small: a shift of weight, a turn of the head, once a step of about a metre and a half to the left which caused a certain amount of discussion in the settlement for a fortnight.
+
+The step to the left was in the autumn she was fifteen and there were about six theories about it within a week. Kenna's own, which she kept to herself, was that his foot had gone through the crust into a hollow and he had corrected — which is the dullest available explanation and which she still thinks is right.
+
+What she found interesting was not the step. It was that ninety people in a settlement with a fuel crisis and a school problem spent a fortnight discussing a metre and a half.
+
+He is enormous and extremely old. The horns have the full boss across the forehead, which takes six years, and the guard hairs come down past his knees, and he is grey at the muzzle in a way that Kenna's father says he was already grey when *he* was nine, which is either a story or a fact and which nobody has been able to settle because nobody has photographs from the 1980s of a musk ox nobody thought worth photographing.
+
+He is alone. Musk oxen are not alone. That is one of the strongest things about them: they live in herds and their entire defensive behaviour is a herd behaviour, and a solitary bull in that country is either sick, driven out, or dead within a season.
+
+There is a herd. It works the ground east of the two lakes and it has perhaps thirty animals in it in a good year, and Kenna has watched it since she was small.
+
+It does not go to the saddle. She has never seen one of them within two kilometres of him and she has looked, deliberately, with binoculars, over years.
+
+He has been there for at least forty years.
+
+Nobody feeds him. Nobody in Sanngiq has ever been able to say what he eats, and Kenna has looked at that ground in every season and it is the same thin stuff as the rest of the rise — lichen, some dwarf willow in the hollows, nothing that would keep an animal of that mass through a winter, let alone forty of them.
+
+She has an answer to this that satisfies about half of her, which is that musk oxen are extraordinarily efficient and that the country supports them and that a bull does not need much and that her sense of what is enough is a townish sense.
+
+The other half of her has done the calculation.
+
+The wind comes out of the ground behind him, or through him, or from wherever it comes from, and goes south-south-west down the long shallow rise past the two lakes and into Sanngiq, where it takes the roofs off things about once every four winters and where the school has a rule about the door.
+
+## The Winter of the Roofs
+
+Kenna was thirteen the winter the wind took the roof off the fuel store, and the roof off the Aqqaluks' porch, and — on the fourteenth of February, at about four in the morning, in a way that the whole settlement heard — most of the roof off the school.
+
+Nobody was hurt. She wants that first, because it is a story about a roof and not about anything worse.
+
+The school roof went in three pieces. The first went at about four in the morning and made a noise that Kenna's mother described as a shipping container being dropped, and the settlement was out in it within about six minutes — everybody, in the dark, in a wind you could not stand up in, checking houses in a rota that nobody had to be told because everybody in Sanngiq had known the rota since they were small.
+
+By half five the two youngest families were in the hall and somebody had the stove going and the Aqqaluks had made an enormous amount of tea, and Kenna sat on a bench with her boots on the wrong feet and watched the adults be extremely calm at each other.
+
+But the school was out for nine weeks. The fuel store business was expensive in a way that a settlement of ninety people feels for years. And the Aqqaluks' porch was where their grandmother sat, and after February she did not sit anywhere much, and she died in the November, and there is no causal chain there that anybody could prove and Kenna has never entirely stopped drawing one.
+
+The porch had a window in it that faced south down the inlet and a chair that had been in that position since 1979, and Anaana Aqqaluk had sat in it every afternoon of Kenna's life, and children going past waved at the window and she waved back, and after the fourteenth of February there was a sheet of ply where the window went.
+
+They meant to fix it in the spring. Everybody meant to fix it in the spring. The spring at Sanngiq is about eleven days long and there was a school with no roof.
+
+She decided in March that she was going to go and ask him to stand somewhere else.
+
+She was thirteen and she was in the ninth week of no school and she had thought about it for a long time, and she had a case.
+
+Nine weeks is a long time in a settlement with no cinema. She had read everything in the hall, twice. She had taken the snowmobile carburettor apart under supervision and put it back together without. She had, by the end of March, arrived at the state of mind in which a thirteen-year-old decides to solve a structural problem that ninety adults have lived with for two centuries.
+
+The case was this. There is a valley running east from that saddle, and there is nothing in it, and nothing east of it for a hundred and forty kilometres. If he stood forty metres east of where he stands, the wind would go down that valley, and it would hit nobody at all, ever, and Sanngiq would have the ordinary weather that every other settlement on that coast has.
+
+She wrote it out. She had a map. She had, she thought at the time and thinks now with a certain amount of affection, an extremely good argument.
+
+She told nobody, because she knew exactly what four different adults would say.
+
+## What He Is Doing
+
+The walk is nine kilometres and it is not hard walking, and she did it in April on a still bright day, which at Sanngiq means still everywhere except the last three metres.
+
+She crossed the line and it was like walking into a wall of moving air, and she leaned into it and went the forty metres, and she stopped about eight metres short of him, which is closer than anybody at Sanngiq had been in her lifetime.
+
+He looked at her.
+
+That was the first thing that went wrong with the plan, and it went wrong immediately, because in her head he had been a fact about the landscape and in front of her he was an animal, breathing, with ice in the hair round his mouth, and he turned his head about fifteen degrees and looked at her with one eye and Kenna's whole prepared speech went out of her like water out of a jug.
+
+She said something. She does not remember what. She thinks it began with the fuel store.
+
+She got through some of it — the porch, the school, the ninth week, the valley to the east with nothing in it for a hundred and forty kilometres — shouting, because you have to shout there, with her hood up and her eyes streaming from the cold.
+
+And then she stopped, because she had worked out, standing eight metres from him, the thing that was wrong with the whole of her argument.
+
+He was not making the wind.
+
+He was standing in front of it.
+
+She could see it. From the settlement, from nine kilometres away, from any point south of the line, the wind comes out of that saddle. From eight metres in front of him, facing north, into it, she could see that it came from behind and around and past him — and that he was standing precisely in the middle of it, side-on to nothing, facing the way it went, taking it on the whole length of his body.
+
+The guard hairs come down past the knees. Under them is the qiviut, which is eight times warmer than sheep's wool and which musk oxen shed every spring and which, on him, had not been shed for a very long time.
+
+He was not a tap. He was a windbreak.
+
+And the wind that took the roof off the school on the fourteenth of February was what got past a single animal who had been standing in front of it since before her father was nine.
+
+Kenna went home and did not tell anybody for two years.
+
+She is thirty-one now and she works for the weather service and she has been back a great many times, with instruments, which she is aware is a kind of answer to a question she is no longer sure she is asking.
+
+The line is real. She has measured it. It is not a line, at the resolution of her equipment; it is a transition of about two point four metres, which is the sort of correction that means nothing to anybody at Sanngiq and that she reports honestly every time.
+
+What she has never published, and what is in a notebook, is the other set of numbers: what the wind does at eight metres in front of him, and at forty, and at four hundred, and what those three figures imply about a body standing at the front of it.
+
+She has done that arithmetic perhaps a dozen times over eleven years and it comes out the same, and what it says is that Sanngiq has ninety people in it because of an arrangement nobody in Sanngiq has ever been party to.
+
+She goes up in April. She does not take the instruments every time.

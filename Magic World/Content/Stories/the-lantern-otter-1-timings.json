@@ -1,0 +1,163 @@
+{
+  "storyId": "the-lantern-otter",
+  "chapterIndex": 1,
+  "duration": 178.2,
+  "sentences": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.04,
+      "text": "Between the second time she saw the light and the Sunday it came up, there were six weeks."
+    },
+    {
+      "index": 1,
+      "start": 6.04,
+      "end": 9.48,
+      "text": "Nobody ever believes this part."
+    },
+    {
+      "index": 2,
+      "start": 9.48,
+      "end": 16.87,
+      "text": "When she tells it, people want the light and then the otter, one after the other, the way it goes in a story."
+    },
+    {
+      "index": 3,
+      "start": 16.87,
+      "end": 24.75,
+      "text": "But there were six weeks, and they were mostly boring, and she has come to think that the six weeks were the actual point."
+    },
+    {
+      "index": 4,
+      "start": 24.75,
+      "end": 27.05,
+      "text": "She learned the tides first."
+    },
+    {
+      "index": 5,
+      "start": 27.05,
+      "end": 44.52,
+      "text": "She got the table from the harbourmaster's board and copied it into the back of her maths book, and then she discovered that a printed tide table tells you when the water is high and low and tells you nothing whatsoever about when the silt lifts, which is the thing that actually matters."
+    },
+    {
+      "index": 6,
+      "start": 44.52,
+      "end": 46.54,
+      "text": "So she watched instead."
+    },
+    {
+      "index": 7,
+      "start": 46.54,
+      "end": 54.88,
+      "text": "She sat on the steps at different hours with a notebook and wrote down, in a column, what she could see and how far down she could see it."
+    },
+    {
+      "index": 8,
+      "start": 54.88,
+      "end": 57.93,
+      "text": "*Tues 4pm — nothing, brown."
+    },
+    {
+      "index": 9,
+      "start": 57.93,
+      "end": 60.37,
+      "text": "Weds 7am — two pillars, weed moving."
+    },
+    {
+      "index": 10,
+      "start": 60.37,
+      "end": 62.34,
+      "text": "Weds 4pm — nothing."
+    },
+    {
+      "index": 11,
+      "start": 62.34,
+      "end": 75.12,
+      "text": "Thurs 7am — two pillars.* It took her nine days to see it, which she was annoyed about afterwards, because it is obvious: mornings were clear and afternoons were not, and it had nothing to do with the tide at all."
+    },
+    {
+      "index": 12,
+      "start": 75.12,
+      "end": 77.83,
+      "text": "It was the boats."
+    },
+    {
+      "index": 13,
+      "start": 77.83,
+      "end": 88.96,
+      "text": "The bay had six working boats and they all went out and came back through the same channel, and they stirred the bottom, and the silt took about six hours to lie down again."
+    },
+    {
+      "index": 14,
+      "start": 88.96,
+      "end": 90.58,
+      "text": "Nobody had told her that."
+    },
+    {
+      "index": 15,
+      "start": 90.58,
+      "end": 103.57,
+      "text": "She is fairly sure that every fisherman in the town knew it, in the way you know the shape of your own kitchen, and that not one of them had ever said it out loud, because why would you say a thing everybody knows."
+    },
+    {
+      "index": 16,
+      "start": 103.57,
+      "end": 105.79,
+      "text": "Then she learned the hours."
+    },
+    {
+      "index": 17,
+      "start": 105.79,
+      "end": 111.86,
+      "text": "Sunday between one and two was the only window when the front was empty *and* the water was still."
+    },
+    {
+      "index": 18,
+      "start": 111.86,
+      "end": 118.72,
+      "text": "She got there by elimination and a certain amount of lying to her mother about where she was going."
+    },
+    {
+      "index": 19,
+      "start": 118.72,
+      "end": 120.32,
+      "text": "And then she waited."
+    },
+    {
+      "index": 20,
+      "start": 120.32,
+      "end": 122.3,
+      "text": "That was the six weeks."
+    },
+    {
+      "index": 21,
+      "start": 122.3,
+      "end": 133.52,
+      "text": "Nine days of the notebook, and then five Sundays of sitting on cold steps with her feet in the water from one until two, and nothing, and nothing, and nothing, and once a plastic bottle, and nothing."
+    },
+    {
+      "index": 22,
+      "start": 133.52,
+      "end": 138.32,
+      "text": "She thought about giving up on the fourth Sunday."
+    },
+    {
+      "index": 23,
+      "start": 138.32,
+      "end": 142.02,
+      "text": "She wants that on the record."
+    },
+    {
+      "index": 24,
+      "start": 142.02,
+      "end": 154.05,
+      "text": "She sat there in the wind with her jeans wet to the knee and thought, with total clarity, *this is stupid and I have made it up and I am going to keep coming here until September and nothing is going to happen.* She came back on the fifth."
+    },
+    {
+      "index": 25,
+      "start": 154.05,
+      "end": 178.2,
+      "text": "Her father found the notebook once, years later, doing something else entirely, and read the tide column all the way through without comment and then said, \"You worked out the boats.\" \"It took nine days.\" \"It took me until I was twenty,\" he said, \"and somebody had to tell me.\" That is the only compliment she ever got out of him about the whole business, and she has decided it was a large one."
+    }
+  ]
+}

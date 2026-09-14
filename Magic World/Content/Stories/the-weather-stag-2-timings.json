@@ -1,0 +1,235 @@
+{
+  "storyId": "the-weather-stag",
+  "chapterIndex": 2,
+  "duration": 177.96,
+  "sentences": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 3.55,
+      "text": "The trouble started when Petra tried to make it make sense."
+    },
+    {
+      "index": 1,
+      "start": 3.55,
+      "end": 11.05,
+      "text": "She was thirteen by then and had discovered graphs, and she did what any reasonable person does, which was to write everything down."
+    },
+    {
+      "index": 2,
+      "start": 11.05,
+      "end": 13.98,
+      "text": "She kept a book."
+    },
+    {
+      "index": 3,
+      "start": 13.98,
+      "end": 21.39,
+      "text": "Date, sketch, number of points on each side, and then, at the end of the season, what the weather had actually done."
+    },
+    {
+      "index": 4,
+      "start": 21.39,
+      "end": 32.06,
+      "text": "She sketched him every week from April to August for three years and she had a system of measurement involving a pencil held at arm's length that she was very pleased with."
+    },
+    {
+      "index": 5,
+      "start": 32.06,
+      "end": 37.99,
+      "text": "At the end of the third year she had thirty-nine pages and she sat down to find the rule."
+    },
+    {
+      "index": 6,
+      "start": 37.99,
+      "end": 39.77,
+      "text": "There was no rule."
+    },
+    {
+      "index": 7,
+      "start": 39.77,
+      "end": 47.18,
+      "text": "She checked it four times over the fortnight, each time convinced she had made an arithmetic error, and each time she had not."
+    },
+    {
+      "index": 8,
+      "start": 47.18,
+      "end": 61.75,
+      "text": "Or rather — and this took her a bad fortnight to accept — there were about nine rules, each of which worked for two years out of three, and none of which worked together, and several of which contradicted each other in ways that were not resolvable."
+    },
+    {
+      "index": 9,
+      "start": 61.75,
+      "end": 66.09,
+      "text": "A fourth point on the left had meant an early hard autumn in the year of the apples."
+    },
+    {
+      "index": 10,
+      "start": 66.09,
+      "end": 70.64,
+      "text": "It had also appeared in a year when the autumn was long and soft and nothing happened at all."
+    },
+    {
+      "index": 11,
+      "start": 70.64,
+      "end": 73.22,
+      "text": "She took the book to her grandmother in a temper."
+    },
+    {
+      "index": 12,
+      "start": 73.22,
+      "end": 77.02,
+      "text": "The temper had been building for a fortnight and it was not really about the book."
+    },
+    {
+      "index": 13,
+      "start": 77.02,
+      "end": 79.87,
+      "text": "It was about the fact that she had done everything properly."
+    },
+    {
+      "index": 14,
+      "start": 79.87,
+      "end": 81.17,
+      "text": "She had been rigorous."
+    },
+    {
+      "index": 15,
+      "start": 81.17,
+      "end": 88.56,
+      "text": "She had measured, and dated, and controlled for what you control for, and she had not fudged a single entry even when she badly wanted to."
+    },
+    {
+      "index": 16,
+      "start": 88.56,
+      "end": 95.35,
+      "text": "She had done, as far as she could tell, exactly what a person is supposed to do with a phenomenon."
+    },
+    {
+      "index": 17,
+      "start": 95.35,
+      "end": 99.52,
+      "text": "And it had produced nothing."
+    },
+    {
+      "index": 18,
+      "start": 99.52,
+      "end": 103.29,
+      "text": "Not a partial rule, not a rule with exceptions — nothing at all."
+    },
+    {
+      "index": 19,
+      "start": 103.29,
+      "end": 105.09,
+      "text": "Three years of Thursdays."
+    },
+    {
+      "index": 20,
+      "start": 105.09,
+      "end": 112.52,
+      "text": "Her grandmother read it properly, front to back, which took her most of an evening, and she was complimentary about the drawings."
+    },
+    {
+      "index": 21,
+      "start": 112.52,
+      "end": 119.86,
+      "text": "Then she said: \"You've written down the points.\" \"Yes.\" \"I've never once counted the points.\" Petra said that the points were the only thing there was to count."
+    },
+    {
+      "index": 22,
+      "start": 119.86,
+      "end": 121.42,
+      "text": "\"I know,\" said her grandmother."
+    },
+    {
+      "index": 23,
+      "start": 121.42,
+      "end": 126.49,
+      "text": "\"That's why you counted them.\" She turned a page of the book, back near the start, to the second summer."
+    },
+    {
+      "index": 24,
+      "start": 126.49,
+      "end": 128.02,
+      "text": "\"Look at this one."
+    },
+    {
+      "index": 25,
+      "start": 128.02,
+      "end": 130.83,
+      "text": "April, you've got him at eight points and you've written *nothing yet*."
+    },
+    {
+      "index": 26,
+      "start": 130.83,
+      "end": 137.19,
+      "text": "And here's the same week the year after, eight points again, and you've written *nothing yet*.\" She tapped it."
+    },
+    {
+      "index": 27,
+      "start": 137.19,
+      "end": 138.29,
+      "text": "\"Two identical entries."
+    },
+    {
+      "index": 28,
+      "start": 138.29,
+      "end": 142.82,
+      "text": "Do you remember those two springs?\" Petra did, faintly."
+    },
+    {
+      "index": 29,
+      "start": 142.82,
+      "end": 144.53,
+      "text": "One had been the year of the late frost that took the blossom."
+    },
+    {
+      "index": 30,
+      "start": 144.53,
+      "end": 147.67,
+      "text": "The other had been the year of nothing at all."
+    },
+    {
+      "index": 31,
+      "start": 147.67,
+      "end": 151.23,
+      "text": "\"So they weren't the same,\" said her grandmother."
+    },
+    {
+      "index": 32,
+      "start": 151.23,
+      "end": 155.5,
+      "text": "\"They were the same number."
+    },
+    {
+      "index": 33,
+      "start": 155.5,
+      "end": 161.97,
+      "text": "Those are different words.\" \"Counting,\" her grandmother said, \"is what you do when you can't see the shape yet."
+    },
+    {
+      "index": 34,
+      "start": 161.97,
+      "end": 165.35,
+      "text": "That's not a criticism."
+    },
+    {
+      "index": 35,
+      "start": 165.35,
+      "end": 167.47,
+      "text": "I counted for nine years.\" She closed the book and gave it back."
+    },
+    {
+      "index": 36,
+      "start": 167.47,
+      "end": 171.21,
+      "text": "\"What I look at now is whether he looks like he's expecting something."
+    },
+    {
+      "index": 37,
+      "start": 171.21,
+      "end": 177.96,
+      "text": "And I can't draw that and I can't measure it and if I say it out loud in the village they'll think I've gone, so I don't.\""
+    }
+  ]
+}

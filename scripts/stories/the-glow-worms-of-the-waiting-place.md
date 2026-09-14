@@ -1,0 +1,145 @@
+---
+id: the-glow-worms-of-the-waiting-place
+title: The Glow-Worms of the Waiting Place
+creature: Glow-worms who mark where somebody waited
+realm: nightfall
+isFree: false
+publishedAt: 2027-02-17
+summary: There is a bright patch by the bus stop that has been bright for forty years.
+setting: A high-banked country lane at night. A bus stop pole and timetable, a low wall, hedge on both sides, green points of light on the bank.
+coverAsset: the-glow-worms-of-the-waiting-place-cover
+---
+
+## Where They Are
+
+Glow-worms are not worms and they do not glow evenly across a field, and both of those facts took Wilf about a summer to get used to.
+
+They are beetles. The light comes from the female, who has no wings and cannot go anywhere, and who climbs up a grass stem at dusk in June and July and turns on a small steady green light at the end of her abdomen and holds it there for two or three hours in the hope that something flying will notice.
+
+She does this for about a fortnight and then she is finished. She does not eat as an adult — she has no working mouthparts — so the whole of her adult life is that fortnight of climbing a stem and switching on, and if nothing flies past she goes down the stem at dawn and comes back the next night and does it again until she runs out.
+
+Wilf found that out at eleven and did not sleep well on it, and has since decided that it is the single most useful piece of natural history anybody ever taught him, and could not tell you why.
+
+That is the whole of the biology and Wilf had it off by heart at twelve because his mother was the sort of person who knew things like that and told you them at length.
+
+What his mother could not explain was the distribution.
+
+The lane out of Wraxton has glow-worms along about six hundred metres of the bank, and they are not evenly spread. There are stretches with none at all. There are stretches with two or three. And there are places — perhaps nine of them along that whole lane — where there are forty or fifty in a patch the size of a table, year after year, in exactly the same spot.
+
+The books say this is about soil, and drainage, and where the snails are, because glow-worm larvae eat snails and go where snails go.
+
+Wilf's grandmother said it was about waiting.
+
+She said it in the way she said most things, which was once, without emphasis, and without any interest at all in whether you took it up.
+
+She said: they come where somebody waited.
+
+Wilf went and stood in the nine bright places over the following fortnight and worked out that she was, at the very least, describing something real.
+
+He did it with a torch and a bit of chalk and a great deal of walking up and down in the dark being asked what he was doing by two separate dog-walkers.
+
+The gate to the top field. The bend where you can first see whether the shop light is on. The corner outside the churchyard. The stile. Every single one of the nine bright patches was somewhere a person would stop — not walk, not sit, but stop, standing up, for an amount of time, with something on their mind.
+
+And the brightest of the nine, by a long way, was the bus stop.
+
+Which is where you would expect it, if the rule is true, because a bus stop is the only place in a village whose entire purpose is standing still and hoping.
+
+## Forty Years of It
+
+The bus stop at Wraxton is a pole with a timetable on it and a low wall behind, and the patch is on the bank on the far side of the wall, about a metre and a half across.
+
+Wilf counted it in the July he was twelve and got to a hundred and forty and lost his place.
+
+It is not a normal number. His mother, who had lived there since 1998, said it had been like that when she arrived. The woman at the shop said it had been like that since she was small. There is a photograph in the parish hall, taken in 1989 for a newspaper, of two children standing in the lane at night with the bank behind them looking like something spilled.
+
+The caption calls it a *glow-worm colony* and says the village is proud of it, and does not mention that there are eight other places on that lane or that the colony is a metre and a half wide with nothing either side.
+
+So: forty years at minimum, and probably a good deal more.
+
+Wilf did the sensible thing, which was to look for the boring explanation, and he looked hard, because his mother had brought him up to.
+
+He dug about in the bank, with permission, and found the soil to be the same as the soil either side of it. He looked for snails and found snails, in about the same quantity as everywhere else on that lane. He borrowed a light meter from the school and established that the bank there is neither darker nor lighter than the rest.
+
+There is no drainage feature. There is no south-facing anything. It is an entirely ordinary metre and a half of Somerset bank, with about a hundred and forty glow-worms on it, and forty metres in either direction there are none.
+
+He wrote to a man at the county wildlife trust about it, at thirteen, a letter he now finds difficult to read, and got a reply four months later that was kind and two paragraphs long and said that colonies are often patchy and that local factors are hard to determine.
+
+Wilf has since met that man twice and likes him and has never mentioned the letter.
+
+He asked his grandmother who had waited there.
+
+He asked it on a Tuesday, at the sink, in the middle of drying up, and he asked it as an ordinary question. He had spent a fortnight assuming it was a general truth — that people had waited there, plural, over the years, and that was the mechanism.
+
+And his grandmother, who had lived in that village her whole life and who never gossiped about anybody, said: "Nancy Hurd," and then went back to what she was doing, which is how Wilf found out that his grandmother had been waiting eleven years for somebody to ask her that.
+
+## Nancy Hurd
+
+Nancy Hurd was ninety-one and in a home in Bridgwater and Wilf's grandmother took him there in the August, without saying much about it on the way.
+
+She was extremely sharp and she talked for two hours and she was pleased to have a visitor who wanted a specific thing rather than the general enquiries after her health that she had been getting for eleven years.
+
+She had two photographs on the windowsill and a view of a car park and a great deal of opinion about the food.
+
+Her son had gone to Australia in 1974.
+
+That is the whole of it and Wilf would like to say straight away that this is not a sad story, because everybody assumes it is going to be and Nancy Hurd would have been furious.
+
+Michael Hurd went to Perth at twenty-two, on a scheme, meaning to come back. He wrote every month. He married an Australian in 1979 and had three children and could not afford the fares in the eighties, and then could afford them and had a business that would not let him go, and then came back in 1991 for a fortnight and again in 1996 and again in 2004.
+
+That is an ordinary emigration and there are about four hundred thousand of them from that part of England and nothing whatsoever happened to the Hurds that did not happen to everybody else.
+
+He is alive. He rang his mother every Sunday for forty years. Wilf has met him.
+
+And from 1974 until she went into the home in 2014, Nancy Hurd walked down the lane every evening and stood at the bus stop for the twenty-past-six.
+
+Wilf asked her the obvious question and she laughed at him for it.
+
+"I wasn't waiting for Michael," she said. "I knew where Michael was. He rang on Sundays. I've never in my life stood at that stop thinking he was going to get off that bus."
+
+"Then why did you go?"
+
+She thought about it for a long time — genuinely, not for effect, so long that Wilf's grandmother got up and looked at the window.
+
+"Because the first year, I did think it," she said. "Nineteen seventy-four. He'd said he'd be back and I didn't know when, and I stood down there most nights that autumn like a fool and I'd not have anybody tell me I was one.
+
+"And then I knew. Some time in about the March I knew, and I went down anyway, and I went down the night after that.
+
+"And after a while, stopping would have been a thing. Do you see? Going down was nothing. Going down was a walk before my tea. But *not* going down — that was going to have to be a day I decided something, and I never fancied that day, and it turns out you can not-fancy a day for forty years."
+
+Wilf asked her whether she had known about the glow-worms.
+
+"Course I knew. They came in about the eighties. I used to stand in them." She adjusted something on the blanket over her knees. "I never thought they had anything to do with me and I still don't, and if you've come here to tell me a lot of beetles turned up because I'm a sad old woman you can go home again."
+
+Wilf said that was not what he thought.
+
+"Good," said Nancy Hurd. "Because it was a nice walk. Down the lane at six, back by half past, forty years. I'd have taken that."
+
+## Nine Places
+
+Wilf is twenty-six.
+
+He has counted that patch every July since he was twelve, properly, with a system, on the same three nights of the month. The numbers are in a book. They have gone down — the whole lane has gone down, in line with everywhere else in the country, for reasons that have nothing to do with anybody waiting anywhere — and the patch by the bus stop was ninety-one last year.
+
+It is still, by a factor of about eleven, the brightest thing on that lane.
+
+Nancy Hurd died in 2019. Michael came over for it. He stood at the bus stop on the evening after the funeral for a while, by himself, and Wilf's grandmother told Wilf not to go down there and Wilf did not go down there.
+
+The other eight places he has never fully identified and has stopped trying, because he worked out at about seventeen that he did not want to.
+
+He got two of them. He is not going to write down which two or what they were.
+
+What stopped him was the second one. He found it out by accident, from an aunt, in a conversation about something else, and it took him about four seconds to understand that he now knew a thing about a family in that village that the family had not chosen to tell him, and that there was no way to give it back.
+
+The gate to the top field is somebody. The corner outside the churchyard is somebody. Each of those patches is a person, standing up, at night, on a specific square metre of a Somerset lane, for long enough and often enough that the ground remembers it — and every one of them is a story that belongs to a family that may or may not want it looked at.
+
+He knows what the books say. He can give you the paper on soil moisture and larval density and he does not think it is wrong.
+
+He has read it four times and it is a good paper and it accounts for a great deal of what happens on that lane.
+
+What he thinks is that there are nine bright places on that lane and nine reasons why a person would stop there, and that a thing can have a mechanism and a meaning at the same time, and that only one of those is his business.
+
+He has a daughter now and she is four and they walk down the lane in July.
+
+She likes the bus stop one best, because it is the biggest, and Wilf has not told her about Nancy Hurd, and he will, in about eight years, when she asks.
+
+What he will tell her, when she does, is the part Nancy Hurd was clearest about: that it was a nice walk, down the lane at six and back by half past, and that she would have taken it.

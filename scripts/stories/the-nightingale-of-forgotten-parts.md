@@ -1,0 +1,119 @@
+---
+id: the-nightingale-of-forgotten-parts
+title: The Nightingale of Forgotten Parts
+creature: A nightingale who sings the parts of a story people drop
+realm: nightfall
+isFree: false
+publishedAt: 2027-04-21
+summary: Every family in the village tells the same story about the fire. The bird sings the rest of it.
+setting: Elder scrub behind a village church at night in May. Dense leaf, a whitewashed wall, a bell tower, houses beyond with two lit windows.
+coverAsset: the-nightingale-of-forgotten-parts-cover
+---
+
+## What It Is Not
+
+The nightingale in the elder scrub behind the Romanian Orthodox church at Vălișoara does not sing words and Ilinca would like that established before anything else, because every single person she has ever told has assumed words.
+
+It sings like a nightingale. It sings the whole ridiculous performance — the phrases repeated four and five times, the long trill, the two or three seconds of absolute silence that they do in the middle for no reason anybody has ever established — and it does it from about eleven at night in May and June, and it is loud enough to be a nuisance to two houses.
+
+What happens is not that it says anything. What happens is that you remember something.
+
+Not at random. There is a specific character to it that everybody in Vălișoara knows and nobody has ever written down: you are lying in bed with the window open and the bird is going, and after a while a thing surfaces — a detail, a name, a room, a Tuesday — and it is always something you knew, and it is always something you had stopped having.
+
+Ilinca's grandmother described it as *the bird finds your pockets*.
+
+It is not always anything. That has to be said, because a story about a bird that returns lost things sounds a great deal more reliable than the bird is.
+
+Most nights it is a nuisance and nothing else. Ilinca lay under it for eleven Mays and got something perhaps nine times, and four of those were entirely trivial — the smell of a shop that closed in 2014, the name of a boy who came for one summer, where a key used to be kept.
+
+That is the actual hit rate and everybody in Vălișoara knows it, which is why the whole business is discussed there with roughly the enthusiasm of a bus timetable.
+
+The village's understanding of what it is doing is entirely practical and slightly bored. Nobody there thinks it is a ghost or a saint or an omen. What they think, and what they will tell you if you ask in the right tone, is that the bird sings the parts of a story that have fallen out of the telling.
+
+Which is a claim about stories, not about birds, and it took Ilinca until she was twelve to see that.
+
+Because stories in a village of four hundred people are told out loud, constantly, for decades, and every telling wears them.
+
+There is no written version of anything in that village before about 1995. Nothing is in a book. The war is a set of things that get said at tables; the collectivisation is a set of things that get said at tables; and every one of them has been through perhaps ten thousand mouths. Things drop out. The parts that are hard to say drop out first, and the parts that make somebody look bad, and the parts that require a piece of context nobody has any more — and after thirty years what is left is a smooth thing about the right length for a kitchen table, and everybody believes it, and it is not a lie, and it is not what happened.
+
+## The Fire
+
+The story of the fire at Vălișoara is the story that village has instead of a history.
+
+The school burned on the eleventh of March 1987, at about half past two in the afternoon, with sixty-one children in it.
+
+Nobody was hurt. That is the first line of the telling, always, and it is true.
+
+Ilinca has checked. There is a report from the fire service in Brad, two pages, and it says the same: sixty-one pupils, two staff, no injuries, structure a total loss, cause electrical.
+
+The way it is told is this. The teacher, Doamna Pop, was in the second room. She smelled it before she saw it. She got the two rooms out through the back in under four minutes, in order, in coats, and she counted them twice in the yard, and it was only when the roof went at about three o'clock that anybody in the village understood what had nearly happened. The bell was rung. Men came from the fields. There was nothing to be done and they did not try; they stood in the yard with the children and watched it go.
+
+Doamna Pop died in 2011 and there are ninety people at her grave every eleventh of March, and the school that was built in 1989 has her name on it.
+
+Ilinca has been to the eleventh of March every year of her life and would like to say clearly that she is not writing any of this in order to take anything away from that woman.
+
+Doamna Pop was thirty-four in 1987. She had two rooms with a wall between them and one door out of the back, and she got the second room moving before she had seen a flame, on a smell, at half past two on an ordinary Wednesday afternoon, and she counted them twice in a yard in March with children crying, and she got the number right both times.
+
+Ilinca had heard that story perhaps two hundred times before she was twelve. Her mother had been in the first room, aged nine. Her uncle had been in the second. It is told at weddings and at funerals and on the anniversary and any time a stranger asks about the building, and it is told, as far as Ilinca could ever tell, in more or less the same words by everybody.
+
+That last part is the thing that ought to have bothered somebody sooner.
+
+Sixty-one children and about forty adults were in that yard in 1987 and the account has one shape. Ilinca did not think about this at all until the May she was twelve, when she lay awake with the window open and the bird going in the elder, and remembered a woman's hands.
+
+## The Hands
+
+What surfaced was not a story. It was about a second and a half long.
+
+She was small — four, five — and she was in a kitchen that was not hers, and a woman was cutting bread with her sleeves pushed up, and there was a long shiny mark up the inside of the right forearm from the wrist to the elbow, and Ilinca had asked about it and had been told something, and she could not get the something.
+
+She lay there for about an hour trying to get the rest and the rest did not come.
+
+This is what the bird does and what it does not do. It had given her a kitchen and an arm. It did not give her a name, or a year, or the answer she had been given at four, and it did not give her the faintest indication that any of it was important.
+
+What she had was: a kitchen, a woman, an arm, and the certainty that she had been given an answer once and had not kept it.
+
+She asked her mother at breakfast. She described the kitchen and the arm and her mother said, without any pause at all: "Tanti Sabina."
+
+Then her mother put the pan down and stood at the sink with her back to the room for slightly too long.
+
+Ilinca has thought about that pause a great deal. Her mother was nine in that yard. Her mother has told the story of the fire in Ilinca's hearing perhaps a hundred times and has never once said the name Sabina Crețu in it.
+
+She was not hiding anything. That is the part that took Ilinca longest. When Ilinca asked her directly, at fourteen, whether she had left it out on purpose, her mother thought about it for a long time and then said, honestly, that she did not think she had ever noticed it was not in there.
+
+Sabina Crețu was seventy-nine and lived at the top of the village and Ilinca knew exactly who she was in the way you know everybody in a place of four hundred, which is to say completely and not at all. She had never spoken to her. She was aware, in the vague way children are aware of these things, that there was a coolness — that Tanti Sabina was not at things, that her name came up in a particular register, that something had happened a long time ago about land.
+
+The land business was real and it was from 1994 and it involved a boundary and a lawyer in Deva and it split that village for a decade and it has nothing whatsoever to do with this.
+
+Ilinca said: "What's the mark on her arm?"
+
+And her mother said: "She was in the fire."
+
+## The Register
+
+It took Ilinca the rest of that spring to get the whole of it and she got it in pieces from five people and never once from Tanti Sabina, who she did not have the courage to approach until she was nineteen.
+
+Sabina Crețu was twenty-nine in 1987 and she lived next to the school and she was in the yard by the time the second room came out.
+
+Two of the five people Ilinca got it from were in that yard as children and remembered her being there. One was in the yard as an adult and remembered her going in. One remembered only the arm afterwards. The fifth was the priest, who was not there in 1987 and who told Ilinca where the parish papers had been kept, which was the piece that made the rest of it make sense.
+
+Doamna Pop got the children out. Nothing in the telling is false; she smelled it, she moved fast, she counted twice, and every account of her that Ilinca has ever heard is deserved.
+
+But at some point between the second count and the roof going, Sabina Crețu went back in through the front and came out with the register, the attendance book from 1954 onward, and the two framed photographs from the corridor, and a wooden box of parish papers that had been kept at the school because the school had the only safe.
+
+She was in there about ninety seconds. The mark on her arm is from the doorframe on the way out.
+
+And every single one of those things — the register, the photographs, the parish papers going back to 1911 — is the reason Vălișoara has any documents at all before 1989, and they are in the new school in a case, and the case has a card on it that says they were *recovered from the fire*.
+
+Ilinca is twenty-four and she has never made a fuss about this and does not intend to.
+
+What she has worked out, over twelve years, is that nobody edited Sabina Crețu out of that story. There was no decision and no meeting and nobody was malicious. What happened is that the land business started in 1994, and for about ten years after that her name was awkward in that village, and a story told two hundred times at kitchen tables by people who find one name awkward is a story that will smooth around it without anybody once choosing to.
+
+By 2004 the awkwardness was over and the story had already set.
+
+The bird sings in the elder every May and June and it is a nuisance to two houses, and what it gave Ilinca at twelve was a second and a half of a woman cutting bread with her sleeves up.
+
+She went to see Tanti Sabina at nineteen with a question she had rehearsed for a month, and got about forty minutes, and the thing she remembers is that the old woman was not bitter about it and did not want it corrected and said, at the door, that Doamna Pop had got sixty-one children out and that she herself had gone back in for some paper.
+
+There is a card in a case in the new school and Ilinca has written to the comuna twice about the wording of it, politely, and has had no reply, and will write again.
+
+The wording she has proposed is nineteen words long and names one person and does not take a single thing away from anybody, and she has it saved on her phone.

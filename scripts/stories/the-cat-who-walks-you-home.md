@@ -1,0 +1,173 @@
+---
+id: the-cat-who-walks-you-home
+title: The Cat Who Walks You Home
+creature: A cat who appears at the far end of a dark street
+realm: nightfall
+isFree: true
+publishedAt: 2026-09-30
+summary: It never comes when you call it, and it is always there when you are frightened.
+setting: A narrow unlit street at night between a high wall and the blank back of a warehouse. One recessed doorway. Light returning only at the far corner.
+coverAsset: the-cat-who-walks-you-home-cover
+---
+
+## The Far End of the Street
+
+The street light outside number forty had been out since February and the council had a reference number for it.
+
+Bruno knew the reference number by heart because his mother had said it into the phone thirteen times, and each time she had said it a little more slowly, and each time a different person had told her it was logged.
+
+What the reference number meant, in practice, was that the last sixty metres of Rua da Cordoaria were dark.
+
+It was not frightening in October. In October you came up from the bus at half four and it was only just going. By the end of November it was properly dark at five and the sixty metres had become a thing Bruno thought about on the bus, from about three stops out.
+
+There was nothing in it. He knew that. He knew it the way you know things that make no difference at all: there was a wall on one side, and the back of the tile warehouse on the other, and a doorway, and the corner. Nobody was in it. Nothing had ever happened in it.
+
+It was just dark, and dark that you walk into alone at eleven years old is a specific substance, heavier than the other kind.
+
+He had worked several things out about it by the end of November.
+
+The first was that running made it worse. He had tried running in the first week and had arrived at the corner with his heart going and his bag banging against his hip and the very strong sense that he had confirmed something. Walking was better. Walking was a statement.
+
+The second was that the doorway was the difficult part. It was set back about a metre from the pavement, and it was the one place in the whole sixty metres where something could be that you would not see until you were level with it. He had developed, without ever deciding to, a habit of walking on the far side of the road and turning his head into it at the last moment. It took about half a second. He did it every single evening for four months.
+
+The third thing was that none of this was reasonable, and he knew it was not reasonable, and knowing made not the slightest difference.
+
+He would like that on the record. He was not a small child. He had walked past that doorway in daylight perhaps four hundred times with no thought at all. The knowing sat in one place and the walking happened somewhere else, and the two of them did not talk.
+
+He saw the cat for the first time on a Thursday at the start of December.
+
+He had come round the bend by the pharmacy and stopped, the way he had started stopping, to do the small private business of deciding to walk. And there, at the far end, right at the corner where the light came back, something was sitting.
+
+It was grey and it was ordinary and it was facing him.
+
+He walked. It stayed. He got to about the halfway point and it stood up, unhurried, and turned, and walked round the corner ahead of him — not away, exactly, more at the pace of somebody who assumes you are coming — and when he came round the corner into the light it was sitting again, ten metres on, waiting.
+
+He said, "Hello."
+
+It looked at him.
+
+He put his hand out, in the way you do, and made the noise, and it stood up and walked off along the wall and was gone between two parked cars.
+
+## Everyone Has One
+
+He mentioned it at school and discovered, over about a week, that this was not a new phenomenon and that everybody had a slightly different version of it.
+
+Inês had one on the steps behind the market. Hers was black and she called it Senhor and it had walked her up the steps every night in January when her father was working late.
+
+Teodoro said his was ginger and lived by the football ground and only turned up when it was raining, which he had a theory about.
+
+The twins from the year above said they had never seen a cat but that their mother had, when she was small, on the road out to the quarry, and that in her version it had come out from under a car and gone with her the whole way to the junction and had not been there when she turned round.
+
+The only rule that was in every version, and Bruno checked, was this: it never came when you called it.
+
+He collected twelve accounts by the end of January and wrote them in the back of his Portuguese copybook, under a heading he later scribbled out because it looked childish.
+
+Grey, black, ginger, tabby, and one that Rita would not be moved on: white, with a grey face. Different streets. Different years. The twins' mother's was from about 1994, which made it either a very old cat or, as Teodoro observed at some volume in the corridor, not one cat.
+
+Nobody had ever touched one. He checked that specifically, because he had put his hand out on the first night and had felt stupid about it for a week afterwards. Nobody had. They came to about two metres and stayed at two metres and were gone once you were in the light.
+
+Nobody had ever seen one arrive, either. That took him longer to notice, because it is a difficult thing to notice the absence of. In all twelve accounts the cat was simply already there, sitting, at the far end, facing you. Not walking up. Not coming out from under something. Sitting, at the place where the dark stopped, already looking at you before you looked at it.
+
+You could stand at the top of the street at eight in the evening when you were perfectly fine and say *here, here, here* until you felt stupid, and nothing would happen. Teodoro had tried it with food. Inês had tried it for a week straight in February out of pure scientific curiosity and got nothing but a cold.
+
+And then on a night when you were frightened, it would be there.
+
+Bruno's grandmother, who was the only adult he told, listened all the way through with her hands in the sink and then said something he did not understand for about four years.
+
+She said: "It isn't the cat that changes."
+
+He asked her what that was supposed to mean.
+
+She dried a glass and put it on the rack and did not answer for long enough that he assumed she was not going to.
+
+"When I was a girl," she said, "there was a woman on this street who could not go out after dark at all. Not would not — could not. Something had happened to her, before, somewhere else, and nobody in the street ever knew what, and it was not our business. And for about twenty years, whenever she had to go anywhere in the evening, one of the men would happen to be standing at the top of the steps having a cigarette. Different men. Never the same one twice in a row. Never arranged, as far as I could ever tell."
+
+"That's not the same thing."
+
+"No," his grandmother agreed. "It's not."
+
+And she gave him the cloth to dry with, which was how conversations ended in that kitchen.
+
+## The Night It Did Not Come
+
+In March the days got longer and the sixty metres went back to being sixty metres.
+
+Bruno noticed this only in the way you notice that a tooth has stopped hurting, which is to say, late, and by accident.
+
+He was coming up from the bus on a Tuesday and he was thinking about a thing that had happened in maths, and he came round the bend by the pharmacy and did not stop.
+
+He was most of the way down before he realised he had not looked at the corner.
+
+He stopped then, in the middle of the dark bit, and turned round, and looked properly at where he had come from and where he was going, and there was nothing in either direction. The tile warehouse. The wall. The doorway. The bins.
+
+The cat was not there.
+
+He stood there for a while, and he felt — and he has never been able to make this sound sensible — a bit rejected.
+
+He went back the next night on purpose.
+
+He walked down the middle of the road slowly, looking at every part of it in turn: the wall, the back of the warehouse, the bins, the doorway. He stood in the doorway for a full minute, which he had never once done in his life, and found that it was a doorway with a worn step and some leaves in the corner and a dead bolt painted over about nine times.
+
+He said *here*, twice, quietly, feeling ridiculous.
+
+There was a car somewhere up on the main road, and somebody's television through a window, and that was the entire contents of Rua da Cordoaria at ten past six on a Wednesday in March.
+
+He tried again in April, with a piece of chouriço, which he is still embarrassed about.
+
+He said, to the empty street, "I'm still here, you know."
+
+Nothing happened, which is what happens.
+
+He went home and had his dinner and did not mention it, and it took him until about April to work out that the cat had not stopped coming.
+
+He had stopped needing it. Those were two entirely different events that had looked, from inside, like the same one.
+
+## Walking Someone Else Home
+
+The following winter the light outside number forty was still out and there was a new reference number.
+
+Bruno was twelve by then and had stopped thinking about the sixty metres entirely, and the reason he remembered any of this at all is a girl called Cátia who moved into the flats above the pharmacy in October and who was nine.
+
+He noticed her because she stopped.
+
+He came round the bend one evening at about half five and there was a small person standing at the top of the dark part with her bag held against her front in both arms, doing the private business of deciding, and not deciding.
+
+He knew exactly what she was doing. He had done it for four months.
+
+He did not say anything about it, because he was twelve and knew that would be the wrong thing. He walked past her and said "Boa noite" and kept going at a normal speed, and she came after him, about four metres back, all the way down and round the corner into the light.
+
+She did that every evening for about three weeks, at four metres, and neither of them ever mentioned it.
+
+And then one evening at the start of December he was late — he had stayed for the football and come on the later bus — and he came round the bend at nearly seven, and the dark bit was properly dark, and there was nobody in it at all.
+
+And at the far end, at the corner where the light came back, something grey was sitting facing him.
+
+Bruno stopped.
+
+He stood there at the top of Rua da Cordoaria for a while, a good deal longer than he needed to, looking down sixty metres of dark at a cat he had not seen for a year and a half.
+
+Then he walked.
+
+It stood up when he was halfway, unhurried, and went round the corner ahead of him at the pace of something that assumes you are coming, and when he came into the light it was sitting ten metres on.
+
+He did not put his hand out this time. He had learned that much.
+
+He said, "I know. I'm going."
+
+And it looked at him, and stood up, and walked off along the wall and was gone between two parked cars.
+
+He told his grandmother that night, because she was still the only adult he told, and she was doing the same thing at the same sink.
+
+"It came back," he said. "I'm twelve."
+
+"Mm," his grandmother said.
+
+"But I wasn't frightened. I was late, that's all. I was just late."
+
+His grandmother turned the tap off and dried her hands and looked at him for a moment with an expression he could not read at all.
+
+"Bruno," she said. "You were on your own, in the dark, and you're twelve, and you stood at the top of that street for a full minute before you moved. I watched you from the window."
+
+She hung the cloth on the rail.
+
+"It isn't the cat that changes."

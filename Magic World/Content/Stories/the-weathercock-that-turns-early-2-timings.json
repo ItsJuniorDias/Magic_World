@@ -1,0 +1,139 @@
+{
+  "storyId": "the-weathercock-that-turns-early",
+  "chapterIndex": 2,
+  "duration": 191.23,
+  "sentences": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 3.24,
+      "text": "There are eleven hundred entries in that book."
+    },
+    {
+      "index": 1,
+      "start": 3.24,
+      "end": 5.47,
+      "text": "Not eleven hundred turns."
+    },
+    {
+      "index": 2,
+      "start": 5.47,
+      "end": 25.78,
+      "text": "That is a distinction her great-aunt was firm about and that Femke has kept: an entry is an observation, and about a hundred and forty of them record the vane doing nothing on a day when somebody expected it to do something, which is exactly the sort of entry that a person keeping a record to prove a point would leave out."
+    },
+    {
+      "index": 3,
+      "start": 25.78,
+      "end": 40.21,
+      "text": "Her great-grandfather kept it from 1951 until 1974, and then her grandfather until 2003, and then her great-aunt, who was the one who actually understood what she was doing, until 2019, and then nobody, and then Femke."
+    },
+    {
+      "index": 4,
+      "start": 40.21,
+      "end": 41.49,
+      "text": "There is a gap."
+    },
+    {
+      "index": 5,
+      "start": 41.49,
+      "end": 56.09,
+      "text": "Between the November of 2019 and the March that Femke was twelve there are no entries, because her great-aunt died in the October and the book went into a drawer in a spare room with a quantity of other paper and nobody thought about it."
+    },
+    {
+      "index": 6,
+      "start": 56.09,
+      "end": 59.3,
+      "text": "Femke found it looking for something else."
+    },
+    {
+      "index": 7,
+      "start": 59.3,
+      "end": 66.92,
+      "text": "Her grandmother said, when asked, \"Oh, Truus's book,\" in the voice of somebody identifying a lampshade."
+    },
+    {
+      "index": 8,
+      "start": 66.92,
+      "end": 73.96,
+      "text": "The pattern is not subtle and it does not need statistics to see, although Femke has done the statistics."
+    },
+    {
+      "index": 9,
+      "start": 73.96,
+      "end": 78.03,
+      "text": "Her great-aunt did not do statistics and did not need to."
+    },
+    {
+      "index": 10,
+      "start": 78.03,
+      "end": 94.25,
+      "text": "She had read the book front to back perhaps thirty times and she could tell you, without looking, that the winter ones were good and the summer ones were rubbish and that anything under about eight hours tended to come to nothing."
+    },
+    {
+      "index": 11,
+      "start": 94.25,
+      "end": 102.18,
+      "text": "All three of those held up when Femke put it in a spreadsheet, which she has always thought is the more interesting result."
+    },
+    {
+      "index": 12,
+      "start": 102.18,
+      "end": 115.04,
+      "text": "The cockerel turns to a new bearing while the wind is still doing something else, and the wind arrives on that bearing somewhere between four and forty hours later, and the median is nineteen."
+    },
+    {
+      "index": 13,
+      "start": 115.04,
+      "end": 117.63,
+      "text": "It does not do this every time."
+    },
+    {
+      "index": 14,
+      "start": 117.63,
+      "end": 129.28,
+      "text": "About a third of the entries are marked with a small cross, which was her great-aunt's notation for *nothing followed*, and Femke has worked out that the crosses cluster in summer."
+    },
+    {
+      "index": 15,
+      "start": 129.28,
+      "end": 131.66,
+      "text": "It is much better in winter."
+    },
+    {
+      "index": 16,
+      "start": 131.66,
+      "end": 143.6,
+      "text": "It is best of all in the ten days either side of a deep low coming in off the Atlantic, which is the situation that matters in a town four metres below sea level behind a dyke."
+    },
+    {
+      "index": 17,
+      "start": 143.6,
+      "end": 148.38,
+      "text": "Which is either the most significant thing in the book or the most obvious."
+    },
+    {
+      "index": 18,
+      "start": 148.38,
+      "end": 165.35,
+      "text": "Winter storms in the Netherlands come from a small number of directions in a small number of situations, and a vane that turned at random would look good in winter for no reason at all, and Femke has spent a good deal of time trying to work out how to separate those two and has not managed it."
+    },
+    {
+      "index": 19,
+      "start": 165.35,
+      "end": 175.71,
+      "text": "The thing her great-aunt did, which nobody before her had done, was to start writing down the wind that actually arrived — bearing and force and time — in a second column."
+    },
+    {
+      "index": 20,
+      "start": 175.71,
+      "end": 178.67,
+      "text": "Which is why the book is not a curiosity."
+    },
+    {
+      "index": 21,
+      "start": 178.67,
+      "end": 191.23,
+      "text": "It is a hundred and eleven pages of paired observations, and Femke had it digitised at nineteen, and it is now in a spreadsheet with eleven hundred rows, and she has done what you do with eleven hundred rows."
+    }
+  ]
+}

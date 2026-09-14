@@ -1,0 +1,143 @@
+---
+id: the-snow-leopard-nobody-photographed
+title: The Snow Leopard Nobody Photographed
+creature: A snow leopard who has never been in a picture
+realm: frost
+isFree: false
+publishedAt: 2027-07-07
+summary: Sixty-one people have seen her. There are sixty-one photographs of an empty slope.
+setting: A Himalayan scree slope in February. Grey rock and thin snow, a rock spur, a frozen river far below, enormous brown mountains behind.
+coverAsset: the-snow-leopard-nobody-photographed-cover
+---
+
+## The Count
+
+The list is kept in the back of the visitors' book at the homestay in Rumbak and it is not official and nobody is in charge of it.
+
+It has sixty-one names on it and it goes back to 1994.
+
+Each line is a name, a date, a place on the mountain, and, in a column somebody added in about 2003, either a tick or a cross. The cross means there is no photograph. There are sixty-one crosses.
+
+The column was added by a Dutch woman in 2003 who was staying three weeks and who had been a librarian, and who could not bear a list without a field in it. She ticked nothing and crossed everything and drew a line under it and wrote *as of 14/3/03*, and everybody since has just carried on down the page.
+
+Dolma's mother runs the homestay and Dolma has read that list since she was about six, in the way children read the same page of a book a hundred times, and she can recite the first eleven entries.
+
+Entry one is a Czech climber, the nineteenth of October 1994, *above the second bridge*. Entry two is a woman from Manali, the following March. Entry three and entry four are the same person on two different days in 1996, which is the only time that has happened and which everybody in Rumbak has an opinion about.
+
+The valley gets snow leopards. Everybody in Ladakh knows this and it is not a secret and it is a large part of the local economy in winter: people come from a very long way to sit in the cold and look at a slope through a spotting scope, and the guides are extremely good, and a reasonable proportion of them go home having seen one.
+
+Dolma grew up inside that industry and is not sentimental about it. It has paid for the homestay, her uncle's vehicle, and about a third of her schooling, and the animal that pays for all of it is one that everybody in the valley used to shoot for taking goats, within living memory, and which several old men in Rumbak will discuss with visitors and several will not.
+
+Those sightings are not on the list.
+
+The list is for one animal.
+
+She has a mark — a break in the ring pattern on the left flank, low down, shaped like a comma — and she is enormous, and she has been seen sixty-one times in thirty-one years by people who mostly did not know they were seeing anything unusual until they came down and described her and somebody asked about the flank.
+
+Thirty-one years is longer than a snow leopard lives. They go about twelve in the wild and perhaps twenty in a zoo, and Dolma has known this since she was nine and has never had any use for it.
+
+The valley's position, which is her uncle's and which she thinks is right, is that there have been two or three of them with the same mark and that the mark runs in a line, and that this is the least interesting problem in the whole business.
+
+And nobody has photographed her.
+
+## Sixty-One Empty Slopes
+
+Dolma would like to be extremely careful here because this is where the story usually goes wrong.
+
+There are photographs. Sixty-one of them, more or less; some people took several and four people took none because they had no camera, which reduces the actual number and which is the first thing anybody serious asks about.
+
+The photographs are of an empty slope.
+
+Not blurred. Not obscured. There is a well-focused, correctly exposed photograph of a scree slope with rock and snow on it and nothing else, taken by a person who was at that moment looking at a snow leopard through the viewfinder, at a distance which in eleven of the sixty-one cases was under a hundred metres.
+
+Dolma has seen forty of those photographs. Her mother has a folder.
+
+The folder is a plastic wallet and about half of what is in it are prints that people posted back afterwards from Prague and Melbourne and Bengaluru, sometimes years later, sometimes with a letter.
+
+The letters are the part Dolma reads. There are eleven of them and they are all essentially the same letter, written by eleven strangers who did not know each other, and the sentence that appears in nine of them in some form is: *I know how this sounds.*
+
+The explanations offered, in the order she has heard them most often:
+
+That people are mistaken, and there was never anything there. This one is strong. Human beings are appallingly bad at this and a rock in the right light on a Ladakhi slope has fooled every guide in that valley including her uncle.
+
+That the animal moved. Also strong. A snow leopard can be gone in under two seconds and there is a well-known effect where the eye holds an image the camera did not get.
+
+Dolma has watched this happen to a client. A German man in 2023, at four hundred metres, with a two-thousand-euro lens and a tripod, who took eleven frames of a slope and was completely certain for about ninety seconds that he had it. He had the frames on the back of the camera within a minute and there was nothing in them and he was, to his enormous credit, delighted rather than upset.
+
+That animal was not the one with the comma. It was an ordinary young male that half the valley saw that week.
+
+That the camera was pointed somewhere else. Strongest of all, and it accounts for a great many of the sixty-one, and Dolma's uncle believes this one and says so.
+
+He is a guide of twenty-two years and he has put more people onto snow leopards than anybody in that valley and he will tell you, without any impatience at all, that a person who has just seen one is the least reliable witness on earth about where their own hands were.
+
+And a fourth, which nobody in Rumbak says out loud to visitors and which everybody in Rumbak says to each other, which is that she is not photographable, and which Dolma is not going to defend.
+
+## Her Turn
+
+She saw her on the fourteenth of February when she was fourteen, at about ten past four in the afternoon, on the slope above the second bridge, at a distance she paced afterwards at a hundred and sixty metres.
+
+She was alone, which is not allowed and which she is not going to pretend was an accident.
+
+The rule at Rumbak is that nobody under sixteen goes above the second bridge on their own in winter, and it is a good rule and Dolma enforces it now on other people's children with a straight face.
+
+There was a scope at the homestay and a group had gone up the other side that morning and Dolma had a phone and about forty minutes of light.
+
+The animal came out from behind a spur, moving left to right, not hurrying.
+
+There was no wind and there was that particular Ladakhi February light in the last hour, which is flat and blue and which makes the scree look like something poured.
+
+Dolma has told this part perhaps twenty times and she always says the same three things, because they are the three things that were actually in her head and she has never been able to improve on them.
+
+The first is that she was much bigger than the photographs of other ones. The second is that the tail is not an exaggeration; it is nearly as long as the animal and it was carried in a curve and it is the only part that moved much. And the third is that she stopped, and turned her head, and looked down the slope at Dolma for a period that Dolma has never been able to estimate.
+
+The comma was on the left flank, low down.
+
+Dolma had not been looking for it and did not go hunting for it. It was simply there, the way a thing is there, on an animal a hundred and sixty metres away in good light.
+
+Dolma had the phone in her hand the whole time.
+
+## What She Did
+
+She did not take it.
+
+She had it up. She wants that in, because the version where she never thought of it is a nicer story and is not true: she got the phone up, and she had the animal in the frame, and her thumb was where her thumb goes.
+
+And she stood there for what she later worked out was somewhere between three and five minutes with a phone up and her thumb where her thumb goes, and did not press it, and then the animal went over the ridge.
+
+She checked the phone on the way down. There was nothing on it. She checked it again at the homestay and again that night, in case she had taken one without knowing, which people do.
+
+Nothing. The last photograph on that phone is from the eleventh of February and it is of a dog.
+
+She has never been able to explain why, and she has stopped trying, and she has come to think that the trying was the only part that was doing any harm.
+
+What she says now, at twenty-six, when people push her on it — and they do push, because she is the sixty-second name on that list and because she is the only one of the sixty-two who was holding a working camera and had a clean shot and knew exactly what she was looking at — is this.
+
+Everybody in that valley knows what a snow leopard looks like. There are ninety thousand photographs. There is footage. There are documentaries with music on them and there is a poster of one in the school at Leh and there is a photograph of a snow leopard on the side of a bus.
+
+There were, at ten past four on the fourteenth of February, two things on that mountain: an animal, and a girl looking at it.
+
+And the moment she pressed it there would have been three, and the third would have been the one everybody afterwards was actually going to be looking at.
+
+And she had about four minutes.
+
+Her mother wrote her name in the book that evening and put a cross in the second column, and said nothing about the phone, and has never asked about it in twelve years.
+
+Dolma is twenty-six and she is a guide in the winter, which is what she was always going to be, and she takes people up onto the slope above the second bridge about forty times a season.
+
+She has seen her twice more. Both times with clients, both times with four cameras going, both times a cross in the book.
+
+She has been asked, by three different film crews, whether she would take them to where she goes.
+
+The second crew offered her a fee that was more than the homestay makes in a February.
+
+She says yes, every time, and takes them, and they get very good footage of a valley that has snow leopards in it, and they go home, and Dolma writes nothing in the book.
+
+The third crew, in 2024, had a young sound recordist who sat with Dolma on the slope for two hours on the last morning and did not ask her anything at all about the list, having plainly been told not to.
+
+Somewhere in the second hour he said that he had been doing this for six years and had never once watched anything without a machine running.
+
+Dolma said that she had a good place about forty minutes up and that there was no signal in it and that the light would be gone by five.
+
+They went. Nothing happened; it was a slope with choughs on it and a great deal of wind. They came down in the dark and he thanked her in a way that she has thought about since, and the crew went to Leh in the morning.
+
+She is aware that this is not a story about a snow leopard. She has decided that this is the point.

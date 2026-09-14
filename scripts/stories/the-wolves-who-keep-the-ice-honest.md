@@ -1,0 +1,141 @@
+---
+id: the-wolves-who-keep-the-ice-honest
+title: The Wolves Who Keep the Ice Honest
+creature: Wolves who will not cross ice that will not hold
+realm: frost
+isFree: false
+publishedAt: 2027-03-31
+summary: The safest route across the lake is wherever they walked yesterday.
+setting: A frozen lake before dawn. Snow-crust and wind-scour, a reed edge, a single-file line of tracks running out across the open ice.
+coverAsset: the-wolves-who-keep-the-ice-honest-cover
+---
+
+## Yesterday's Line
+
+Jezioro Wigry is nine kilometres long and the village of Rusiec is on the wrong side of it, and this has been the central fact of that village since it was founded.
+
+In summer there is a boat. In summer the lake is an amenity and the far shore is twenty minutes away and nobody thinks about it.
+
+From the middle of December to the end of March the lake is a road.
+
+That is not a figure of speech either. There is a crossing, from the slipway at Rusiec to the timber yard at Czarna, three and a half kilometres, and the entire economy of that village goes over it: the milk, the school run in a converted van, the timber, two funerals in Zofia's lifetime and one wedding.
+
+Going round is forty-one kilometres by the road and takes an hour and a quarter in good conditions, which in January it is not. In the winters when the ice does not come — and there have been three since 2000, and there will be more — Rusiec spends about eleven thousand euro a year on diesel and the school run leaves at half past five in the morning.
+
+Everybody in that village can tell you the thickness at which the van goes on. It is eighteen centimetres, measured at three points, by a man called Henryk who has done it since 1994 and who will not be argued with.
+
+And the crossing is not a straight line and has never been a straight line.
+
+What the crossing is, and what it has been for as long as anybody can establish, is wherever the wolves walked the night before.
+
+Zofia's father put it to her at about seven in the terms he put everything, which was as a procedure with no explanation attached: you go down before light, you find the track coming off the reeds at the Rusiec end, and you follow it, and you do not leave it, and if you cannot find it you do not cross.
+
+She asked why.
+
+He said: "Because they weigh sixty kilos and they are not in a hurry and they will not put a foot on ice that will not hold sixty kilos."
+
+"But we weigh more. The van weighs more."
+
+Her father said that this was a good question and that the margin was about three times, and that the wolves had never once been the limiting factor.
+
+He had the arithmetic. Everybody in Rusiec has the arithmetic; it is on a laminated card in the shop.
+
+Ice bends before it breaks and what it can carry depends on thickness squared, so the numbers climb fast. Eighteen centimetres holds a car. Twenty-five holds the van with children in it. What Henryk actually measures for is thirty, because the card was written by somebody sensible.
+
+A wolf is nothing. A wolf is a rounding error on that card and it can walk on ice that would not take a bicycle.
+
+Which is precisely why the track is worth following, and Zofia did not understand this until she was about eleven. The wolves are not testing the ice. They are avoiding places where the ice is *wrong*, and a place where the ice is wrong at four centimetres is a place where the ice is wrong at forty.
+
+## Reading Them
+
+Learning to read a wolf track on lake ice is not romantic and it took Zofia three winters.
+
+The difficulty is that ice is not blank. It has skate marks and ski marks and dog tracks and the drag lines of last week's timber, and it has wind-scour and snow-crust and the long white cracks that look exactly like a path and are not.
+
+A wolf track is a line of prints, in single file, extremely straight, with the stride between them almost identical every time. That last part is what identifies it. A dog wanders; a dog's stride varies by a third depending on what it has just smelled. A travelling wolf puts its feet down at the same interval for three kilometres.
+
+And they walk in each other's prints, which is the thing that made Zofia believe the whole business at about ten. Four or five animals crossing that lake leave what looks like the track of one, and you cannot tell how many there were until they split at the far reeds.
+
+They cross most nights from January. They are going about their own business and they have no interest whatsoever in Rusiec, and in eleven years Zofia has seen one from the shore, once, at about six hundred metres, in bad light.
+
+She was nine. It was going north along the far reeds at a trot and it took about forty seconds to cross the gap she could see, and she did not call anybody, and she has never described it to her father because she has a superstition about it that she is aware is ridiculous.
+
+The village does not feed them, does not photograph them, and does not discuss them with the two men from the national park who come round in April.
+
+What the village does is get up before light and go down and look at the ice.
+
+There is a small formality to it that Zofia did not recognise as a formality until she left. Whoever is first down puts a stick in the snow at the reeds where the track comes off, so that the next person can find it in the dark without walking about on the shore and confusing it. The stick has been the same kind of stick for as long as anybody has been doing it: a metre of hazel, peeled at the top.
+
+Nobody organises this. There is no rota. It has simply always been done by whoever gets there first, and in nine winters Zofia has never once come down and found no stick.
+
+## The Winter of the Long Way
+
+The winter Zofia was thirteen the track went wrong.
+
+It came off the reeds at the usual place and then, instead of running south-west across the open middle the way it had every winter of her life, it turned north and went almost a kilometre up the lake before turning back down, and it reached the timber yard from the north side, having covered something over five and a half kilometres to do a crossing of three and a half.
+
+It did this on the fourth of January and on every night after.
+
+Zofia's father followed it for a week, on foot, and lost forty minutes a day to it, and said nothing.
+
+He is not a man who says nothing. Zofia would like that understood. He has opinions about the road, the school, the parish, the price of timber, and the two men from the national park, and he expresses all of them at length and mostly at dinner.
+
+About the track he said nothing, for the whole of January, and Zofia now thinks that was the closest thing to a statement he made all winter.
+
+On the eleventh of January a man called Pawełek, who had a contract to get timber out and who was behind, took the direct line with a loaded trailer.
+
+Nothing happened.
+
+He went across in eleven minutes on ice that rang like a drum, and came back the same way loaded, and came back again the next day, and by the third week of January about half the village was going direct.
+
+Not all at once and not by anybody deciding. Somebody was late. Somebody had a load. Somebody had watched Pawełek do it nine times and had felt increasingly foolish walking a kilometre north in the dark.
+
+Zofia has thought about that a great deal since and has decided that the foolishness is the whole mechanism.
+
+Nobody in Rusiec stopped believing anything. If you had stood in that shop in the third week of January and asked whether the wolf track was safer than the direct line, every person in there would have said yes, including Pawełek. They knew. They had known since they were seven.
+
+What they could not do was keep walking an extra kilometre and a half in the dark every morning while a man with a trailer went past them on the flat in eleven minutes.
+
+Zofia's father kept walking the long way and she went with him, and there was an evening in the last week of January when her mother said, at the table, in a perfectly reasonable voice, that it was forty minutes twice a day and that Pawełek had been over about thirty times now.
+
+Her father said that Pawełek had been lucky about thirty times.
+
+Her mother said that at some point that stopped being a useful description.
+
+Nobody was angry. Zofia remembers that clearly and thinks it matters: it was not a row, it was two sensible people looking at the same thirty crossings and drawing opposite conclusions, and Zofia sat between them and could not have told you which of them was right.
+
+Her mother's position, which Zofia can still make better than her mother made it, was this. The wolf track is a heuristic. It has worked for a hundred years because for a hundred years nothing about that lake changed. If it has now started producing a five-and-a-half-kilometre answer to a three-and-a-half-kilometre question, the sensible thing is to check whether the heuristic has broken — and thirty-one crossings on a drum-hard direct line is a check, and it came back negative thirty-one times.
+
+That is a good argument. It is the argument a careful person makes, and Zofia has since met a great many careful people who make it about other things.
+
+## The Twenty-Ninth of March
+
+The ice went out that year in the third week of March, the way it always does, from the north end first.
+
+On the twenty-ninth of March Zofia walked round the shore to the point on the lake that the wolf track had been avoiding, which she had marked in January with a bearing off the church tower and the timber yard chimney because her father had taught her to take a bearing before he taught her to swim.
+
+There was open water.
+
+It was perhaps sixty metres across and roughly round, and it was the last place on that lake where you would expect open water, because it is nowhere near either shore and nowhere near the outflow.
+
+She went back with her father the following day and he stood and looked at it for a long while and then went and found the reason, which took the two of them about four hours and involved walking a kilometre and a half up the inflow stream on the north-east side.
+
+He did not say anything at the hole either. He looked at it, and took a bearing off the church tower himself, and compared it with hers, and grunted, which in that family is a substantial award.
+
+A beaver dam had gone, some time in the previous autumn, about two kilometres up.
+
+It had held a pond back for years and the pond had gone into the lake slowly, spread out, cold. With the dam gone the stream came down in one channel, faster and warmer than the lake, and it went in under the ice and it did not spread out; it ran along the bottom and came up, the way moving water does, in a plume, at a spot about eight hundred metres from the north-east shore.
+
+Nobody in Rusiec had known. There is no reason why anybody in Rusiec would have known. The dam is two kilometres up a stream that nobody has any business on in November.
+
+The wolves had known on the fourth of January, in the dark, walking on a metre of ice with sixty metres of water under it.
+
+Zofia is twenty-six and she does hydrology, which her father finds funny and her mother does not.
+
+The thing she says, when people ask her about it — and it comes up, because it is the only interesting thing about her — is that the story has no accident in it. Pawełek did thirty-one crossings over ice that was, in the second week of January, almost certainly fine. Half the village went direct for two months and every single one of them got to the other side. There is no version of that winter in which anybody was punished for anything.
+
+That is what makes it worth telling.
+
+The wolves went a kilometre north from the fourth of January because they could hear or smell or feel something that was going to become sixty metres of open water in eleven weeks, and being right about that in January bought them precisely nothing, and cost them a kilometre and a half a night all winter.
+
+She has never been able to decide whether that is the most impressive thing she knows about an animal or the most impressive thing she knows about anything.
