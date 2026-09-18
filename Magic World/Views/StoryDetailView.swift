@@ -13,6 +13,7 @@ struct StoryDetailView: View {
     @Environment(ReadingProgress.self) private var progress
     @Environment(AppState.self) private var app
     @Environment(Store.self) private var store
+    @Environment(StoryPacks.self) private var packs
 
     @State private var showPaywall = false
 
@@ -106,6 +107,13 @@ struct StoryDetailView: View {
             .frame(maxWidth: .infinity)
         }
         .screenBackground()
+        // Quem pode abrir o conto provavelmente vai abrir: a narracao desce
+        // enquanto a pessoa le o resumo, e o leitor ja abre com audio. O id
+        // faz o prefetch disparar tambem logo depois de assinar aqui mesmo.
+        // Conto trancado nao baixa nada — ver StoryPacks.
+        .task(id: store.canOpen(story)) {
+            if store.canOpen(story) { packs.prefetch(.narration, for: story.id) }
+        }
         .sheet(isPresented: $showPaywall) { PaywallView(story: story) }
         .navigationTitle(story.title)
         .navigationBarTitleDisplayMode(.inline)

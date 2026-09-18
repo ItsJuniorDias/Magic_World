@@ -2,8 +2,10 @@
 //  ContentLibrary.swift
 //  Magic World
 //
-//  Le o conteudo embarcado no bundle. Nenhuma rede, nenhum Firestore,
-//  nenhuma chamada de IA em runtime: o app funciona inteiro em modo aviao.
+//  Le o conteudo embarcado no bundle: textos, timings e o manifesto. Nenhum
+//  Firestore, nenhuma chamada de IA em runtime, e a biblioteca inteira abre
+//  em modo aviao. O que precisa de rede e so o audio e o video de conto que
+//  ainda nao desceu — esses sao On-Demand Resources, ver StoryPacks.
 //
 
 import Foundation

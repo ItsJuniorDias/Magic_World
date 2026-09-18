@@ -114,8 +114,12 @@ struct PaywallView: View {
                     "Four chapters each, about fifteen minutes of reading.")
             benefit("waveform", "Every chapter narrated",
                     "The words light up as they are read aloud.")
-            benefit("airplane", "Works with no signal",
-                    "Everything is on the device. Nothing to download at bedtime.")
+            // A narracao dos contos pagos e On-Demand Resources (ver
+            // StoryPacks): baixa na primeira abertura. "Tudo esta no
+            // aparelho" deixou de ser verdade, e promessa falsa em tela de
+            // compra e motivo de recusa.
+            benefit("airplane", "Plays with no signal",
+                    "Each story downloads the first time you open it. After that, no connection needed.")
             benefit("person.2.fill", "Shared with the family",
                     "One subscription covers everyone in your family group.")
         }

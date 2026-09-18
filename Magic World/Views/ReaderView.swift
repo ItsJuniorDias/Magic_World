@@ -35,6 +35,7 @@ struct ReaderView: View {
     @Environment(ContentLibrary.self) private var library
     @Environment(ReadingProgress.self) private var progress
     @Environment(NarrationPlayer.self) private var player
+    @Environment(StoryPacks.self) private var packs
     @Environment(\.dismiss) private var dismiss
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
@@ -42,6 +43,12 @@ struct ReaderView: View {
     /// Fica true entre o fim de um capitulo e a carga do proximo, para
     /// que o encadeamento continue tocando em vez de so virar a pagina.
     @State private var continuePlaying = false
+    /// O pacote com os MP3 do conto inteiro, segurado enquanto o leitor
+    /// existe — inclusive de tela bloqueada, que e quando o encadeamento de
+    /// capitulos precisa dele sem poder contar com rede. Ver StoryPacks.
+    @State private var narration: PackAccess?
+    /// "Try again" depois de uma falha de download reabre o capitulo.
+    @State private var attempt = 0
 
     init(story: Story, chapterIndex: Int) {
         self.story = story
@@ -57,6 +64,19 @@ struct ReaderView: View {
     private var sentences: [String] {
         if let timings { return timings.sentences.map(\.text) }
         return chapter?.fallbackSentences ?? []
+    }
+
+    /// O conto tem narracao, mas ela ainda nao esta no aparelho. O texto e
+    /// os timings vem do bundle, entao o leitor abre na hora e se le como
+    /// texto puro; so a faixa de controles espera o audio.
+    private var narrationPending: Bool {
+        packs.has(.narration, for: story.id) && narration?.isReady != true
+    }
+
+    /// Sem audio pra seguir, todas as frases ficam acesas — destacar uma
+    /// so faria sentido se alguma coisa estivesse andando.
+    private var textOnly: Bool {
+        player.narrationUnavailable || narrationPending
     }
 
     var body: some View {
@@ -115,16 +135,19 @@ struct ReaderView: View {
                 }
             }
         }
-        .task(id: chapterIndex) { open() }
-        .onDisappear { player.teardown() }
+        .task(id: [chapterIndex, attempt]) { await open() }
+        .onDisappear {
+            player.teardown()
+            narration?.release()
+        }
     }
 
     // MARK: - Texto
 
     @ViewBuilder
     private func sentenceView(_ sentence: String, at index: Int) -> some View {
-        let isCurrent = index == player.currentSentenceIndex
-        let lit = player.narrationUnavailable || isCurrent
+        let isCurrent = !textOnly && index == player.currentSentenceIndex
+        let lit = textOnly || isCurrent
 
         Text(sentence)
             .font(Typography.storyBody)
@@ -147,7 +170,9 @@ struct ReaderView: View {
     @ViewBuilder
     private var controls: some View {
         VStack(spacing: Space.md) {
-            if player.narrationUnavailable {
+            if narrationPending {
+                narrationStatus
+            } else if player.narrationUnavailable {
                 Text("Narration for this chapter hasn't been added yet.")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textTertiary)
@@ -205,7 +230,7 @@ struct ReaderView: View {
                 Image(systemName: "gobackward.15")
                     .font(.system(size: 24))
             }
-            .disabled(player.narrationUnavailable)
+            .disabled(textOnly)
             .accessibilityLabel("Back fifteen seconds")
 
             Button { player.toggle() } label: {
@@ -213,14 +238,14 @@ struct ReaderView: View {
                     .font(.system(size: 56))
                     .foregroundStyle(Palette.lamplight)
             }
-            .disabled(player.narrationUnavailable)
+            .disabled(textOnly)
             .accessibilityLabel(player.isPlaying ? "Pause" : "Play")
 
             Button { player.skip(by: 15) } label: {
                 Image(systemName: "goforward.15")
                     .font(.system(size: 24))
             }
-            .disabled(player.narrationUnavailable)
+            .disabled(textOnly)
             .accessibilityLabel("Forward fifteen seconds")
 
             Button { goToChapter(chapterIndex + 1) } label: {
@@ -244,9 +269,66 @@ struct ReaderView: View {
         chapterIndex = index
     }
 
+    // MARK: - Download da narracao
+
+    /// Ocupa o lugar do slider enquanto o audio nao chegou. Em toda falha a
+    /// mensagem lembra que o texto continua ali: a crianca pode seguir lendo
+    /// enquanto o adulto resolve a conexao.
+    @ViewBuilder
+    private var narrationStatus: some View {
+        let size = ByteCountFormatter.string(
+            fromByteCount: Int64(narration?.bytes ?? 0), countStyle: .file)
+
+        switch narration?.phase ?? .idle {
+        case .failed(let failure):
+            VStack(spacing: Space.sm) {
+                Text(failureMessage(failure, size: size))
+                    .font(Typography.caption)
+                    .foregroundStyle(Palette.textTertiary)
+                    .multilineTextAlignment(.center)
+                Button("Try again") { attempt += 1 }
+                    .font(Typography.uiEmphasis)
+            }
+        case .downloading(let fraction):
+            VStack(spacing: Space.sm) {
+                ProgressView(value: fraction)
+                Text("Downloading the narration · \(size)")
+                    .font(Typography.caption)
+                    .foregroundStyle(Palette.textTertiary)
+            }
+            .accessibilityElement(children: .combine)
+        case .idle, .ready:
+            // Conferindo se o pacote ja esta no aparelho. Quase sempre dura
+            // um instante, entao nada de numero nem de spinner girando.
+            ProgressView(value: 0)
+        }
+    }
+
+    private func failureMessage(_ failure: PackAccess.Failure, size: String) -> String {
+        switch failure {
+        case .network:
+            "Connect to the internet to download the narration (\(size)). You can keep reading meanwhile."
+        case .noSpace:
+            "There isn't enough space on this device for the narration (\(size)). You can keep reading meanwhile."
+        case .other:
+            "The narration couldn't be downloaded. You can keep reading meanwhile."
+        }
+    }
+
     // MARK: - Apoio
 
-    private func open() {
+    private func open() async {
+        if narration == nil {
+            narration = packs.access(.narration, for: story.id)
+        }
+        if let narration {
+            await narration.load()
+            // A tela pode ter fechado, ou o capitulo mudado, durante o
+            // download. Carregar o player agora ligaria um audio que ninguem
+            // mais esta olhando — a Task do capitulo novo cuida do resto.
+            guard !Task.isCancelled, narration.isReady else { return }
+        }
+
         player.load(story: story, chapterIndex: chapterIndex,
                     timings: timings, autoplay: continuePlaying)
         continuePlaying = false

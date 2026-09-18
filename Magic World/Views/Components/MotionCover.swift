@@ -42,11 +42,23 @@ struct MotionCover: View {
 
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(\.scenePhase) private var scenePhase
+    @Environment(StoryPacks.self) private var packs
 
     @State private var isVisible = false
+    /// O loop mora num pacote sob demanda (ver StoryPacks). Enquanto ele nao
+    /// chega, a capa parada segura a tela — o mesmo fallback de sempre, e o
+    /// video entra por cima com o proprio fade quando o download termina.
+    @State private var motion: PackAccess?
 
     private var url: URL? {
-        Bundle.main.url(forResource: story.id, withExtension: "mp4")
+        guard motion?.isReady == true else { return nil }
+        return Bundle.main.url(forResource: story.id, withExtension: "mp4")
+    }
+
+    /// Nem pede o pacote quando o video nao rodaria de qualquer jeito:
+    /// baixar megabytes pra mostrar a capa parada e desperdicio.
+    private var wantsMotion: Bool {
+        !reduceMotion && !lowPower && packs.has(.motion, for: story.id)
     }
 
     /// Pouca Energia e uma decisao do usuario sobre o aparelho inteiro.
@@ -83,7 +95,27 @@ struct MotionCover: View {
             .overlay { if showsScrim { Palette.coverScrim } }
             .clipShape(.rect(cornerRadius: cornerRadius))
             .onAppear { isVisible = true }
-            .onDisappear { isVisible = false }
+            .onDisappear {
+                isVisible = false
+                // Ainda baixando: cancela, ninguem vai ver. Ja pronto: segura.
+                // A Home fica embaixo do detalhe na pilha, e ao voltar o video
+                // continua de onde parou em vez de baixar e nascer de novo.
+                if motion?.isReady == false {
+                    motion?.release()
+                    motion = nil
+                }
+            }
+            .task(id: wantsMotion) {
+                guard wantsMotion else {
+                    motion?.release()
+                    motion = nil
+                    return
+                }
+                if motion == nil {
+                    motion = packs.access(.motion, for: story.id)
+                }
+                await motion?.load()
+            }
             .onReceive(NotificationCenter.default.publisher(
                 for: .NSProcessInfoPowerStateDidChange)) { _ in
                 lowPower = ProcessInfo.processInfo.isLowPowerModeEnabled

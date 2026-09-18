@@ -184,6 +184,12 @@ final class NarrationPlayer {
         player = nil
         isPlaying = false
         isLoaded = false
+        // Depois do persistPosition la em cima, que ainda precisa do tempo.
+        // Sem zerar, o proximo leitor herda a frase destacada do conto
+        // anterior enquanto a narracao dele baixa.
+        currentTime = 0
+        currentSentenceIndex = -1
+        narrationUnavailable = false
         MPNowPlayingInfoCenter.default().nowPlayingInfo = nil
         try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
     }

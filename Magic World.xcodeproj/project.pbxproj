@@ -10,9 +10,768 @@
 		83503E86304EE38E00FD47AC /* Magic World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		83503E94304EE39000FD47AC /* Exceptions for "Magic World" folder in "Magic World" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			assetTagsByRelativePath = {
+				"Content/Motion/the-ants-who-carry-arguments.mp4" = (
+					"motion-the-ants-who-carry-arguments",
+				);
+				"Content/Motion/the-badgers-lost-property.mp4" = (
+					"motion-the-badgers-lost-property",
+				);
+				"Content/Motion/the-bat-who-draws-the-dark.mp4" = (
+					"motion-the-bat-who-draws-the-dark",
+				);
+				"Content/Motion/the-bear-who-kept-winter.mp4" = (
+					"motion-the-bear-who-kept-winter",
+				);
+				"Content/Motion/the-boar-who-remembered-roads.mp4" = (
+					"motion-the-boar-who-remembered-roads",
+				);
+				"Content/Motion/the-cat-who-walks-you-home.mp4" = (
+					"motion-the-cat-who-walks-you-home",
+				);
+				"Content/Motion/the-clock-toad.mp4" = (
+					"motion-the-clock-toad",
+				);
+				"Content/Motion/the-cormorants-count.mp4" = (
+					"motion-the-cormorants-count",
+				);
+				"Content/Motion/the-donkey-carrying-sleep.mp4" = (
+					"motion-the-donkey-carrying-sleep",
+				);
+				"Content/Motion/the-dragonfly-in-two-summers.mp4" = (
+					"motion-the-dragonfly-in-two-summers",
+				);
+				"Content/Motion/the-eel-who-maps-the-drowned-lane.mp4" = (
+					"motion-the-eel-who-maps-the-drowned-lane",
+				);
+				"Content/Motion/the-ermine-with-the-thaw.mp4" = (
+					"motion-the-ermine-with-the-thaw",
+				);
+				"Content/Motion/the-firefly-bridge.mp4" = (
+					"motion-the-firefly-bridge",
+				);
+				"Content/Motion/the-fox-only-the-lost-can-see.mp4" = (
+					"motion-the-fox-only-the-lost-can-see",
+				);
+				"Content/Motion/the-fox-who-hid-warm-things.mp4" = (
+					"motion-the-fox-who-hid-warm-things",
+				);
+				"Content/Motion/the-geese-with-the-winters-post.mp4" = (
+					"motion-the-geese-with-the-winters-post",
+				);
+				"Content/Motion/the-glass-heron.mp4" = (
+					"motion-the-glass-heron",
+				);
+				"Content/Motion/the-glow-worms-of-the-waiting-place.mp4" = (
+					"motion-the-glow-worms-of-the-waiting-place",
+				);
+				"Content/Motion/the-goose-under-the-ice.mp4" = (
+					"motion-the-goose-under-the-ice",
+				);
+				"Content/Motion/the-hare-that-turns-first.mp4" = (
+					"motion-the-hare-that-turns-first",
+				);
+				"Content/Motion/the-hedgehog-and-the-last-hour.mp4" = (
+					"motion-the-hedgehog-and-the-last-hour",
+				);
+				"Content/Motion/the-kestrel-over-the-lost-thing.mp4" = (
+					"motion-the-kestrel-over-the-lost-thing",
+				);
+				"Content/Motion/the-kite-crows.mp4" = (
+					"motion-the-kite-crows",
+				);
+				"Content/Motion/the-lantern-otter.mp4" = (
+					"motion-the-lantern-otter",
+				);
+				"Content/Motion/the-lark-holding-morning-open.mp4" = (
+					"motion-the-lark-holding-morning-open",
+				);
+				"Content/Motion/the-marten-who-trades.mp4" = (
+					"motion-the-marten-who-trades",
+				);
+				"Content/Motion/the-mouse-who-lights-the-stairs.mp4" = (
+					"motion-the-mouse-who-lights-the-stairs",
+				);
+				"Content/Motion/the-musk-ox-where-wind-starts.mp4" = (
+					"motion-the-musk-ox-where-wind-starts",
+				);
+				"Content/Motion/the-nightingale-of-forgotten-parts.mp4" = (
+					"motion-the-nightingale-of-forgotten-parts",
+				);
+				"Content/Motion/the-octopus-and-the-net-library.mp4" = (
+					"motion-the-octopus-and-the-net-library",
+				);
+				"Content/Motion/the-owl-who-knows-your-middle-name.mp4" = (
+					"motion-the-owl-who-knows-your-middle-name",
+				);
+				"Content/Motion/the-ptarmigan-that-hid-a-village.mp4" = (
+					"motion-the-ptarmigan-that-hid-a-village",
+				);
+				"Content/Motion/the-reindeer-with-the-first-snow.mp4" = (
+					"motion-the-reindeer-with-the-first-snow",
+				);
+				"Content/Motion/the-salmon-carrying-a-name.mp4" = (
+					"motion-the-salmon-carrying-a-name",
+				);
+				"Content/Motion/the-seal-who-waits.mp4" = (
+					"motion-the-seal-who-waits",
+				);
+				"Content/Motion/the-shoal-that-writes-the-tide.mp4" = (
+					"motion-the-shoal-that-writes-the-tide",
+				);
+				"Content/Motion/the-snow-leopard-nobody-photographed.mp4" = (
+					"motion-the-snow-leopard-nobody-photographed",
+				);
+				"Content/Motion/the-starling-map.mp4" = (
+					"motion-the-starling-map",
+				);
+				"Content/Motion/the-stork-of-apologies.mp4" = (
+					"motion-the-stork-of-apologies",
+				);
+				"Content/Motion/the-swift-that-never-landed.mp4" = (
+					"motion-the-swift-that-never-landed",
+				);
+				"Content/Motion/the-turtle-older-than-the-wall.mp4" = (
+					"motion-the-turtle-older-than-the-wall",
+				);
+				"Content/Motion/the-weather-stag.mp4" = (
+					"motion-the-weather-stag",
+				);
+				"Content/Motion/the-weathercock-that-turns-early.mp4" = (
+					"motion-the-weathercock-that-turns-early",
+				);
+				"Content/Motion/the-web-that-catches-sound.mp4" = (
+					"motion-the-web-that-catches-sound",
+				);
+				"Content/Motion/the-wolf-on-the-boundary.mp4" = (
+					"motion-the-wolf-on-the-boundary",
+				);
+				"Content/Motion/the-wolves-who-keep-the-ice-honest.mp4" = (
+					"motion-the-wolves-who-keep-the-ice-honest",
+				);
+				"Content/Motion/the-woodpeckers-doors.mp4" = (
+					"motion-the-woodpeckers-doors",
+				);
+				"Content/Motion/what-the-gull-brought-back.mp4" = (
+					"motion-what-the-gull-brought-back",
+				);
+				"Content/Motion/where-the-moths-sleep.mp4" = (
+					"motion-where-the-moths-sleep",
+				);
+				"Content/Narration/the-ants-who-carry-arguments-0.mp3" = (
+					"narration-the-ants-who-carry-arguments",
+				);
+				"Content/Narration/the-ants-who-carry-arguments-1.mp3" = (
+					"narration-the-ants-who-carry-arguments",
+				);
+				"Content/Narration/the-ants-who-carry-arguments-2.mp3" = (
+					"narration-the-ants-who-carry-arguments",
+				);
+				"Content/Narration/the-ants-who-carry-arguments-3.mp3" = (
+					"narration-the-ants-who-carry-arguments",
+				);
+				"Content/Narration/the-badgers-lost-property-0.mp3" = (
+					"narration-the-badgers-lost-property",
+				);
+				"Content/Narration/the-badgers-lost-property-1.mp3" = (
+					"narration-the-badgers-lost-property",
+				);
+				"Content/Narration/the-badgers-lost-property-2.mp3" = (
+					"narration-the-badgers-lost-property",
+				);
+				"Content/Narration/the-badgers-lost-property-3.mp3" = (
+					"narration-the-badgers-lost-property",
+				);
+				"Content/Narration/the-bat-who-draws-the-dark-0.mp3" = (
+					"narration-the-bat-who-draws-the-dark",
+				);
+				"Content/Narration/the-bat-who-draws-the-dark-1.mp3" = (
+					"narration-the-bat-who-draws-the-dark",
+				);
+				"Content/Narration/the-bat-who-draws-the-dark-2.mp3" = (
+					"narration-the-bat-who-draws-the-dark",
+				);
+				"Content/Narration/the-bat-who-draws-the-dark-3.mp3" = (
+					"narration-the-bat-who-draws-the-dark",
+				);
+				"Content/Narration/the-bear-who-kept-winter-0.mp3" = (
+					"narration-the-bear-who-kept-winter",
+				);
+				"Content/Narration/the-bear-who-kept-winter-1.mp3" = (
+					"narration-the-bear-who-kept-winter",
+				);
+				"Content/Narration/the-bear-who-kept-winter-2.mp3" = (
+					"narration-the-bear-who-kept-winter",
+				);
+				"Content/Narration/the-bear-who-kept-winter-3.mp3" = (
+					"narration-the-bear-who-kept-winter",
+				);
+				"Content/Narration/the-boar-who-remembered-roads-0.mp3" = (
+					"narration-the-boar-who-remembered-roads",
+				);
+				"Content/Narration/the-boar-who-remembered-roads-1.mp3" = (
+					"narration-the-boar-who-remembered-roads",
+				);
+				"Content/Narration/the-boar-who-remembered-roads-2.mp3" = (
+					"narration-the-boar-who-remembered-roads",
+				);
+				"Content/Narration/the-boar-who-remembered-roads-3.mp3" = (
+					"narration-the-boar-who-remembered-roads",
+				);
+				"Content/Narration/the-cartographer-hare-0.mp3" = (
+					"narration-the-cartographer-hare",
+				);
+				"Content/Narration/the-cartographer-hare-1.mp3" = (
+					"narration-the-cartographer-hare",
+				);
+				"Content/Narration/the-cartographer-hare-2.mp3" = (
+					"narration-the-cartographer-hare",
+				);
+				"Content/Narration/the-cartographer-hare-3.mp3" = (
+					"narration-the-cartographer-hare",
+				);
+				"Content/Narration/the-cat-who-walks-you-home-0.mp3" = (
+					"narration-the-cat-who-walks-you-home",
+				);
+				"Content/Narration/the-cat-who-walks-you-home-1.mp3" = (
+					"narration-the-cat-who-walks-you-home",
+				);
+				"Content/Narration/the-cat-who-walks-you-home-2.mp3" = (
+					"narration-the-cat-who-walks-you-home",
+				);
+				"Content/Narration/the-cat-who-walks-you-home-3.mp3" = (
+					"narration-the-cat-who-walks-you-home",
+				);
+				"Content/Narration/the-clock-toad-0.mp3" = (
+					"narration-the-clock-toad",
+				);
+				"Content/Narration/the-clock-toad-1.mp3" = (
+					"narration-the-clock-toad",
+				);
+				"Content/Narration/the-clock-toad-2.mp3" = (
+					"narration-the-clock-toad",
+				);
+				"Content/Narration/the-clock-toad-3.mp3" = (
+					"narration-the-clock-toad",
+				);
+				"Content/Narration/the-cormorants-count-0.mp3" = (
+					"narration-the-cormorants-count",
+				);
+				"Content/Narration/the-cormorants-count-1.mp3" = (
+					"narration-the-cormorants-count",
+				);
+				"Content/Narration/the-cormorants-count-2.mp3" = (
+					"narration-the-cormorants-count",
+				);
+				"Content/Narration/the-cormorants-count-3.mp3" = (
+					"narration-the-cormorants-count",
+				);
+				"Content/Narration/the-donkey-carrying-sleep-0.mp3" = (
+					"narration-the-donkey-carrying-sleep",
+				);
+				"Content/Narration/the-donkey-carrying-sleep-1.mp3" = (
+					"narration-the-donkey-carrying-sleep",
+				);
+				"Content/Narration/the-donkey-carrying-sleep-2.mp3" = (
+					"narration-the-donkey-carrying-sleep",
+				);
+				"Content/Narration/the-donkey-carrying-sleep-3.mp3" = (
+					"narration-the-donkey-carrying-sleep",
+				);
+				"Content/Narration/the-dragonfly-in-two-summers-0.mp3" = (
+					"narration-the-dragonfly-in-two-summers",
+				);
+				"Content/Narration/the-dragonfly-in-two-summers-1.mp3" = (
+					"narration-the-dragonfly-in-two-summers",
+				);
+				"Content/Narration/the-dragonfly-in-two-summers-2.mp3" = (
+					"narration-the-dragonfly-in-two-summers",
+				);
+				"Content/Narration/the-dragonfly-in-two-summers-3.mp3" = (
+					"narration-the-dragonfly-in-two-summers",
+				);
+				"Content/Narration/the-eel-who-maps-the-drowned-lane-0.mp3" = (
+					"narration-the-eel-who-maps-the-drowned-lane",
+				);
+				"Content/Narration/the-eel-who-maps-the-drowned-lane-1.mp3" = (
+					"narration-the-eel-who-maps-the-drowned-lane",
+				);
+				"Content/Narration/the-eel-who-maps-the-drowned-lane-2.mp3" = (
+					"narration-the-eel-who-maps-the-drowned-lane",
+				);
+				"Content/Narration/the-eel-who-maps-the-drowned-lane-3.mp3" = (
+					"narration-the-eel-who-maps-the-drowned-lane",
+				);
+				"Content/Narration/the-ermine-with-the-thaw-0.mp3" = (
+					"narration-the-ermine-with-the-thaw",
+				);
+				"Content/Narration/the-ermine-with-the-thaw-1.mp3" = (
+					"narration-the-ermine-with-the-thaw",
+				);
+				"Content/Narration/the-ermine-with-the-thaw-2.mp3" = (
+					"narration-the-ermine-with-the-thaw",
+				);
+				"Content/Narration/the-ermine-with-the-thaw-3.mp3" = (
+					"narration-the-ermine-with-the-thaw",
+				);
+				"Content/Narration/the-firefly-bridge-0.mp3" = (
+					"narration-the-firefly-bridge",
+				);
+				"Content/Narration/the-firefly-bridge-1.mp3" = (
+					"narration-the-firefly-bridge",
+				);
+				"Content/Narration/the-firefly-bridge-2.mp3" = (
+					"narration-the-firefly-bridge",
+				);
+				"Content/Narration/the-firefly-bridge-3.mp3" = (
+					"narration-the-firefly-bridge",
+				);
+				"Content/Narration/the-fox-only-the-lost-can-see-0.mp3" = (
+					"narration-the-fox-only-the-lost-can-see",
+				);
+				"Content/Narration/the-fox-only-the-lost-can-see-1.mp3" = (
+					"narration-the-fox-only-the-lost-can-see",
+				);
+				"Content/Narration/the-fox-only-the-lost-can-see-2.mp3" = (
+					"narration-the-fox-only-the-lost-can-see",
+				);
+				"Content/Narration/the-fox-only-the-lost-can-see-3.mp3" = (
+					"narration-the-fox-only-the-lost-can-see",
+				);
+				"Content/Narration/the-fox-who-hid-warm-things-0.mp3" = (
+					"narration-the-fox-who-hid-warm-things",
+				);
+				"Content/Narration/the-fox-who-hid-warm-things-1.mp3" = (
+					"narration-the-fox-who-hid-warm-things",
+				);
+				"Content/Narration/the-fox-who-hid-warm-things-2.mp3" = (
+					"narration-the-fox-who-hid-warm-things",
+				);
+				"Content/Narration/the-fox-who-hid-warm-things-3.mp3" = (
+					"narration-the-fox-who-hid-warm-things",
+				);
+				"Content/Narration/the-geese-with-the-winters-post-0.mp3" = (
+					"narration-the-geese-with-the-winters-post",
+				);
+				"Content/Narration/the-geese-with-the-winters-post-1.mp3" = (
+					"narration-the-geese-with-the-winters-post",
+				);
+				"Content/Narration/the-geese-with-the-winters-post-2.mp3" = (
+					"narration-the-geese-with-the-winters-post",
+				);
+				"Content/Narration/the-geese-with-the-winters-post-3.mp3" = (
+					"narration-the-geese-with-the-winters-post",
+				);
+				"Content/Narration/the-glass-heron-0.mp3" = (
+					"narration-the-glass-heron",
+				);
+				"Content/Narration/the-glass-heron-1.mp3" = (
+					"narration-the-glass-heron",
+				);
+				"Content/Narration/the-glass-heron-2.mp3" = (
+					"narration-the-glass-heron",
+				);
+				"Content/Narration/the-glass-heron-3.mp3" = (
+					"narration-the-glass-heron",
+				);
+				"Content/Narration/the-glow-worms-of-the-waiting-place-0.mp3" = (
+					"narration-the-glow-worms-of-the-waiting-place",
+				);
+				"Content/Narration/the-glow-worms-of-the-waiting-place-1.mp3" = (
+					"narration-the-glow-worms-of-the-waiting-place",
+				);
+				"Content/Narration/the-glow-worms-of-the-waiting-place-2.mp3" = (
+					"narration-the-glow-worms-of-the-waiting-place",
+				);
+				"Content/Narration/the-glow-worms-of-the-waiting-place-3.mp3" = (
+					"narration-the-glow-worms-of-the-waiting-place",
+				);
+				"Content/Narration/the-goose-under-the-ice-0.mp3" = (
+					"narration-the-goose-under-the-ice",
+				);
+				"Content/Narration/the-goose-under-the-ice-1.mp3" = (
+					"narration-the-goose-under-the-ice",
+				);
+				"Content/Narration/the-goose-under-the-ice-2.mp3" = (
+					"narration-the-goose-under-the-ice",
+				);
+				"Content/Narration/the-goose-under-the-ice-3.mp3" = (
+					"narration-the-goose-under-the-ice",
+				);
+				"Content/Narration/the-hare-that-turns-first-0.mp3" = (
+					"narration-the-hare-that-turns-first",
+				);
+				"Content/Narration/the-hare-that-turns-first-1.mp3" = (
+					"narration-the-hare-that-turns-first",
+				);
+				"Content/Narration/the-hare-that-turns-first-2.mp3" = (
+					"narration-the-hare-that-turns-first",
+				);
+				"Content/Narration/the-hare-that-turns-first-3.mp3" = (
+					"narration-the-hare-that-turns-first",
+				);
+				"Content/Narration/the-hedgehog-and-the-last-hour-0.mp3" = (
+					"narration-the-hedgehog-and-the-last-hour",
+				);
+				"Content/Narration/the-hedgehog-and-the-last-hour-1.mp3" = (
+					"narration-the-hedgehog-and-the-last-hour",
+				);
+				"Content/Narration/the-hedgehog-and-the-last-hour-2.mp3" = (
+					"narration-the-hedgehog-and-the-last-hour",
+				);
+				"Content/Narration/the-hedgehog-and-the-last-hour-3.mp3" = (
+					"narration-the-hedgehog-and-the-last-hour",
+				);
+				"Content/Narration/the-kestrel-over-the-lost-thing-0.mp3" = (
+					"narration-the-kestrel-over-the-lost-thing",
+				);
+				"Content/Narration/the-kestrel-over-the-lost-thing-1.mp3" = (
+					"narration-the-kestrel-over-the-lost-thing",
+				);
+				"Content/Narration/the-kestrel-over-the-lost-thing-2.mp3" = (
+					"narration-the-kestrel-over-the-lost-thing",
+				);
+				"Content/Narration/the-kestrel-over-the-lost-thing-3.mp3" = (
+					"narration-the-kestrel-over-the-lost-thing",
+				);
+				"Content/Narration/the-kite-crows-0.mp3" = (
+					"narration-the-kite-crows",
+				);
+				"Content/Narration/the-kite-crows-1.mp3" = (
+					"narration-the-kite-crows",
+				);
+				"Content/Narration/the-kite-crows-2.mp3" = (
+					"narration-the-kite-crows",
+				);
+				"Content/Narration/the-kite-crows-3.mp3" = (
+					"narration-the-kite-crows",
+				);
+				"Content/Narration/the-lantern-otter-0.mp3" = (
+					"narration-the-lantern-otter",
+				);
+				"Content/Narration/the-lantern-otter-1.mp3" = (
+					"narration-the-lantern-otter",
+				);
+				"Content/Narration/the-lantern-otter-2.mp3" = (
+					"narration-the-lantern-otter",
+				);
+				"Content/Narration/the-lantern-otter-3.mp3" = (
+					"narration-the-lantern-otter",
+				);
+				"Content/Narration/the-lark-holding-morning-open-0.mp3" = (
+					"narration-the-lark-holding-morning-open",
+				);
+				"Content/Narration/the-lark-holding-morning-open-1.mp3" = (
+					"narration-the-lark-holding-morning-open",
+				);
+				"Content/Narration/the-lark-holding-morning-open-2.mp3" = (
+					"narration-the-lark-holding-morning-open",
+				);
+				"Content/Narration/the-lark-holding-morning-open-3.mp3" = (
+					"narration-the-lark-holding-morning-open",
+				);
+				"Content/Narration/the-marten-who-trades-0.mp3" = (
+					"narration-the-marten-who-trades",
+				);
+				"Content/Narration/the-marten-who-trades-1.mp3" = (
+					"narration-the-marten-who-trades",
+				);
+				"Content/Narration/the-marten-who-trades-2.mp3" = (
+					"narration-the-marten-who-trades",
+				);
+				"Content/Narration/the-marten-who-trades-3.mp3" = (
+					"narration-the-marten-who-trades",
+				);
+				"Content/Narration/the-mouse-who-lights-the-stairs-0.mp3" = (
+					"narration-the-mouse-who-lights-the-stairs",
+				);
+				"Content/Narration/the-mouse-who-lights-the-stairs-1.mp3" = (
+					"narration-the-mouse-who-lights-the-stairs",
+				);
+				"Content/Narration/the-mouse-who-lights-the-stairs-2.mp3" = (
+					"narration-the-mouse-who-lights-the-stairs",
+				);
+				"Content/Narration/the-mouse-who-lights-the-stairs-3.mp3" = (
+					"narration-the-mouse-who-lights-the-stairs",
+				);
+				"Content/Narration/the-musk-ox-where-wind-starts-0.mp3" = (
+					"narration-the-musk-ox-where-wind-starts",
+				);
+				"Content/Narration/the-musk-ox-where-wind-starts-1.mp3" = (
+					"narration-the-musk-ox-where-wind-starts",
+				);
+				"Content/Narration/the-musk-ox-where-wind-starts-2.mp3" = (
+					"narration-the-musk-ox-where-wind-starts",
+				);
+				"Content/Narration/the-musk-ox-where-wind-starts-3.mp3" = (
+					"narration-the-musk-ox-where-wind-starts",
+				);
+				"Content/Narration/the-nightingale-of-forgotten-parts-0.mp3" = (
+					"narration-the-nightingale-of-forgotten-parts",
+				);
+				"Content/Narration/the-nightingale-of-forgotten-parts-1.mp3" = (
+					"narration-the-nightingale-of-forgotten-parts",
+				);
+				"Content/Narration/the-nightingale-of-forgotten-parts-2.mp3" = (
+					"narration-the-nightingale-of-forgotten-parts",
+				);
+				"Content/Narration/the-nightingale-of-forgotten-parts-3.mp3" = (
+					"narration-the-nightingale-of-forgotten-parts",
+				);
+				"Content/Narration/the-octopus-and-the-net-library-0.mp3" = (
+					"narration-the-octopus-and-the-net-library",
+				);
+				"Content/Narration/the-octopus-and-the-net-library-1.mp3" = (
+					"narration-the-octopus-and-the-net-library",
+				);
+				"Content/Narration/the-octopus-and-the-net-library-2.mp3" = (
+					"narration-the-octopus-and-the-net-library",
+				);
+				"Content/Narration/the-octopus-and-the-net-library-3.mp3" = (
+					"narration-the-octopus-and-the-net-library",
+				);
+				"Content/Narration/the-owl-who-knows-your-middle-name-0.mp3" = (
+					"narration-the-owl-who-knows-your-middle-name",
+				);
+				"Content/Narration/the-owl-who-knows-your-middle-name-1.mp3" = (
+					"narration-the-owl-who-knows-your-middle-name",
+				);
+				"Content/Narration/the-owl-who-knows-your-middle-name-2.mp3" = (
+					"narration-the-owl-who-knows-your-middle-name",
+				);
+				"Content/Narration/the-owl-who-knows-your-middle-name-3.mp3" = (
+					"narration-the-owl-who-knows-your-middle-name",
+				);
+				"Content/Narration/the-ptarmigan-that-hid-a-village-0.mp3" = (
+					"narration-the-ptarmigan-that-hid-a-village",
+				);
+				"Content/Narration/the-ptarmigan-that-hid-a-village-1.mp3" = (
+					"narration-the-ptarmigan-that-hid-a-village",
+				);
+				"Content/Narration/the-ptarmigan-that-hid-a-village-2.mp3" = (
+					"narration-the-ptarmigan-that-hid-a-village",
+				);
+				"Content/Narration/the-ptarmigan-that-hid-a-village-3.mp3" = (
+					"narration-the-ptarmigan-that-hid-a-village",
+				);
+				"Content/Narration/the-reindeer-with-the-first-snow-0.mp3" = (
+					"narration-the-reindeer-with-the-first-snow",
+				);
+				"Content/Narration/the-reindeer-with-the-first-snow-1.mp3" = (
+					"narration-the-reindeer-with-the-first-snow",
+				);
+				"Content/Narration/the-reindeer-with-the-first-snow-2.mp3" = (
+					"narration-the-reindeer-with-the-first-snow",
+				);
+				"Content/Narration/the-reindeer-with-the-first-snow-3.mp3" = (
+					"narration-the-reindeer-with-the-first-snow",
+				);
+				"Content/Narration/the-salmon-carrying-a-name-0.mp3" = (
+					"narration-the-salmon-carrying-a-name",
+				);
+				"Content/Narration/the-salmon-carrying-a-name-1.mp3" = (
+					"narration-the-salmon-carrying-a-name",
+				);
+				"Content/Narration/the-salmon-carrying-a-name-2.mp3" = (
+					"narration-the-salmon-carrying-a-name",
+				);
+				"Content/Narration/the-salmon-carrying-a-name-3.mp3" = (
+					"narration-the-salmon-carrying-a-name",
+				);
+				"Content/Narration/the-seal-who-waits-0.mp3" = (
+					"narration-the-seal-who-waits",
+				);
+				"Content/Narration/the-seal-who-waits-1.mp3" = (
+					"narration-the-seal-who-waits",
+				);
+				"Content/Narration/the-seal-who-waits-2.mp3" = (
+					"narration-the-seal-who-waits",
+				);
+				"Content/Narration/the-seal-who-waits-3.mp3" = (
+					"narration-the-seal-who-waits",
+				);
+				"Content/Narration/the-shoal-that-writes-the-tide-0.mp3" = (
+					"narration-the-shoal-that-writes-the-tide",
+				);
+				"Content/Narration/the-shoal-that-writes-the-tide-1.mp3" = (
+					"narration-the-shoal-that-writes-the-tide",
+				);
+				"Content/Narration/the-shoal-that-writes-the-tide-2.mp3" = (
+					"narration-the-shoal-that-writes-the-tide",
+				);
+				"Content/Narration/the-shoal-that-writes-the-tide-3.mp3" = (
+					"narration-the-shoal-that-writes-the-tide",
+				);
+				"Content/Narration/the-snow-leopard-nobody-photographed-0.mp3" = (
+					"narration-the-snow-leopard-nobody-photographed",
+				);
+				"Content/Narration/the-snow-leopard-nobody-photographed-1.mp3" = (
+					"narration-the-snow-leopard-nobody-photographed",
+				);
+				"Content/Narration/the-snow-leopard-nobody-photographed-2.mp3" = (
+					"narration-the-snow-leopard-nobody-photographed",
+				);
+				"Content/Narration/the-snow-leopard-nobody-photographed-3.mp3" = (
+					"narration-the-snow-leopard-nobody-photographed",
+				);
+				"Content/Narration/the-starling-map-0.mp3" = (
+					"narration-the-starling-map",
+				);
+				"Content/Narration/the-starling-map-1.mp3" = (
+					"narration-the-starling-map",
+				);
+				"Content/Narration/the-starling-map-2.mp3" = (
+					"narration-the-starling-map",
+				);
+				"Content/Narration/the-starling-map-3.mp3" = (
+					"narration-the-starling-map",
+				);
+				"Content/Narration/the-stork-of-apologies-0.mp3" = (
+					"narration-the-stork-of-apologies",
+				);
+				"Content/Narration/the-stork-of-apologies-1.mp3" = (
+					"narration-the-stork-of-apologies",
+				);
+				"Content/Narration/the-stork-of-apologies-2.mp3" = (
+					"narration-the-stork-of-apologies",
+				);
+				"Content/Narration/the-stork-of-apologies-3.mp3" = (
+					"narration-the-stork-of-apologies",
+				);
+				"Content/Narration/the-swift-that-never-landed-0.mp3" = (
+					"narration-the-swift-that-never-landed",
+				);
+				"Content/Narration/the-swift-that-never-landed-1.mp3" = (
+					"narration-the-swift-that-never-landed",
+				);
+				"Content/Narration/the-swift-that-never-landed-2.mp3" = (
+					"narration-the-swift-that-never-landed",
+				);
+				"Content/Narration/the-swift-that-never-landed-3.mp3" = (
+					"narration-the-swift-that-never-landed",
+				);
+				"Content/Narration/the-turtle-older-than-the-wall-0.mp3" = (
+					"narration-the-turtle-older-than-the-wall",
+				);
+				"Content/Narration/the-turtle-older-than-the-wall-1.mp3" = (
+					"narration-the-turtle-older-than-the-wall",
+				);
+				"Content/Narration/the-turtle-older-than-the-wall-2.mp3" = (
+					"narration-the-turtle-older-than-the-wall",
+				);
+				"Content/Narration/the-turtle-older-than-the-wall-3.mp3" = (
+					"narration-the-turtle-older-than-the-wall",
+				);
+				"Content/Narration/the-weather-stag-0.mp3" = (
+					"narration-the-weather-stag",
+				);
+				"Content/Narration/the-weather-stag-1.mp3" = (
+					"narration-the-weather-stag",
+				);
+				"Content/Narration/the-weather-stag-2.mp3" = (
+					"narration-the-weather-stag",
+				);
+				"Content/Narration/the-weather-stag-3.mp3" = (
+					"narration-the-weather-stag",
+				);
+				"Content/Narration/the-weathercock-that-turns-early-0.mp3" = (
+					"narration-the-weathercock-that-turns-early",
+				);
+				"Content/Narration/the-weathercock-that-turns-early-1.mp3" = (
+					"narration-the-weathercock-that-turns-early",
+				);
+				"Content/Narration/the-weathercock-that-turns-early-2.mp3" = (
+					"narration-the-weathercock-that-turns-early",
+				);
+				"Content/Narration/the-weathercock-that-turns-early-3.mp3" = (
+					"narration-the-weathercock-that-turns-early",
+				);
+				"Content/Narration/the-web-that-catches-sound-0.mp3" = (
+					"narration-the-web-that-catches-sound",
+				);
+				"Content/Narration/the-web-that-catches-sound-1.mp3" = (
+					"narration-the-web-that-catches-sound",
+				);
+				"Content/Narration/the-web-that-catches-sound-2.mp3" = (
+					"narration-the-web-that-catches-sound",
+				);
+				"Content/Narration/the-web-that-catches-sound-3.mp3" = (
+					"narration-the-web-that-catches-sound",
+				);
+				"Content/Narration/the-wolf-on-the-boundary-0.mp3" = (
+					"narration-the-wolf-on-the-boundary",
+				);
+				"Content/Narration/the-wolf-on-the-boundary-1.mp3" = (
+					"narration-the-wolf-on-the-boundary",
+				);
+				"Content/Narration/the-wolf-on-the-boundary-2.mp3" = (
+					"narration-the-wolf-on-the-boundary",
+				);
+				"Content/Narration/the-wolf-on-the-boundary-3.mp3" = (
+					"narration-the-wolf-on-the-boundary",
+				);
+				"Content/Narration/the-wolves-who-keep-the-ice-honest-0.mp3" = (
+					"narration-the-wolves-who-keep-the-ice-honest",
+				);
+				"Content/Narration/the-wolves-who-keep-the-ice-honest-1.mp3" = (
+					"narration-the-wolves-who-keep-the-ice-honest",
+				);
+				"Content/Narration/the-wolves-who-keep-the-ice-honest-2.mp3" = (
+					"narration-the-wolves-who-keep-the-ice-honest",
+				);
+				"Content/Narration/the-wolves-who-keep-the-ice-honest-3.mp3" = (
+					"narration-the-wolves-who-keep-the-ice-honest",
+				);
+				"Content/Narration/the-woodpeckers-doors-0.mp3" = (
+					"narration-the-woodpeckers-doors",
+				);
+				"Content/Narration/the-woodpeckers-doors-1.mp3" = (
+					"narration-the-woodpeckers-doors",
+				);
+				"Content/Narration/the-woodpeckers-doors-2.mp3" = (
+					"narration-the-woodpeckers-doors",
+				);
+				"Content/Narration/the-woodpeckers-doors-3.mp3" = (
+					"narration-the-woodpeckers-doors",
+				);
+				"Content/Narration/what-the-gull-brought-back-0.mp3" = (
+					"narration-what-the-gull-brought-back",
+				);
+				"Content/Narration/what-the-gull-brought-back-1.mp3" = (
+					"narration-what-the-gull-brought-back",
+				);
+				"Content/Narration/what-the-gull-brought-back-2.mp3" = (
+					"narration-what-the-gull-brought-back",
+				);
+				"Content/Narration/what-the-gull-brought-back-3.mp3" = (
+					"narration-what-the-gull-brought-back",
+				);
+				"Content/Narration/where-the-moths-sleep-0.mp3" = (
+					"narration-where-the-moths-sleep",
+				);
+				"Content/Narration/where-the-moths-sleep-1.mp3" = (
+					"narration-where-the-moths-sleep",
+				);
+				"Content/Narration/where-the-moths-sleep-2.mp3" = (
+					"narration-where-the-moths-sleep",
+				);
+				"Content/Narration/where-the-moths-sleep-3.mp3" = (
+					"narration-where-the-moths-sleep",
+				);
+			};
+			target = 83503E85304EE38E00FD47AC /* Magic World */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		83503E88304EE38E00FD47AC /* Magic World */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				83503E94304EE39000FD47AC /* Exceptions for "Magic World" folder in "Magic World" target */,
+			);
 			path = "Magic World";
 			sourceTree = "<group>";
 		};
@@ -77,6 +836,107 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					"motion-the-ants-who-carry-arguments",
+					"motion-the-badgers-lost-property",
+					"motion-the-bat-who-draws-the-dark",
+					"motion-the-bear-who-kept-winter",
+					"motion-the-boar-who-remembered-roads",
+					"motion-the-cat-who-walks-you-home",
+					"motion-the-clock-toad",
+					"motion-the-cormorants-count",
+					"motion-the-donkey-carrying-sleep",
+					"motion-the-dragonfly-in-two-summers",
+					"motion-the-eel-who-maps-the-drowned-lane",
+					"motion-the-ermine-with-the-thaw",
+					"motion-the-firefly-bridge",
+					"motion-the-fox-only-the-lost-can-see",
+					"motion-the-fox-who-hid-warm-things",
+					"motion-the-geese-with-the-winters-post",
+					"motion-the-glass-heron",
+					"motion-the-glow-worms-of-the-waiting-place",
+					"motion-the-goose-under-the-ice",
+					"motion-the-hare-that-turns-first",
+					"motion-the-hedgehog-and-the-last-hour",
+					"motion-the-kestrel-over-the-lost-thing",
+					"motion-the-kite-crows",
+					"motion-the-lantern-otter",
+					"motion-the-lark-holding-morning-open",
+					"motion-the-marten-who-trades",
+					"motion-the-mouse-who-lights-the-stairs",
+					"motion-the-musk-ox-where-wind-starts",
+					"motion-the-nightingale-of-forgotten-parts",
+					"motion-the-octopus-and-the-net-library",
+					"motion-the-owl-who-knows-your-middle-name",
+					"motion-the-ptarmigan-that-hid-a-village",
+					"motion-the-reindeer-with-the-first-snow",
+					"motion-the-salmon-carrying-a-name",
+					"motion-the-seal-who-waits",
+					"motion-the-shoal-that-writes-the-tide",
+					"motion-the-snow-leopard-nobody-photographed",
+					"motion-the-starling-map",
+					"motion-the-stork-of-apologies",
+					"motion-the-swift-that-never-landed",
+					"motion-the-turtle-older-than-the-wall",
+					"motion-the-weather-stag",
+					"motion-the-weathercock-that-turns-early",
+					"motion-the-web-that-catches-sound",
+					"motion-the-wolf-on-the-boundary",
+					"motion-the-wolves-who-keep-the-ice-honest",
+					"motion-the-woodpeckers-doors",
+					"motion-what-the-gull-brought-back",
+					"motion-where-the-moths-sleep",
+					"narration-the-ants-who-carry-arguments",
+					"narration-the-badgers-lost-property",
+					"narration-the-bat-who-draws-the-dark",
+					"narration-the-bear-who-kept-winter",
+					"narration-the-boar-who-remembered-roads",
+					"narration-the-cartographer-hare",
+					"narration-the-cat-who-walks-you-home",
+					"narration-the-clock-toad",
+					"narration-the-cormorants-count",
+					"narration-the-donkey-carrying-sleep",
+					"narration-the-dragonfly-in-two-summers",
+					"narration-the-eel-who-maps-the-drowned-lane",
+					"narration-the-ermine-with-the-thaw",
+					"narration-the-firefly-bridge",
+					"narration-the-fox-only-the-lost-can-see",
+					"narration-the-fox-who-hid-warm-things",
+					"narration-the-geese-with-the-winters-post",
+					"narration-the-glass-heron",
+					"narration-the-glow-worms-of-the-waiting-place",
+					"narration-the-goose-under-the-ice",
+					"narration-the-hare-that-turns-first",
+					"narration-the-hedgehog-and-the-last-hour",
+					"narration-the-kestrel-over-the-lost-thing",
+					"narration-the-kite-crows",
+					"narration-the-lantern-otter",
+					"narration-the-lark-holding-morning-open",
+					"narration-the-marten-who-trades",
+					"narration-the-mouse-who-lights-the-stairs",
+					"narration-the-musk-ox-where-wind-starts",
+					"narration-the-nightingale-of-forgotten-parts",
+					"narration-the-octopus-and-the-net-library",
+					"narration-the-owl-who-knows-your-middle-name",
+					"narration-the-ptarmigan-that-hid-a-village",
+					"narration-the-reindeer-with-the-first-snow",
+					"narration-the-salmon-carrying-a-name",
+					"narration-the-seal-who-waits",
+					"narration-the-shoal-that-writes-the-tide",
+					"narration-the-snow-leopard-nobody-photographed",
+					"narration-the-starling-map",
+					"narration-the-stork-of-apologies",
+					"narration-the-swift-that-never-landed",
+					"narration-the-turtle-older-than-the-wall",
+					"narration-the-weather-stag",
+					"narration-the-weathercock-that-turns-early",
+					"narration-the-web-that-catches-sound",
+					"narration-the-wolf-on-the-boundary",
+					"narration-the-wolves-who-keep-the-ice-honest",
+					"narration-the-woodpeckers-doors",
+					"narration-what-the-gull-brought-back",
+					"narration-where-the-moths-sleep",
+				);
 				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 2660;
 				TargetAttributes = {
@@ -267,6 +1127,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 5.0.12;
+				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "narration-the-glass-heron motion-the-glass-heron narration-where-the-moths-sleep motion-where-the-moths-sleep narration-the-cat-who-walks-you-home motion-the-cat-who-walks-you-home";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexandre.juniort10.magicworld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -300,6 +1161,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 5.0.12;
+				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "narration-the-glass-heron motion-the-glass-heron narration-where-the-moths-sleep motion-where-the-moths-sleep narration-the-cat-who-walks-you-home motion-the-cat-who-walks-you-home";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexandre.juniort10.magicworld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
