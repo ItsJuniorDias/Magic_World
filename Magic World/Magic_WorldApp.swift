@@ -14,6 +14,7 @@ struct Magic_WorldApp: App {
     @State private var app = AppState()
     @State private var store = Store()
     @State private var analytics = Analytics()
+    @State private var packs = StoryPacks()
 
     @Environment(\.scenePhase) private var scenePhase
 
@@ -33,6 +34,7 @@ struct Magic_WorldApp: App {
                 .environment(app)
                 .environment(store)
                 .environment(analytics)
+                .environment(packs)
         }
         .onChange(of: scenePhase) { _, phase in
             // Sem isso o debounce de gravacao pode ser perdido quando a

@@ -20,6 +20,7 @@ private struct PreviewHost: View {
     @State private var app = AppState(filename: "preview-app-state.json")
     @State private var store = Store()
     @State private var analytics = Analytics()
+    @State private var packs = StoryPacks()
 
     init() {
         let progress = ReadingProgress(filename: "preview-progress.json")
@@ -35,6 +36,7 @@ private struct PreviewHost: View {
             .environment(app)
             .environment(store)
             .environment(analytics)
+            .environment(packs)
     }
 }
 

@@ -17,6 +17,10 @@ Uso:
     python3 scripts/build_content.py
     python3 scripts/build_content.py --check      # so valida, nao escreve
 
+Depois de gerar conto novo, ou quando entrar MP3/MP4 novo em Content/,
+rode tambem scripts/odr_tags.py: sem ele a midia nova entra no .app sem
+tag de On-Demand Resources e o app volta a pesar centenas de MB na loja.
+
 Formato do markdown:
 
     ---
