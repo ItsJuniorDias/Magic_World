@@ -361,7 +361,9 @@ struct PaywallView: View {
         if await store.restore() {
             dismiss()
         } else {
-            message = "No active subscription found on this Apple Account."
+            // `message` e String, entao o literal sozinho nao passaria
+            // pelo String Catalog — precisa do String(localized:).
+            message = String(localized: "No active subscription found on this Apple Account.")
         }
     }
 }

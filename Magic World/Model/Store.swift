@@ -222,12 +222,18 @@ extension Product {
     /// "por mês" / "por ano", a partir do periodo real do produto.
     var periodLabel: String {
         guard let period = subscription?.subscriptionPeriod else { return "" }
+        // Um `String(localized:)` por caso, com o singular separado do
+        // plural: idioma nenhum monta "a cada N meses" colando um
+        // numero num substantivo solto, entao a frase inteira precisa
+        // ser a chave.
         switch (period.unit, period.value) {
-        case (.month, 1): return "per month"
-        case (.year, 1): return "per year"
-        case (.month, let n): return "every \(n) months"
-        case (.week, let n): return n == 1 ? "per week" : "every \(n) weeks"
-        case (.day, let n): return n == 1 ? "per day" : "every \(n) days"
+        case (.month, 1): return String(localized: "per month")
+        case (.year, 1): return String(localized: "per year")
+        case (.month, let n): return String(localized: "every \(n) months")
+        case (.week, 1): return String(localized: "per week")
+        case (.week, let n): return String(localized: "every \(n) weeks")
+        case (.day, 1): return String(localized: "per day")
+        case (.day, let n): return String(localized: "every \(n) days")
         default: return ""
         }
     }
@@ -249,14 +255,17 @@ extension Product {
         guard let offer = subscription?.introductoryOffer,
               offer.paymentMode == .freeTrial else { return nil }
         let p = offer.period
-        let unit: String
+        // Uma chave por unidade, com o plural resolvido no String
+        // Catalog. Montar "\(n) \(unit) free" a partir de pecas — como
+        // era antes — nao tem traducao possivel: em portugues o
+        // substantivo muda de genero, em arabe ha seis formas de plural,
+        // e nenhuma das duas coisas cabe numa variavel `unit`.
         switch p.unit {
-        case .day: unit = p.value == 1 ? "day" : "days"
-        case .week: unit = p.value == 1 ? "week" : "weeks"
-        case .month: unit = p.value == 1 ? "month" : "months"
-        case .year: unit = p.value == 1 ? "year" : "years"
+        case .day:   return String(localized: "\(p.value) days free")
+        case .week:  return String(localized: "\(p.value) weeks free")
+        case .month: return String(localized: "\(p.value) months free")
+        case .year:  return String(localized: "\(p.value) years free")
         @unknown default: return nil
         }
-        return "\(p.value) \(unit) free"
     }
 }

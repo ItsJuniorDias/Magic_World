@@ -73,14 +73,18 @@ struct ProfileView: View {
                 Button("Cancel", role: .cancel) {}
                 Button("Erase progress", role: .destructive) { progress.reset() }
             } message: {
-                Text("This clears every chapter you have finished and every "
-                     + "badge. Your favourites and your subscription stay.")
+                Text("""
+                This clears every chapter you have finished and every \
+                badge. Your favourites and your subscription stay.
+                """)
             }
             .alert("Restart to change the language", isPresented: $confirmingLanguageChange) {
                 Button("OK", role: .cancel) {}
             } message: {
-                Text("Close the app and open it again for the new language "
-                     + "to apply everywhere.")
+                Text("""
+                Close the app and open it again for the new language \
+                to apply everywhere.
+                """)
             }
         }
     }

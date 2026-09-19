@@ -207,8 +207,15 @@ struct ReaderView: View {
                 // pendente, e uma escolha de idioma. Dizer isso e o que
                 // separa "ainda nao existe" de "existe, mas nao nesta
                 // lingua" — a segunda tem conserto do lado da pessoa.
-                Text("The narration is recorded in English only. "
-                     + "Set the language to English in You to listen.")
+                // Literal unico com continuacao `\`, nao concatenacao com
+                // `+`: "a" + "b" produz String, e Text(String) usa o
+                // overload que NAO localiza — a frase saia em ingles em
+                // todos os idiomas, que e exatamente o contrario do que
+                // ela existe pra dizer.
+                Text("""
+                The narration is recorded in English only. Set the \
+                language to English in You to listen.
+                """)
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textTertiary)
                     .multilineTextAlignment(.center)
