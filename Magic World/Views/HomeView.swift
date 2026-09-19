@@ -158,7 +158,7 @@ struct HomeView: View {
     // MARK: - Prateleiras
 
     @ViewBuilder
-    private func shelf(_ title: String, stories: [Story]) -> some View {
+    private func shelf(_ title: LocalizedStringKey, stories: [Story]) -> some View {
         VStack(alignment: .leading, spacing: Space.lg) {
             ShelfHeader(title: title)
             ScrollView(.horizontal, showsIndicators: false) {
@@ -222,7 +222,11 @@ struct HomeView: View {
 
     /// O destaque e sempre o que ela ja comecou. Se nao comecou nada,
     /// a mais recente. Retomar vale mais que descobrir.
-    private var heroStory: (story: Story, progress: Double, eyebrow: String)? {
+    ///
+    /// `eyebrow` volta como `LocalizedStringKey` pra o `HeroStoryCard`
+    /// pegar o overload de Text que localiza — String traria os literais
+    /// em ingles no idioma alvo.
+    private var heroStory: (story: Story, progress: Double, eyebrow: LocalizedStringKey)? {
         if let inProgress = continueReading.first {
             return (inProgress, progress.completion(of: inProgress), "Continue reading")
         }
