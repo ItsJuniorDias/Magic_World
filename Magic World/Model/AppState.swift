@@ -76,7 +76,7 @@ final class AppState {
 
     var greetingName: String {
         let trimmed = stored.readerName.trimmingCharacters(in: .whitespaces)
-        return trimmed.isEmpty ? "reader" : trimmed
+        return trimmed.isEmpty ? String(localized: "reader") : trimmed
     }
 
     // MARK: - Lembrete

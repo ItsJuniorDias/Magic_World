@@ -56,7 +56,7 @@ extension View {
     ///     com `.measuredHeight(_:)` em vez de estimar — a altura muda com
     ///     o Dynamic Type.
     ///   - ramp: em quantos pontos vai de invisivel a visivel.
-    func scrollRevealedTitle(_ title: String,
+    func scrollRevealedTitle(_ title: LocalizedStringKey,
                              after start: CGFloat = 32,
                              ramp: CGFloat = 28) -> some View {
         modifier(ScrollRevealedTitle(title: title, start: start, ramp: ramp))
@@ -73,7 +73,7 @@ extension View {
 }
 
 private struct ScrollRevealedTitle: ViewModifier {
-    let title: String
+    let title: LocalizedStringKey
     let start: CGFloat
     let ramp: CGFloat
 

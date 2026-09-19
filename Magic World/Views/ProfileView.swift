@@ -92,8 +92,11 @@ struct ProfileView: View {
                let next = nextLevel {
                 VStack(alignment: .leading, spacing: Space.sm) {
                     ProgressBar(value: levelProgress)
-                    Text("\(left) more \(left == 1 ? "chapter" : "chapters") "
-                         + "to \(next.label)")
+                    // Plural resolvido no xcstrings via variations.plural
+                    // sobre a chave "%lld more chapters to %@". Sem isso
+                    // haveria duas chaves separadas, e "capitulo" no
+                    // singular em portugues so ficaria certo por acaso.
+                    Text(String(localized: "\(left) more chapters to \(next.label)"))
                         .font(Typography.caption)
                         .foregroundStyle(Palette.textSecondary)
                 }
@@ -134,7 +137,10 @@ struct ProfileView: View {
         .padding(.horizontal, Space.screenMargin)
     }
 
-    private func stat(_ value: String, _ label: String) -> some View {
+    /// `value` fica String — e um numero formatado, nao chave. `label`
+    /// vira LocalizedStringKey pra "stories" / "chapters" / "kept"
+    /// virarem chaves reais no String Catalog.
+    private func stat(_ value: String, _ label: LocalizedStringKey) -> some View {
         VStack(spacing: 2) {
             Text(value)
                 .font(Typography.title)
@@ -165,7 +171,7 @@ struct ProfileView: View {
 
         return VStack(alignment: .leading, spacing: Space.lg) {
             ShelfHeader(title: "Badges",
-                        subtitle: "\(earned.count) of \(all.count)")
+                        subtitle: String(localized: "\(earned.count) of \(all.count)"))
 
             LazyVGrid(columns: [.init(.adaptive(minimum: 150), spacing: Space.md)],
                       spacing: Space.md) {
@@ -185,7 +191,7 @@ struct ProfileView: View {
 
             VStack(spacing: Space.md) {
                 row("person.fill", "Name",
-                    app.readerName.isEmpty ? "Not set" : app.readerName) {
+                    app.readerName.isEmpty ? String(localized: "Not set") : app.readerName) {
                     editingName = true
                 }
 
@@ -217,12 +223,12 @@ struct ProfileView: View {
                 // "Unlock all fifty" nao. Ele so abre a tela de precos, e o
                 // portao dela esta um passo adiante, no botao Subscribe.
                 if store.isSubscribed {
-                    row("crown.fill", "Manage subscription", "Active") {
+                    row("crown.fill", "Manage subscription", String(localized: "Active")) {
                         gate = ParentalGateAction { managingSubscription = true }
                     }
                 } else {
                     row("lock.open.fill", "Unlock all fifty",
-                        "\(library.freeStories.count) free now") {
+                        String(localized: "\(library.freeStories.count) free now")) {
                         showPaywall = true
                     }
                 }
@@ -230,9 +236,11 @@ struct ProfileView: View {
                 row("arrow.clockwise", "Restore purchases", restoreLabel) {
                     gate = ParentalGateAction {
                         Task {
-                            restoreLabel = "Checking…"
+                            restoreLabel = String(localized: "Checking…")
                             let ok = await store.restore()
-                            restoreLabel = ok ? "Restored" : "Nothing found"
+                            restoreLabel = ok
+                                ? String(localized: "Restored")
+                                : String(localized: "Nothing found")
                         }
                     }
                 }
@@ -266,7 +274,10 @@ struct ProfileView: View {
             })
     }
 
-    private func row(_ symbol: String, _ title: String,
+    /// `title` e sempre chave localizavel. `value` fica String porque
+    /// mistura literal (que quem chama passa ja como
+    /// `String(localized:)`) com dado do usuario (nome).
+    private func row(_ symbol: String, _ title: LocalizedStringKey,
                      _ value: String, action: @escaping () -> Void) -> some View {
         Button(action: action) {
             rowContent(symbol, title, value)
@@ -277,7 +288,7 @@ struct ProfileView: View {
     /// O visual da linha, separado da acao: as linhas de documento sao
     /// `Link` e nao `Button`, e sem isso o layout teria de ser escrito duas
     /// vezes e sairia do lugar na primeira mudanca.
-    private func rowContent(_ symbol: String, _ title: String,
+    private func rowContent(_ symbol: String, _ title: LocalizedStringKey,
                             _ value: String) -> some View {
         HStack(spacing: Space.md) {
             Image(systemName: symbol)
@@ -384,8 +395,8 @@ private struct BadgeTile: View {
         .cardSurface()
         .opacity(achievement.isEarned ? 1 : 0.72)
         .accessibilityElement(children: .combine)
-        .accessibilityLabel(achievement.isEarned
-            ? "\(achievement.title). \(achievement.detail)"
-            : "\(achievement.title). Not yet. \(achievement.remaining ?? "")")
+        .accessibilityLabel(Text(achievement.isEarned
+            ? String(localized: "\(achievement.title). \(achievement.detail)")
+            : String(localized: "\(achievement.title). Not yet. \(achievement.remaining ?? "")")))
     }
 }

@@ -28,10 +28,10 @@ final class ReadingProgress {
 
         var label: String {
             switch self {
-            case .apprentice: "Apprentice"
-            case .sorcerer: "Sorcerer"
-            case .wizard: "Wizard"
-            case .archmage: "Archmage"
+            case .apprentice: String(localized: "Apprentice")
+            case .sorcerer: String(localized: "Sorcerer")
+            case .wizard: String(localized: "Wizard")
+            case .archmage: String(localized: "Archmage")
             }
         }
 

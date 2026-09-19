@@ -31,11 +31,11 @@ struct Achievement: Identifiable, Hashable {
 
         var label: String {
             switch self {
-            case .creatures: "Creatures"
-            case .realms: "Realms"
-            case .chapters: "Chapters"
-            case .listening: "Listening"
-            case .keeping: "Keeping"
+            case .creatures: String(localized: "Creatures")
+            case .realms: String(localized: "Realms")
+            case .chapters: String(localized: "Chapters")
+            case .listening: String(localized: "Listening")
+            case .keeping: String(localized: "Keeping")
             }
         }
     }
@@ -124,17 +124,18 @@ enum Achievements {
             return Achievement(
                 id: "creatures-\(step)",
                 family: .creatures,
-                title: step == 1 ? "The first one"
-                     : step == total ? "All fifty"
-                     : "\(step) creatures",
+                title: step == 1 ? String(localized: "The first one")
+                     : step == total ? String(localized: "All fifty")
+                     : String(localized: "\(step) creatures"),
                 detail: step == 1
-                    ? "You finished a story from beginning to end."
-                    : "You have met \(step) of the fifty.",
+                    ? String(localized: "You finished a story from beginning to end.")
+                    : String(localized: "You have met \(step) of the fifty."),
                 symbol: step == total ? "star.circle.fill" : "pawprint.fill",
                 progress: min(1, Double(count) / Double(step)),
                 isEarned: earned,
+                // Plural via variations no xcstrings: "%lld more stories".
                 remaining: earned ? nil
-                    : "\(step - count) more \(step - count == 1 ? "story" : "stories")")
+                    : String(localized: "\(step - count) more stories"))
         }
     }
 
@@ -153,24 +154,25 @@ enum Achievements {
                 id: "realm-\(realm.rawValue)",
                 family: .realms,
                 title: realm.label,
-                detail: "You have read every story in \(realm.label).",
+                detail: String(localized: "You have read every story in \(realm.label)."),
                 symbol: realm.symbol,
                 progress: Double(done) / Double(inRealm.count),
                 isEarned: earned,
-                remaining: earned ? nil : "\(inRealm.count - done) left here"))
+                remaining: earned ? nil
+                    : String(localized: "\(inRealm.count - done) left here")))
         }
 
         let all = Story.Realm.allCases.count
         out.append(Achievement(
             id: "realm-everywhere",
             family: .realms,
-            title: "Everywhere",
-            detail: "You have read every story in all five realms.",
+            title: String(localized: "Everywhere"),
+            detail: String(localized: "You have read every story in all five realms."),
             symbol: "globe.europe.africa.fill",
             progress: Double(completeRealms) / Double(all),
             isEarned: completeRealms == all,
             remaining: completeRealms == all ? nil
-                : "\(all - completeRealms) realms to finish"))
+                : String(localized: "\(all - completeRealms) realms to finish")))
         return out
     }
 
@@ -180,12 +182,15 @@ enum Achievements {
             return Achievement(
                 id: "chapters-\(step)",
                 family: .chapters,
-                title: step >= total ? "Every chapter" : "\(step) chapters",
-                detail: "You have finished \(step) chapters.",
+                title: step >= total
+                    ? String(localized: "Every chapter")
+                    : String(localized: "\(step) chapters"),
+                detail: String(localized: "You have finished \(step) chapters."),
                 symbol: "book.closed.fill",
                 progress: min(1, Double(count) / Double(step)),
                 isEarned: earned,
-                remaining: earned ? nil : "\(step - count) to go")
+                remaining: earned ? nil
+                    : String(localized: "\(step - count) to go"))
         }
     }
 
@@ -196,13 +201,15 @@ enum Achievements {
             return Achievement(
                 id: "listening-\(hours)",
                 family: .listening,
-                title: hours == 1 ? "An hour" : "\(hours) hours",
-                detail: "You have listened for \(hours) hours.",
+                title: hours == 1
+                    ? String(localized: "An hour")
+                    : String(localized: "\(hours) hours"),
+                detail: String(localized: "You have listened for \(hours) hours."),
                 symbol: "waveform",
                 progress: min(1, seconds / step),
                 isEarned: earned,
                 remaining: earned ? nil
-                    : "\(Int((step - seconds) / 60)) minutes more")
+                    : String(localized: "\(Int((step - seconds) / 60)) minutes more"))
         }
     }
 
@@ -214,22 +221,24 @@ enum Achievements {
         out.append(Achievement(
             id: "keeping-favorites",
             family: .keeping,
-            title: "A shelf of your own",
-            detail: "You have kept five stories as favourites.",
+            title: String(localized: "A shelf of your own"),
+            detail: String(localized: "You have kept five stories as favourites."),
             symbol: "heart.fill",
             progress: min(1, Double(favs) / 5),
             isEarned: favs >= 5,
-            remaining: favs >= 5 ? nil : "\(5 - favs) more to keep"))
+            remaining: favs >= 5 ? nil
+                : String(localized: "\(5 - favs) more to keep")))
 
         out.append(Achievement(
             id: "keeping-bedtime",
             family: .keeping,
-            title: "A time set aside",
-            detail: "You chose an hour for reading.",
+            title: String(localized: "A time set aside"),
+            detail: String(localized: "You chose an hour for reading."),
             symbol: "moon.stars.fill",
             progress: app.bedtimeReminderEnabled ? 1 : 0,
             isEarned: app.bedtimeReminderEnabled,
-            remaining: app.bedtimeReminderEnabled ? nil : "Set a reminder"))
+            remaining: app.bedtimeReminderEnabled ? nil
+                : String(localized: "Set a reminder")))
         return out
     }
 }

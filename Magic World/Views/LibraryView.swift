@@ -26,9 +26,9 @@ struct LibraryView: View {
         var id: String { rawValue }
         var label: String {
             switch self {
-            case .all: "All"
-            case .favourites: "Favourites"
-            case .started: "Started"
+            case .all: String(localized: "All")
+            case .favourites: String(localized: "Favourites")
+            case .started: String(localized: "Started")
             }
         }
     }
@@ -173,7 +173,9 @@ struct LibraryView: View {
         }
     }
 
-    private var emptyMessage: String {
+    /// LocalizedStringKey pra o Text a seguir pegar o overload que
+    /// localiza — String levaria a chave em branco no idioma alvo.
+    private var emptyMessage: LocalizedStringKey {
         if !search.trimmingCharacters(in: .whitespaces).isEmpty {
             return "Nothing matches that. Try a creature's name."
         }

@@ -91,9 +91,19 @@ struct HomeView: View {
             Text(timeGreeting)
                 .font(Typography.caption)
                 .foregroundStyle(Palette.lamplight)
-            Text(app.hasReaderName ? "Hello, \(app.greetingName)" : "Magic World")
-                .font(Typography.title)
-                .foregroundStyle(Palette.textPrimary)
+            // Ternario com Text separado em vez de operar sobre a string:
+            // Text(String) usa o overload que NAO localiza. Duas Text
+            // literais preservam o LocalizedStringKey, e o nome vira %@ na
+            // chave "Hello, %@".
+            Group {
+                if app.hasReaderName {
+                    Text("Hello, \(app.greetingName)")
+                } else {
+                    Text("Magic World")
+                }
+            }
+            .font(Typography.title)
+            .foregroundStyle(Palette.textPrimary)
         }
         .padding(.horizontal, Space.screenMargin)
         .padding(.top, Space.md)
@@ -131,7 +141,10 @@ struct HomeView: View {
         .padding(.horizontal, Space.screenMargin)
     }
 
-    private var timeGreeting: String {
+    /// LocalizedStringKey em vez de String: sem isso, Text(timeGreeting)
+    /// resolve pelo overload de StringProtocol e o app fica com "Good
+    /// morning" em ingles mesmo em pt-BR.
+    private var timeGreeting: LocalizedStringKey {
         switch Calendar.current.component(.hour, from: .now) {
         case 5..<12: "Good morning"
         case 12..<18: "Good afternoon"

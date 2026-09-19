@@ -218,8 +218,10 @@ struct OnboardingView: View {
 /// Layout compartilhado dos passos: arte em cima, texto embaixo, conteudo
 /// opcional no fim. Repetir a estrutura e o que faz o fluxo parecer um fluxo.
 private struct OnboardingPage<Extra: View>: View {
-    let title: String
-    let message: String
+    /// LocalizedStringKey nos dois: os chamadores passam literais e o
+    /// String Catalog so extrai chaves quando a assinatura e LSK.
+    let title: LocalizedStringKey
+    let message: LocalizedStringKey
     @ViewBuilder var extra: () -> Extra
 
     /// Espaco reservado no topo pro desenho que vem do FUNDO. E `Color.clear`
@@ -229,8 +231,8 @@ private struct OnboardingPage<Extra: View>: View {
     private let artHeight: CGFloat = 300
 
     init(
-        title: String,
-        message: String,
+        title: LocalizedStringKey,
+        message: LocalizedStringKey,
         @ViewBuilder extra: @escaping () -> Extra = { EmptyView() }
     ) {
         self.title = title

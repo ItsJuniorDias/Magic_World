@@ -32,11 +32,11 @@ struct Story: Codable, Identifiable, Hashable {
 
         var label: String {
             switch self {
-            case .forest: "Deep Forest"
-            case .tides: "The Tides"
-            case .skies: "Open Skies"
-            case .nightfall: "Nightfall"
-            case .frost: "Frost"
+            case .forest: String(localized: "Deep Forest")
+            case .tides: String(localized: "The Tides")
+            case .skies: String(localized: "Open Skies")
+            case .nightfall: String(localized: "Nightfall")
+            case .frost: String(localized: "Frost")
             }
         }
 
@@ -79,7 +79,9 @@ struct Story: Codable, Identifiable, Hashable {
 
     /// O "~" avisa que o numero e estimativa. Quando o audio existe, some.
     var durationLabel: String {
-        narrationDuration > 0 ? "\(minutes) min" : "~\(estimatedMinutes) min"
+        narrationDuration > 0
+            ? String(localized: "\(minutes) min")
+            : String(localized: "~\(estimatedMinutes) min")
     }
 }
 

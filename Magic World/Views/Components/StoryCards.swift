@@ -59,7 +59,10 @@ struct StoryCover: View {
 struct HeroStoryCard: View {
     let story: Story
     var progress: Double = 0
-    var eyebrow: String?
+    /// Vem do HomeView com literais ("Continue reading", "Start here").
+    /// LocalizedStringKey pra o String Catalog extrair as chaves — String
+    /// puro deixaria o eyebrow em ingles em todos os idiomas.
+    var eyebrow: LocalizedStringKey?
 
     @Environment(Store.self) private var store
     /// Destaque cresce com o espaco disponivel: 300 no iPhone fechado,
@@ -251,9 +254,11 @@ struct RealmChip: View {
 /// Cabecalho de prateleira. Sem "ver tudo →": a seta grudada em texto de
 /// link e enfeite, e a Library ja e o "ver tudo" do app.
 struct ShelfHeader: View {
-    let title: String
+    /// Titulo e sempre chave de traducao — vem do codigo, com literal.
+    let title: LocalizedStringKey
     /// Contagem a direita, quando houver. "5 de 16" ao lado de "Badges"
     /// diz mais que o titulo sozinho e nao ocupa linha propria.
+    /// Chega ja localizado por quem chama (via `String(localized:)`).
     var subtitle: String?
 
     var body: some View {

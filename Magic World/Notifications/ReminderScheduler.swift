@@ -43,8 +43,11 @@ enum ReminderScheduler {
         components.minute = minute
 
         let content = UNMutableNotificationContent()
-        content.title = "Story time"
-        content.body = "A chapter is waiting."
+        // Localizado: o lembrete e agendado ao virar o app pra outro idioma
+        // sempre que o horario muda, entao pega a lingua corrente sem
+        // precisar de logica extra.
+        content.title = String(localized: "Story time")
+        content.body = String(localized: "A chapter is waiting.")
         content.sound = .default
 
         let request = UNNotificationRequest(
