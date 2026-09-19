@@ -82,14 +82,25 @@ struct ReaderView: View {
     /// O conto tem narracao, mas ela ainda nao esta no aparelho. O texto e
     /// os timings vem do bundle, entao o leitor abre na hora e se le como
     /// texto puro; so a faixa de controles espera o audio.
+    ///
+    /// Falso fora do ingles: nao ha o que esperar quando nem vamos
+    /// baixar o pacote.
     private var narrationPending: Bool {
-        packs.has(.narration, for: story.id) && narration?.isReady != true
+        guard !narrationNotInThisLanguage else { return false }
+        return packs.has(.narration, for: story.id) && narration?.isReady != true
+    }
+
+    /// Nao ha narracao na lingua corrente. Ver `ContentLanguage`: a
+    /// faixa existe so em ingles, e tocar ingles pra quem escolheu outra
+    /// lingua e entregar uma voz que a pessoa nao pediu.
+    private var narrationNotInThisLanguage: Bool {
+        !ContentLanguage.hasNarration
     }
 
     /// Sem audio pra seguir, todas as frases ficam acesas — destacar uma
     /// so faria sentido se alguma coisa estivesse andando.
     private var textOnly: Bool {
-        player.narrationUnavailable || narrationPending
+        narrationNotInThisLanguage || player.narrationUnavailable || narrationPending
     }
 
     var body: some View {
@@ -191,7 +202,17 @@ struct ReaderView: View {
     @ViewBuilder
     private var controls: some View {
         VStack(spacing: Space.md) {
-            if narrationPending {
+            if narrationNotInThisLanguage {
+                // Antes de tudo: nao e capitulo sem audio nem download
+                // pendente, e uma escolha de idioma. Dizer isso e o que
+                // separa "ainda nao existe" de "existe, mas nao nesta
+                // lingua" — a segunda tem conserto do lado da pessoa.
+                Text("The narration is recorded in English only. "
+                     + "Set the language to English in You to listen.")
+                    .font(Typography.caption)
+                    .foregroundStyle(Palette.textTertiary)
+                    .multilineTextAlignment(.center)
+            } else if narrationPending {
                 narrationStatus
             } else if player.narrationUnavailable {
                 Text("Narration for this chapter hasn't been added yet.")
@@ -339,6 +360,12 @@ struct ReaderView: View {
     // MARK: - Apoio
 
     private func open() async {
+        // Fora do ingles nao ha faixa pra tocar, entao nao ha pacote pra
+        // baixar. Sao ~5 MB por conto: puxar isso pra deixar parado num
+        // player desabilitado gastaria dados e espaco da pessoa a toa.
+        // O leitor segue funcionando — e uma tela de texto.
+        guard !narrationNotInThisLanguage else { return }
+
         if narration == nil {
             narration = packs.access(.narration, for: story.id)
         }

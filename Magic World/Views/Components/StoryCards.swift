@@ -215,7 +215,10 @@ struct StoryListRow: View {
         HStack(spacing: Space.xs) {
             Image(systemName: story.realm.symbol)
             Text(story.realm.label)
-            Text("·")
+            // verbatim: um ponto medio sozinho nao gera simbolo Swift e
+            // travava o build como chave do String Catalog. Tambem nao ha
+            // o que traduzir num separador.
+            Text(verbatim: "·")
             Text(story.durationLabel)
             if !store.canOpen(story) {
                 Image(systemName: "crown.fill")

@@ -88,7 +88,13 @@ private struct ScrollRevealedTitle: ViewModifier {
         content
             // Zera o titulo do sistema: sem isso ele e o item principal
             // disputam a barra e o efeito nao acontece.
-            .navigationTitle("")
+            //
+            // `Text(verbatim:)` e nao a string vazia direta: como literal,
+            // o "" virava uma CHAVE no String Catalog, e chave vazia nao
+            // gera nome de simbolo Swift — o build parava com "Unable to
+            // derive a symbol name from this key". O Xcode reextraia a
+            // cada build, entao apagar do catalogo nao resolvia.
+            .navigationTitle(Text(verbatim: ""))
             .navigationBarTitleDisplayMode(.inline)
             .onScrollGeometryChange(for: CGFloat.self) { geometry in
                 geometry.contentOffset.y + geometry.contentInsets.top

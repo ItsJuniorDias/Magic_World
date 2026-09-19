@@ -1,16 +1,6 @@
 {
   "sourceLanguage": "en",
   "strings": {
-    "%@ %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "new",
-            "value": "%1$@ %2$@"
-          }
-        }
-      }
-    },
     "%lld chapters": {
       "extractionState": "manual",
       "localizations": {
@@ -25782,6 +25772,53 @@
           "stringUnit": {
             "state": "translated",
             "value": "Seu nome"
+          }
+        }
+      }
+    },
+    "The narration is recorded in English only. Set the language to English in You to listen.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The narration is recorded in English only. Set the language to English in You to listen."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A narração foi gravada só em inglês. Defina o idioma como inglês em Você para ouvir."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La narración está grabada solo en inglés. Cambia el idioma a inglés en Tú para escuchar."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La narration n’existe qu’en anglais. Choisis l’anglais dans Toi pour l’écouter."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Erzählung gibt es nur auf Englisch. Stelle die Sprache unter Du auf Englisch, um sie zu hören."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La narrazione è registrata solo in inglese. Imposta la lingua su inglese in Tu per ascoltarla."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "السرد مسجَّل بالإنجليزية فقط. اضبط اللغة على الإنجليزية من «أنت» للاستماع."
           }
         }
       }

@@ -52,8 +52,12 @@ struct StoryDetailView: View {
         // enquanto a pessoa le o resumo, e o leitor ja abre com audio. O id
         // faz o prefetch disparar tambem logo depois de assinar aqui mesmo.
         // Conto trancado nao baixa nada — ver StoryPacks.
+        // Fora do ingles nao ha narracao pra ouvir (ver ContentLanguage),
+        // entao nao ha nada que valha a pena adiantar.
         .task(id: store.canOpen(story)) {
-            if store.canOpen(story) { packs.prefetch(.narration, for: story.id) }
+            if store.canOpen(story), ContentLanguage.hasNarration {
+                packs.prefetch(.narration, for: story.id)
+            }
         }
         .sheet(isPresented: $showPaywall) { PaywallView(story: story) }
         .navigationTitle(story.localizedTitle)

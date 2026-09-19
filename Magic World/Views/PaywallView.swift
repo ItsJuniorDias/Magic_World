@@ -182,8 +182,11 @@ struct PaywallView: View {
                             .background(Palette.lamplight, in: .rect(cornerRadius: Radius.pill))
                     }
                 }
-                // displayPrice ja vem na moeda e no formato certos.
-                Text("\(product.displayPrice) \(product.periodLabel)")
+                // displayPrice ja vem na moeda e no formato certos, e
+                // periodLabel ja vem localizado. verbatim porque juntar
+                // dois pedacos prontos com um espaco gerava a chave
+                // "%@ %@" — sem letras, logo sem simbolo Swift valido.
+                Text(verbatim: "\(product.displayPrice) \(product.periodLabel)")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textSecondary)
                 if let trial = product.trialLabel {

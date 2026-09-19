@@ -46,6 +46,37 @@ extension String {
     }
 }
 
+/// O idioma em que o CONTEUDO existe, que nao e o mesmo em que a
+/// interface existe.
+///
+/// A interface fala sete linguas. A narracao foi gravada uma vez, em
+/// ingles, e gravar de novo em seis linguas e producao de audio, nao
+/// codigo. Enquanto isso nao acontece, tocar a faixa inglesa para quem
+/// pos o app em portugues entrega uma voz que a pessoa nao pediu e que
+/// nao corresponde ao que ela escolheu — pior que nao ter audio.
+///
+/// Entao o leitor desliga o transporte fora do ingles e diz por que.
+/// Quando houver narracao em outra lingua, o teste aqui vira uma
+/// consulta ao que existe por idioma, e o resto do codigo nao muda.
+enum ContentLanguage {
+
+    /// Linguas em que ha narracao gravada.
+    static let narrated: Set<String> = ["en"]
+
+    /// A lingua que o bundle realmente resolveu — respeita tanto o
+    /// idioma do sistema quanto o override de `AppState.preferredLanguage`,
+    /// porque os dois passam por `AppleLanguages`.
+    static var current: String {
+        Bundle.main.preferredLocalizations.first ?? "en"
+    }
+
+    /// Ha narracao na lingua em que o app esta sendo lido.
+    static var hasNarration: Bool {
+        let code = current.split(separator: "-").first.map(String.init) ?? current
+        return narrated.contains(code)
+    }
+}
+
 struct Story: Codable, Identifiable, Hashable {
     let id: String
     let title: String
