@@ -62,12 +62,15 @@ struct HeroStoryCard: View {
     var eyebrow: String?
 
     @Environment(Store.self) private var store
+    /// Destaque cresce com o espaco disponivel: 300 no iPhone fechado,
+    /// 420 aberto em livro. Ver `FoldMetrics.heroHeight`.
+    @Environment(\.fold) private var fold
 
     var body: some View {
         MotionCover(story: story)
-            .frame(height: 300)
+            .frame(height: fold.heroHeight)
             // overlay, nao ZStack: overlay e dimensionado pela view que
-            // hospeda, entao o texto fica ancorado nos 300 reais do cartao.
+            // hospeda, entao o texto fica ancorado na altura real do cartao.
             .overlay(alignment: .bottomLeading) { caption }
             .overlay(alignment: .topLeading) {
                 if !store.canOpen(story) { PremiumBadge().padding(Space.md) }
@@ -105,11 +108,16 @@ struct ShelfStoryCard: View {
     let story: Story
 
     @Environment(Store.self) private var store
+    /// A largura do cartao vem do modo de layout: 164 no iPhone fechado,
+    /// 200 aberto em livro, 220 em paisagem. Sem isso, a prateleira num
+    /// foldable desdobrado mostra oito capas em miniatura em vez de tres
+    /// ou quatro do tamanho certo.
+    @Environment(\.fold) private var fold
 
     var body: some View {
         VStack(alignment: .leading, spacing: Space.sm) {
             StoryCover(story: story, showsScrim: false)
-                .frame(width: 164, height: 214)
+                .frame(width: fold.shelfCard.width, height: fold.shelfCard.height)
                 .clipShape(.rect(cornerRadius: Radius.cover))
                 .overlay(alignment: .topLeading) {
                     if !store.canOpen(story) { PremiumBadge().padding(Space.sm) }
@@ -128,7 +136,7 @@ struct ShelfStoryCard: View {
                 .lineLimit(2, reservesSpace: true)
                 .multilineTextAlignment(.leading)
         }
-        .frame(width: 164, alignment: .leading)
+        .frame(width: fold.shelfCard.width, alignment: .leading)
     }
 }
 
@@ -141,12 +149,16 @@ struct StoryListRow: View {
     let onToggleFavorite: () -> Void
 
     @Environment(Store.self) private var store
+    /// Altura da linha vem do modo de layout — a mesma linha compacta
+    /// que serve num iPhone de 375pt fica anemica num foldable aberto.
+    /// Ver `FoldMetrics.rowHeight`.
+    @Environment(\.fold) private var fold
 
     /// Todas as linhas tem a altura da capa. Sem isso a lista fica com
     /// cartoes de alturas diferentes conforme o titulo caiba em uma ou
     /// duas linhas, e o olho le isso como bagunca antes de ler qualquer
     /// palavra.
-    private let rowHeight: CGFloat = 122
+    private var rowHeight: CGFloat { fold.rowHeight }
 
     var body: some View {
         HStack(alignment: .top, spacing: Space.lg) {

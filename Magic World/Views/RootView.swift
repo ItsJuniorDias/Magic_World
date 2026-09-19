@@ -76,6 +76,9 @@ struct RootView: View {
         }
         .tint(Palette.lamplight)
         .preferredColorScheme(.dark)
+        // `foldAware` cobre TabView e Onboarding: a resolucao de
+        // size class do iPhone Duo ocorre acima de tudo, num lugar so.
+        .foldAware()
     }
 
     /// Uma vez so, e dispensavel: paywall que bloqueia o app inteiro sem

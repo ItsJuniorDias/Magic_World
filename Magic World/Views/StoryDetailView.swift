@@ -14,97 +14,38 @@ struct StoryDetailView: View {
     @Environment(AppState.self) private var app
     @Environment(Store.self) private var store
     @Environment(StoryPacks.self) private var packs
+    /// Capa cresce com o espaco: 280 no iPhone fechado, 380 aberto em
+    /// livro. Ver `FoldMetrics.coverHeight`.
+    @Environment(\.fold) private var fold
 
     @State private var showPaywall = false
 
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: Space.xl) {
-                // Uma capa por vez na tela, como no destaque da Home — e por
-                // isso que aqui pode animar e a lista nao pode. O MotionCover
-                // ja recorta e aplica o degrade, entao nao repetir isso aqui.
-                //
-                // Sem degrade: no detalhe o titulo vem ABAIXO da capa, nao
-                // por cima dela. O escurecimento existe pra segurar texto, e
-                // aqui nao ha texto pra segurar.
-                MotionCover(story: story, showsScrim: false)
-                    .frame(height: 280)
-                    .overlay(alignment: .topLeading) {
-                        if !store.canOpen(story) { PremiumBadge().padding(Space.md) }
-                    }
-
-                VStack(alignment: .leading, spacing: Space.sm) {
-                    Text(story.title)
-                        .font(Typography.title)
-                        .foregroundStyle(Palette.textPrimary)
-                    Text(story.creature)
-                        .font(Typography.uiEmphasis)
-                        .foregroundStyle(Palette.lamplight)
+            // Em `.book` (foldable aberto em retrato) a tela vira dois
+            // paineis, capa a esquerda e texto+capitulos a direita, com a
+            // faixa da dobra reservada. Em `.compact` e `.wide` cai no
+            // empilhado de sempre — a coluna unica de leitura ancora em
+            // `readingMeasure` como antes.
+            if fold.mode == .book {
+                HStack(alignment: .top, spacing: fold.creaseInset) {
+                    coverBlock
+                        .frame(maxWidth: .infinity)
+                    textBlock
+                        .frame(maxWidth: .infinity)
                 }
-
-                HStack(spacing: Space.md) {
-                    Label(story.realm.label, systemImage: story.realm.symbol)
-                    Text("\(story.chapters.count) chapters")
-                    Text(story.durationLabel)
+                .padding(.horizontal, fold.screenMargin)
+                .padding(.vertical, Space.lg)
+            } else {
+                VStack(alignment: .leading, spacing: Space.xl) {
+                    coverBlock
+                    textBlock
                 }
-                .font(Typography.caption)
-                .foregroundStyle(Palette.textTertiary)
-
-                Text(story.summary)
-                    .font(Typography.storyBody)
-                    .lineSpacing(Typography.storyLineSpacing * 0.6)
-                    .foregroundStyle(Palette.textPrimary)
-
-                if store.canOpen(story) {
-                    if let resume = progress.resumeChapter(of: story) {
-                        NavigationLink {
-                            ReaderView(story: story, chapterIndex: resume.index)
-                        } label: {
-                            Text(progress.completion(of: story) > 0
-                                 ? "Continue reading" : "Start reading")
-                        }
-                        .buttonStyle(LamplightButtonStyle())
-                    }
-                } else {
-                    // Abre a tela de precos direto. O portao parental mora no
-                    // botao Subscribe la dentro — ver PaywallView.callToAction.
-                    Button { showPaywall = true } label: {
-                        Label("Unlock all fifty stories", systemImage: "lock.fill")
-                    }
-                    .buttonStyle(LamplightButtonStyle())
-                }
-
-                VStack(alignment: .leading, spacing: Space.md) {
-                    Text("Chapters")
-                        .font(Typography.heading)
-                        .foregroundStyle(Palette.textPrimary)
-
-                    ForEach(story.chapters) { chapter in
-                        if store.canOpen(story) {
-                            NavigationLink {
-                                ReaderView(story: story, chapterIndex: chapter.index)
-                            } label: {
-                                ChapterRow(
-                                    chapter: chapter,
-                                    isComplete: progress.isComplete(
-                                        storyId: story.id, chapterIndex: chapter.index),
-                                    isLocked: false
-                                )
-                            }
-                            .buttonStyle(.plain)
-                        } else {
-                            Button { showPaywall = true } label: {
-                                ChapterRow(chapter: chapter, isComplete: false, isLocked: true)
-                            }
-                            .buttonStyle(.plain)
-                        }
-                    }
-                }
+                .padding(.horizontal, Space.screenMargin)
+                .padding(.vertical, Space.lg)
+                .frame(maxWidth: Typography.readingMeasure)
+                .frame(maxWidth: .infinity)
             }
-            .padding(.horizontal, Space.screenMargin)
-            .padding(.vertical, Space.lg)
-            .frame(maxWidth: Typography.readingMeasure)
-            .frame(maxWidth: .infinity)
         }
         .screenBackground()
         // Quem pode abrir o conto provavelmente vai abrir: a narracao desce
@@ -126,6 +67,98 @@ struct StoryDetailView: View {
                         .foregroundStyle(app.isFavorite(story.id) ? Palette.rose : Palette.textSecondary)
                 }
                 .accessibilityLabel(app.isFavorite(story.id) ? "Remove from favourites" : "Add to favourites")
+            }
+        }
+    }
+
+    // MARK: - Blocos
+
+    /// A capa em movimento, dimensionada pelo modo de layout. Vive num
+    /// bloco separado pra poder migrar entre coluna unica (empilhado) e
+    /// painel esquerdo (book) sem duplicar codigo.
+    ///
+    /// O MotionCover ja recorta e aplica o degrade. Sem degrade aqui: no
+    /// detalhe o titulo vem ABAIXO da capa, nao por cima dela — o
+    /// escurecimento existe pra segurar texto e aqui nao ha texto pra
+    /// segurar.
+    private var coverBlock: some View {
+        MotionCover(story: story, showsScrim: false)
+            .frame(height: fold.coverHeight)
+            .overlay(alignment: .topLeading) {
+                if !store.canOpen(story) { PremiumBadge().padding(Space.md) }
+            }
+    }
+
+    /// Titulo, resumo, botao de acao e lista de capitulos. E o que vai
+    /// pra direita no split em book mode.
+    private var textBlock: some View {
+        VStack(alignment: .leading, spacing: Space.xl) {
+            VStack(alignment: .leading, spacing: Space.sm) {
+                Text(story.title)
+                    .font(Typography.title)
+                    .foregroundStyle(Palette.textPrimary)
+                Text(story.creature)
+                    .font(Typography.uiEmphasis)
+                    .foregroundStyle(Palette.lamplight)
+            }
+
+            HStack(spacing: Space.md) {
+                Label(story.realm.label, systemImage: story.realm.symbol)
+                Text("\(story.chapters.count) chapters")
+                Text(story.durationLabel)
+            }
+            .font(Typography.caption)
+            .foregroundStyle(Palette.textTertiary)
+
+            Text(story.summary)
+                .font(Typography.storyBody)
+                .lineSpacing(Typography.storyLineSpacing * 0.6)
+                .foregroundStyle(Palette.textPrimary)
+
+            if store.canOpen(story) {
+                if let resume = progress.resumeChapter(of: story) {
+                    NavigationLink {
+                        ReaderView(story: story, chapterIndex: resume.index)
+                    } label: {
+                        Text(progress.completion(of: story) > 0
+                             ? "Continue reading" : "Start reading")
+                    }
+                    .buttonStyle(LamplightButtonStyle())
+                }
+            } else {
+                // Abre a tela de precos direto. O portao parental mora no
+                // botao Subscribe la dentro — ver PaywallView.callToAction.
+                Button { showPaywall = true } label: {
+                    Label("Unlock all fifty stories", systemImage: "lock.fill")
+                }
+                .buttonStyle(LamplightButtonStyle())
+            }
+
+            VStack(alignment: .leading, spacing: Space.md) {
+                Text("Chapters")
+                    .font(Typography.heading)
+                    .foregroundStyle(Palette.textPrimary)
+
+                ForEach(story.chapters) { chapter in
+                    if store.canOpen(story) {
+                        NavigationLink {
+                            ReaderView(story: story, chapterIndex: chapter.index)
+                        } label: {
+                            ChapterRow(
+                                chapter: chapter,
+                                isComplete: progress.isComplete(
+                                    storyId: story.id, chapterIndex: chapter.index),
+                                isLocked: false
+                            )
+                        }
+                        .buttonStyle(.plain)
+                    } else {
+                        Button { showPaywall = true } label: {
+                            ChapterRow(chapter: chapter, isComplete: false, isLocked: true)
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
             }
         }
     }
