@@ -12,6 +12,40 @@
 
 import Foundation
 
+// MARK: - Localizacao de conteudo
+
+extension String {
+    /// Traducao em runtime pela chave que e a propria string em ingles.
+    ///
+    /// A ideia: o titulo, o resumo, o nome do bicho, o titulo do capitulo,
+    /// e o texto do capitulo existem em ingles no JSON do bundle, e a
+    /// traducao vive no `Localizable.xcstrings` como uma chave = string-
+    /// fonte. Ao pedir `.localizedContent`, o resolver do String Catalog
+    /// devolve a versao no idioma corrente ou, se ela nao existir, a
+    /// propria string em ingles (fallback nativo do sistema).
+    ///
+    /// COMO ADICIONAR TRADUCOES DE CONTEUDO:
+    ///
+    /// 1. Abra `Magic World/Localizable.xcstrings` no Xcode.
+    /// 2. Adicione uma chave nova cujo VALOR e a string-fonte em ingles —
+    ///    para conteudo, a chave e o texto inteiro em ingles (titulo,
+    ///    resumo, ou o corpo do capitulo, do primeiro ao ultimo caracter).
+    /// 3. Preencha as traducoes nas 6 outras linguas.
+    /// 4. Salvar. Xcode faz o resto no proximo build.
+    ///
+    /// Chaves de conteudo longas (o texto de um capitulo tem ~500 palavras)
+    /// sao pesadas de digitar; a via ergonomica e um script pequeno que
+    /// mescle um JSON de traducoes no xcstrings (ver `scripts/`).
+    ///
+    /// Nome diferente de `.localized` — que ja existe como convencao mais
+    /// solta em muito codigo — pra deixar claro que este e o caminho pra
+    /// CONTEUDO do app, nao pra rotulo de interface. Rotulos passam pelo
+    /// LocalizedStringKey de sempre.
+    var localizedContent: String {
+        String(localized: LocalizedStringResource(stringLiteral: self))
+    }
+}
+
 struct Story: Codable, Identifiable, Hashable {
     let id: String
     let title: String
@@ -83,6 +117,16 @@ struct Story: Codable, Identifiable, Hashable {
             ? String(localized: "\(minutes) min")
             : String(localized: "~\(estimatedMinutes) min")
     }
+
+    // MARK: - Conteudo localizado
+    //
+    // Nao trocamos os `let` originais: eles continuam sendo a fonte em
+    // ingles (chave de traducao) e ficam disponiveis onde precisar da
+    // string-fonte — busca, log, etc. As view usam estes acessores.
+
+    var localizedTitle: String { title.localizedContent }
+    var localizedCreature: String { creature.localizedContent }
+    var localizedSummary: String { summary.localizedContent }
 }
 
 struct Chapter: Codable, Identifiable, Hashable {
@@ -100,11 +144,18 @@ struct Chapter: Codable, Identifiable, Hashable {
 
     /// Segmentacao local, usada so quando nao ha arquivo de timings.
     /// Quando ha timings, a segmentacao vem de la — ver ReaderView.
+    /// Opera sobre o texto LOCALIZADO: quando ha traducao, o fallback
+    /// tambem quebra na frase certa daquele idioma.
     var fallbackSentences: [String] {
-        text
+        localizedText
             .replacingOccurrences(of: "\n", with: " ")
             .split(whereSeparator: { ".!?".contains($0) })
             .map { $0.trimmingCharacters(in: .whitespaces) }
             .filter { !$0.isEmpty }
     }
+
+    // MARK: - Conteudo localizado
+
+    var localizedTitle: String { title.localizedContent }
+    var localizedText: String { text.localizedContent }
 }

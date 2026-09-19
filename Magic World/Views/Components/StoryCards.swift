@@ -88,12 +88,12 @@ struct HeroStoryCard: View {
                     .font(Typography.caption)
                     .foregroundStyle(Palette.lamplight)
             }
-            Text(story.title)
+            Text(story.localizedTitle)
                 .font(Typography.display)
                 .foregroundStyle(Palette.textPrimary)
                 .lineLimit(3)
                 .minimumScaleFactor(0.7)
-            Text(story.creature)
+            Text(story.localizedCreature)
                 .font(Typography.ui)
                 .foregroundStyle(Palette.textSecondary)
                 .lineLimit(2)
@@ -126,14 +126,14 @@ struct ShelfStoryCard: View {
                     if !store.canOpen(story) { PremiumBadge().padding(Space.sm) }
                 }
 
-            Text(story.title)
+            Text(story.localizedTitle)
                 .font(Typography.uiEmphasis)
                 .foregroundStyle(Palette.textPrimary)
                 .lineLimit(2, reservesSpace: true)
                 .minimumScaleFactor(0.85)
                 .multilineTextAlignment(.leading)
 
-            Text(story.creature)
+            Text(story.localizedCreature)
                 .font(Typography.caption)
                 .foregroundStyle(Palette.textTertiary)
                 .lineLimit(2, reservesSpace: true)
@@ -173,13 +173,13 @@ struct StoryListRow: View {
                 // reservesSpace mantem a altura de duas linhas mesmo quando
                 // o titulo cabe em uma. minimumScaleFactor evita truncar os
                 // titulos longos do acervo em vez de encolher um pouco.
-                Text(story.title)
+                Text(story.localizedTitle)
                     .font(Typography.uiEmphasis)
                     .foregroundStyle(Palette.textPrimary)
                     .lineLimit(2, reservesSpace: true)
                     .minimumScaleFactor(0.85)
 
-                Text(story.creature)
+                Text(story.localizedCreature)
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textSecondary)
                     .lineLimit(2, reservesSpace: true)

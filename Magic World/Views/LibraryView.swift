@@ -139,8 +139,14 @@ struct LibraryView: View {
 
         let query = search.trimmingCharacters(in: .whitespaces)
         if !query.isEmpty {
+            // Busca nos campos LOCALIZADOS e nos ingleses — assim uma
+            // pessoa em pt-BR encontra "raposa" e uma pessoa procurando
+            // pelo nome ingles ("fox") tambem acha.
             result = result.filter {
-                $0.title.localizedCaseInsensitiveContains(query)
+                $0.localizedTitle.localizedCaseInsensitiveContains(query)
+                || $0.localizedCreature.localizedCaseInsensitiveContains(query)
+                || $0.localizedSummary.localizedCaseInsensitiveContains(query)
+                || $0.title.localizedCaseInsensitiveContains(query)
                 || $0.creature.localizedCaseInsensitiveContains(query)
                 || $0.summary.localizedCaseInsensitiveContains(query)
             }

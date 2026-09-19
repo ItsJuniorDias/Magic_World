@@ -130,7 +130,10 @@ struct HomeView: View {
                         .foregroundStyle(Palette.textSecondary)
                 }
                 Spacer()
-                Image(systemName: "chevron.right")
+                // `chevron.forward` (nao `.right`): a variante semantica
+                // vira sozinha em RTL. Chevron.right ficaria apontando pro
+                // lado errado em arabe.
+                Image(systemName: "chevron.forward")
                     .font(.system(size: 13))
                     .foregroundStyle(Palette.textTertiary)
             }

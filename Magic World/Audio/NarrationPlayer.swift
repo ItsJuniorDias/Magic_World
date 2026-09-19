@@ -304,8 +304,9 @@ final class NarrationPlayer {
     private func updateNowPlaying() {
         guard let story, let chapter = story.chapters[safe: chapterIndex] else { return }
         var info: [String: Any] = [
-            MPMediaItemPropertyTitle: chapter.title,
-            MPMediaItemPropertyAlbumTitle: story.title,
+            // Tela de bloqueio segue o idioma da UI, mesmo com audio ingles.
+            MPMediaItemPropertyTitle: chapter.localizedTitle,
+            MPMediaItemPropertyAlbumTitle: story.localizedTitle,
             MPMediaItemPropertyArtist: "Magic World",
             MPNowPlayingInfoPropertyElapsedPlaybackTime: currentTime,
             MPNowPlayingInfoPropertyPlaybackRate: isPlaying ? Double(rate) : 0,

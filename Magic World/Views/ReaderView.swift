@@ -61,9 +61,22 @@ struct ReaderView: View {
     }
 
     /// Com timings, a segmentacao vem do arquivo; sem, do texto.
+    ///
+    /// Excecao: se o texto foi traduzido, os timings apontam pra frases
+    /// EM INGLES que nao existem na tela — quebrariam a coluna. Nesse
+    /// caso caimos no `fallbackSentences`, que quebra o texto traduzido
+    /// na frase da lingua alvo. Highlighting perde a sincronia com o
+    /// audio (que continua em ingles), mas ao menos o texto sai no
+    /// idioma certo. Ver `textIsTranslated`.
     private var sentences: [String] {
-        if let timings { return timings.sentences.map(\.text) }
+        if let timings, !textIsTranslated { return timings.sentences.map(\.text) }
         return chapter?.fallbackSentences ?? []
+    }
+
+    /// O texto localizado difere da chave-fonte em ingles.
+    private var textIsTranslated: Bool {
+        guard let chapter else { return false }
+        return chapter.text != chapter.localizedText
     }
 
     /// O conto tem narracao, mas ela ainda nao esta no aparelho. O texto e
@@ -85,7 +98,7 @@ struct ReaderView: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: Space.lg) {
                         if let chapter {
-                            Text(chapter.title)
+                            Text(chapter.localizedTitle)
                                 .font(Typography.heading)
                                 .foregroundStyle(Palette.lamplight)
                                 .padding(.bottom, Space.xs)
@@ -103,6 +116,10 @@ struct ReaderView: View {
                 }
                 .onChange(of: player.currentSentenceIndex) { _, new in
                     guard followNarration, new >= 0 else { return }
+                    // Traducao muda o numero de frases; o indice do audio
+                    // aponta pra outra segmentacao. Rolar por ele levaria
+                    // pra uma frase que ninguem esta ouvindo.
+                    guard !textIsTranslated else { return }
                     withMotion(Motion.settle) {
                         proxy.scrollTo(new, anchor: .center)
                     }
@@ -113,7 +130,7 @@ struct ReaderView: View {
         }
         .screenBackground()
         .tint(Palette.lamplight)
-        .navigationTitle(story.title)
+        .navigationTitle(story.localizedTitle)
         .navigationBarTitleDisplayMode(.inline)
         // Sem isso a tab bar flutuante fica por cima dos controles de audio.
         // O leitor e tela de foco: nada de navegacao lateral competindo.
@@ -146,8 +163,12 @@ struct ReaderView: View {
 
     @ViewBuilder
     private func sentenceView(_ sentence: String, at index: Int) -> some View {
-        let isCurrent = !textOnly && index == player.currentSentenceIndex
-        let lit = textOnly || isCurrent
+        // `noSync`: nao ha como acender frase-a-frase. Ou nao ha audio,
+        // ou o texto na tela esta em outra lingua que a do audio ingles.
+        // Em ambos os casos, todas as frases ficam claras.
+        let noSync = textOnly || textIsTranslated
+        let isCurrent = !noSync && index == player.currentSentenceIndex
+        let lit = noSync || isCurrent
 
         Text(sentence)
             .font(Typography.storyBody)

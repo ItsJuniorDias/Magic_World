@@ -25,6 +25,11 @@ final class AppState {
         /// evita o lembrete andar quando o fuso muda.
         var bedtimeMinutes = 19 * 60 + 30
         var favorites: Set<String> = []
+        /// Codigo BCP-47 do idioma escolhido no app, ou nil pra seguir o
+        /// idioma do sistema. Aplicado via `AppleLanguages` no
+        /// `UserDefaults` — a mudanca so faz efeito no proximo lancamento
+        /// do app, porque o String Catalog e resolvido no launch.
+        var preferredLanguage: String? = nil
     }
 
     private(set) var stored: Stored {
@@ -99,6 +104,36 @@ final class AppState {
             bySettingHour: bedtimeHour, minute: bedtimeMinute, second: 0, of: .now
         ) ?? .now
     }
+
+    // MARK: - Idioma
+
+    /// Codigo BCP-47 do idioma escolhido, ou nil pra seguir o sistema.
+    var preferredLanguage: String? {
+        get { stored.preferredLanguage }
+        set {
+            stored.preferredLanguage = newValue
+            // AppleLanguages e uma lista; passamos so o escolhido, na
+            // frente. Nil apaga a entrada e o sistema volta a mandar.
+            let key = "AppleLanguages"
+            if let code = newValue {
+                UserDefaults.standard.set([code], forKey: key)
+            } else {
+                UserDefaults.standard.removeObject(forKey: key)
+            }
+        }
+    }
+
+    /// Idiomas oferecidos ao usuario, na ordem em que aparecem no picker.
+    /// Codigo + rotulo no proprio idioma (convencao: idioma se apresenta).
+    static let availableLanguages: [(code: String, label: String)] = [
+        ("en", "English"),
+        ("pt-BR", "Português (Brasil)"),
+        ("es", "Español"),
+        ("fr", "Français"),
+        ("de", "Deutsch"),
+        ("it", "Italiano"),
+        ("ar", "العربية"),
+    ]
 
     // MARK: - Favoritos
 

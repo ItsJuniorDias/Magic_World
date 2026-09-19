@@ -30,6 +30,11 @@ struct ProfileView: View {
     @State private var restoreLabel = ""
     @State private var draftName = ""
     @State private var headerHeight: CGFloat = 0
+    /// Alerta pedindo relancamento apos trocar de idioma. O String Catalog
+    /// e resolvido no launch, entao trocar em runtime nao muda o que
+    /// esta na tela — o alerta explica em vez de deixar a pessoa achando
+    /// que nao funcionou.
+    @State private var confirmingLanguageChange = false
 
     private var achievements: [Achievement] {
         Achievements.all(library: library, progress: progress, app: app)
@@ -70,6 +75,12 @@ struct ProfileView: View {
             } message: {
                 Text("This clears every chapter you have finished and every "
                      + "badge. Your favourites and your subscription stay.")
+            }
+            .alert("Restart to change the language", isPresented: $confirmingLanguageChange) {
+                Button("OK", role: .cancel) {}
+            } message: {
+                Text("Close the app and open it again for the new language "
+                     + "to apply everywhere.")
             }
         }
     }
@@ -182,6 +193,52 @@ struct ProfileView: View {
         }
     }
 
+    // MARK: - Idioma
+
+    /// Cartao com o Picker de idioma. Ficou como bloco proprio para
+    /// caber junto ao Toggle do lembrete, com o mesmo desenho de fundo.
+    ///
+    /// A troca so faz efeito no proximo launch — String Catalog resolve
+    /// tudo com base em `AppleLanguages` do UserDefaults no momento do
+    /// lancamento do processo. Sem o alerta explicativo, o usuario troca
+    /// e nao ve nada mudar, o que le como bug.
+    private var languagePicker: some View {
+        let binding = Binding<String>(
+            get: { app.preferredLanguage ?? "" },
+            set: { new in
+                let value: String? = new.isEmpty ? nil : new
+                guard value != app.preferredLanguage else { return }
+                app.preferredLanguage = value
+                confirmingLanguageChange = true
+            }
+        )
+        return VStack(alignment: .leading, spacing: Space.md) {
+            HStack(spacing: Space.md) {
+                Image(systemName: "globe")
+                    .font(.system(size: 15))
+                    .foregroundStyle(Palette.textSecondary)
+                    .frame(width: 24)
+                Text("Language")
+                    .font(Typography.uiEmphasis)
+                    .foregroundStyle(Palette.textPrimary)
+                Spacer()
+                // Menu em vez de segmented: sete idiomas nao cabem na
+                // largura, e escolha unica com muitas opcoes e caso de
+                // menu no iOS.
+                Picker("", selection: binding) {
+                    Text("System").tag("")
+                    ForEach(AppState.availableLanguages, id: \.code) { lang in
+                        Text(lang.label).tag(lang.code)
+                    }
+                }
+                .pickerStyle(.menu)
+                .tint(Palette.lamplight)
+            }
+        }
+        .padding(Space.lg)
+        .cardSurface()
+    }
+
     // MARK: - Ajustes
 
     private var settings: some View {
@@ -214,6 +271,8 @@ struct ProfileView: View {
                 }
                 .padding(Space.lg)
                 .cardSurface()
+
+                languagePicker
 
                 // O que move dinheiro ou sai do app continua atras do portao.
                 // Gerenciar assinatura abre a folha da App Store e restaurar
@@ -302,7 +361,9 @@ struct ProfileView: View {
             Text(value)
                 .font(Typography.caption)
                 .foregroundStyle(Palette.textTertiary)
-            Image(systemName: "chevron.right")
+            // `chevron.forward` vira automaticamente em RTL. Ver
+            // comentario em HomeView.
+            Image(systemName: "chevron.forward")
                 .font(.system(size: 12))
                 .foregroundStyle(Palette.textTertiary)
         }

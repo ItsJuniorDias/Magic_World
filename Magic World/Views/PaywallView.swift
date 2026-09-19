@@ -94,7 +94,7 @@ struct PaywallView: View {
     private var header: some View {
         VStack(alignment: .leading, spacing: Space.md) {
             if let story {
-                Text("To read \(story.title)")
+                Text("To read \(story.localizedTitle)")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.lamplight)
             }

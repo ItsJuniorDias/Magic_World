@@ -56,7 +56,7 @@ struct StoryDetailView: View {
             if store.canOpen(story) { packs.prefetch(.narration, for: story.id) }
         }
         .sheet(isPresented: $showPaywall) { PaywallView(story: story) }
-        .navigationTitle(story.title)
+        .navigationTitle(story.localizedTitle)
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
@@ -94,10 +94,10 @@ struct StoryDetailView: View {
     private var textBlock: some View {
         VStack(alignment: .leading, spacing: Space.xl) {
             VStack(alignment: .leading, spacing: Space.sm) {
-                Text(story.title)
+                Text(story.localizedTitle)
                     .font(Typography.title)
                     .foregroundStyle(Palette.textPrimary)
-                Text(story.creature)
+                Text(story.localizedCreature)
                     .font(Typography.uiEmphasis)
                     .foregroundStyle(Palette.lamplight)
             }
@@ -110,7 +110,7 @@ struct StoryDetailView: View {
             .font(Typography.caption)
             .foregroundStyle(Palette.textTertiary)
 
-            Text(story.summary)
+            Text(story.localizedSummary)
                 .font(Typography.storyBody)
                 .lineSpacing(Typography.storyLineSpacing * 0.6)
                 .foregroundStyle(Palette.textPrimary)
@@ -172,7 +172,7 @@ private struct ChapterRow: View {
     var body: some View {
         HStack(spacing: Space.md) {
             VStack(alignment: .leading, spacing: 2) {
-                Text(chapter.title)
+                Text(chapter.localizedTitle)
                     .font(Typography.uiEmphasis)
                     .foregroundStyle(isLocked ? Palette.textSecondary : Palette.textPrimary)
                 Text("\(chapter.wordCount) words")
