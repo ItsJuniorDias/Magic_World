@@ -111,11 +111,13 @@ struct Story: Codable, Identifiable, Hashable {
             : estimatedMinutes
     }
 
-    /// O "~" avisa que o numero e estimativa. Quando o audio existe, some.
+    /// "About" avisa que o numero e estimativa. Quando o audio existe,
+    /// some. Nao usar o padrao "~%lld min" antigo: o Xcode normaliza o
+    /// nome do simbolo tirando o "~" e ele colide com "%lld min".
     var durationLabel: String {
         narrationDuration > 0
             ? String(localized: "\(minutes) min")
-            : String(localized: "~\(estimatedMinutes) min")
+            : String(localized: "About \(estimatedMinutes) min")
     }
 
     // MARK: - Conteudo localizado

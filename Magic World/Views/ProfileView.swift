@@ -141,7 +141,10 @@ struct ProfileView: View {
         let seconds = Achievements.listenedSeconds(library: library, progress: progress)
         return HStack(spacing: Space.md) {
             stat("\(finished)", "stories")
-            stat("\(progress.chaptersRead)", "chapters")
+            // Rotulo distinto de "Chapters" (heading do detalhe): sem
+            // isso, o Xcode gera o mesmo simbolo pra ambos e o build cai
+            // com colisao de simbolo no String Catalog.
+            stat("\(progress.chaptersRead)", "chapters read")
             stat(hours(seconds), "listened")
             stat("\(app.favoriteIds.count)", "kept")
         }
@@ -456,8 +459,15 @@ private struct BadgeTile: View {
         .cardSurface()
         .opacity(achievement.isEarned ? 1 : 0.72)
         .accessibilityElement(children: .combine)
-        .accessibilityLabel(Text(achievement.isEarned
-            ? String(localized: "\(achievement.title). \(achievement.detail)")
-            : String(localized: "\(achievement.title). Not yet. \(achievement.remaining ?? "")")))
+        // Peca a peca: title, detail e remaining ja chegam localizados
+        // do model. Concatenar como verbatim evita duas chaves ruins de
+        // simbolo Swift no String Catalog — "%@. %@" nao gera simbolo
+        // valido (so caracteres invalidos) e "%@. Not yet. %@" traduz o
+        // "Not yet" separado. O texto especifico ("Not earned yet.") tem
+        // simbolo distinto do titulo de capitulo "Not Yet" da historia
+        // the-seal-who-waits.
+        .accessibilityLabel(Text(verbatim: achievement.isEarned
+            ? "\(achievement.title). \(achievement.detail)"
+            : "\(achievement.title). \(String(localized: "Not earned yet.")) \(achievement.remaining ?? "")"))
     }
 }
