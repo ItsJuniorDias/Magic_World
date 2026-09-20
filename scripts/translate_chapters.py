@@ -17,8 +17,13 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-STORIES = Path("/Users/alexandre/Magic_World/Magic World/Content/Stories")
-CATALOG = Path("/Users/alexandre/Magic_World/Magic World/Localizable.xcstrings")
+# Resolved from this file, never hardcoded: sessions run in git worktrees
+# under .claude/worktrees/<name>/, and an absolute path would send every
+# one of them writing into the main checkout's catalog while committing
+# their own untouched copy.
+REPO = Path(__file__).resolve().parent.parent
+STORIES = REPO / "Magic World" / "Content" / "Stories"
+CATALOG = REPO / "Magic World" / "Localizable.xcstrings"
 
 # story id → { lang → { chapter index → translated text } }
 TRANSLATIONS: dict[str, dict[str, dict[int, str]]] = {}
@@ -1097,7 +1102,13 @@ def main() -> None:
             added += 1
             print(f"  {story_id} ch{idx}: {', '.join(sorted(langs))}")
 
-    CATALOG.write_text(json.dumps(catalog, indent=2, ensure_ascii=False))
+    # sort_keys because several sessions translate in parallel and each
+    # rewrites this file whole. Unsorted, Python's insertion order makes
+    # every rewrite a different permutation of 540 keys and the rebase
+    # conflict is the entire file. Sorted, the diff is only the keys that
+    # actually changed. Xcode writes the catalog sorted anyway.
+    CATALOG.write_text(
+        json.dumps(catalog, indent=2, ensure_ascii=False, sort_keys=True))
     print(f"\n{added} chapter bodies merged; catalog now {len(strings)} keys")
 
 
