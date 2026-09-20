@@ -71,7 +71,14 @@ struct ProfileView: View {
             .onAppear { draftName = app.readerName }
             .alert("Start again?", isPresented: $confirmingReset) {
                 Button("Cancel", role: .cancel) {}
-                Button("Erase progress", role: .destructive) { progress.reset() }
+                Button("Erase progress", role: .destructive) {
+                    progress.reset()
+                    // As traducoes automaticas em cache sao conteudo
+                    // derivado: sem o progresso elas nao significam nada,
+                    // e sao reconstruidas na proxima abertura. Deixar
+                    // para tras faria "apagar tudo" nao apagar tudo.
+                    TranslationCache().clear()
+                }
             } message: {
                 Text("""
                 This clears every chapter you have finished and every \

@@ -60,20 +60,39 @@ extension String {
 /// consulta ao que existe por idioma, e o resto do codigo nao muda.
 enum ContentLanguage {
 
+    /// A lingua em que o conteudo foi escrito e gravado.
+    static let source = "en"
+
     /// Linguas em que ha narracao gravada.
-    static let narrated: Set<String> = ["en"]
+    static let narrated: Set<String> = [source]
 
     /// A lingua que o bundle realmente resolveu — respeita tanto o
     /// idioma do sistema quanto o override de `AppState.preferredLanguage`,
     /// porque os dois passam por `AppleLanguages`.
     static var current: String {
-        Bundle.main.preferredLocalizations.first ?? "en"
+        Bundle.main.preferredLocalizations.first ?? source
+    }
+
+    /// Sem regiao: "pt-BR" vira "pt".
+    static var currentBase: String {
+        current.split(separator: "-").first.map(String.init) ?? current
     }
 
     /// Ha narracao na lingua em que o app esta sendo lido.
     static var hasNarration: Bool {
-        let code = current.split(separator: "-").first.map(String.init) ?? current
-        return narrated.contains(code)
+        narrated.contains(currentBase)
+    }
+
+    /// Faz sentido pedir traducao automatica de capitulo.
+    ///
+    /// Falso em ingles pela razao obvia. O que sobra e decidido em
+    /// runtime pelo proprio framework: se o par nao tiver modelo, a
+    /// sessao falha e `ChapterTranslation` cai no ingles em silencio.
+    /// Nao vale manter aqui uma lista de pares suportados — ela
+    /// desatualiza a cada versao do iOS e o unico efeito de estar
+    /// errada e esconder uma traducao que funcionaria.
+    static var canMachineTranslate: Bool {
+        currentBase != source
     }
 }
 
@@ -180,7 +199,14 @@ struct Chapter: Codable, Identifiable, Hashable {
     /// Opera sobre o texto LOCALIZADO: quando ha traducao, o fallback
     /// tambem quebra na frase certa daquele idioma.
     var fallbackSentences: [String] {
-        localizedText
+        Chapter.sentences(in: localizedText)
+    }
+
+    /// Quebra qualquer texto em frases. Estatico porque o texto vindo
+    /// da traducao automatica nao pertence a nenhum `Chapter` — ver
+    /// `ChapterTranslation`.
+    static func sentences(in text: String) -> [String] {
+        text
             .replacingOccurrences(of: "\n", with: " ")
             .split(whereSeparator: { ".!?".contains($0) })
             .map { $0.trimmingCharacters(in: .whitespaces) }

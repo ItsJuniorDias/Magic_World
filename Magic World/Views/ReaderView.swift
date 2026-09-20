@@ -12,6 +12,9 @@
 //
 
 import SwiftUI
+// Pelo `.translationTask`, que e uma extensao de View que vem daqui e
+// nao do SwiftUI.
+import Translation
 
 /// O `.plain` nao esmaece botao desabilitado de forma confiavel e nao da
 /// nenhum retorno ao toque. Num controle de audio, onde a pessoa toca sem
@@ -49,6 +52,9 @@ struct ReaderView: View {
     @State private var narration: PackAccess?
     /// "Try again" depois de uma falha de download reabre o capitulo.
     @State private var attempt = 0
+    /// Traducao automatica no aparelho, para os contos que nao tem
+    /// traducao humana no catalogo. Ver ChapterTranslation.
+    @State private var translation = ChapterTranslation()
 
     init(story: Story, chapterIndex: Int) {
         self.story = story
@@ -69,14 +75,21 @@ struct ReaderView: View {
     /// audio (que continua em ingles), mas ao menos o texto sai no
     /// idioma certo. Ver `textIsTranslated`.
     private var sentences: [String] {
+        // Traducao de maquina tem precedencia sobre os timings pela mesma
+        // razao que a humana: o que esta na tela deixou de ser o texto que
+        // o audio ingles percorre.
+        if let machine = translation.machineText {
+            return Chapter.sentences(in: machine)
+        }
         if let timings, !textIsTranslated { return timings.sentences.map(\.text) }
         return chapter?.fallbackSentences ?? []
     }
 
-    /// O texto localizado difere da chave-fonte em ingles.
+    /// O texto na tela nao e mais o ingles de origem — seja por traducao
+    /// humana no catalogo, seja por traducao de maquina.
     private var textIsTranslated: Bool {
         guard let chapter else { return false }
-        return chapter.text != chapter.localizedText
+        return chapter.text != chapter.localizedText || translation.isMachineTranslated
     }
 
     /// O conto tem narracao, mas ela ainda nao esta no aparelho. O texto e
@@ -112,11 +125,26 @@ struct ReaderView: View {
                             Text(chapter.localizedTitle)
                                 .font(Typography.heading)
                                 .foregroundStyle(Palette.lamplight)
+                                .padding(.bottom, translation.isMachineTranslated ? 0 : Space.xs)
+                        }
+
+                        // Dizer de onde veio a prosa. Sem esta linha a
+                        // pessoa julga a escrita do app pela traducao da
+                        // Apple, e o texto de origem nao tem como se
+                        // defender.
+                        if translation.isMachineTranslated {
+                            Text("Translated automatically")
+                                .font(Typography.caption)
+                                .foregroundStyle(Palette.textTertiary)
                                 .padding(.bottom, Space.xs)
                         }
 
-                        ForEach(Array(sentences.enumerated()), id: \.offset) { index, sentence in
-                            sentenceView(sentence, at: index)
+                        if translation.state == .working {
+                            translatingNotice
+                        } else {
+                            ForEach(Array(sentences.enumerated()), id: \.offset) { index, sentence in
+                                sentenceView(sentence, at: index)
+                            }
                         }
                     }
                     .padding(.horizontal, Space.screenMargin)
@@ -164,13 +192,37 @@ struct ReaderView: View {
             }
         }
         .task(id: [chapterIndex, attempt]) { await open() }
+        // A sessao de traducao vem da view, nao do modelo: o framework a
+        // amarra ao ciclo de vida da tela, e e ela que apresenta o pedido
+        // de download do modelo de idioma quando falta. `configuration` e
+        // nil na maioria das aberturas — ingles, traducao humana, ou
+        // cache — e entao isto nao faz nada.
+        .translationTask(translation.configuration) { session in
+            await translation.run(session: session)
+        }
         .onDisappear {
             player.teardown()
             narration?.release()
+            translation.teardown()
         }
     }
 
     // MARK: - Texto
+
+    /// Ocupa a coluna enquanto a maquina trabalha. So aparece na PRIMEIRA
+    /// abertura de um capitulo num idioma — depois o cache responde antes
+    /// do primeiro desenho e esta tela nunca e vista.
+    private var translatingNotice: some View {
+        VStack(alignment: .leading, spacing: Space.md) {
+            ProgressView()
+            Text("Translating this chapter. It only happens once.")
+                .font(Typography.caption)
+                .foregroundStyle(Palette.textTertiary)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(.top, Space.xl)
+        .accessibilityElement(children: .combine)
+    }
 
     @ViewBuilder
     private func sentenceView(_ sentence: String, at index: Int) -> some View {
@@ -367,6 +419,12 @@ struct ReaderView: View {
     // MARK: - Apoio
 
     private func open() async {
+        // Decide a traducao antes de qualquer coisa: as saidas rapidas
+        // resolvem sincronas e o capitulo ja traduzido aparece sem piscar.
+        if let chapter {
+            translation.prepare(chapter: chapter, storyId: story.id)
+        }
+
         // Fora do ingles nao ha faixa pra tocar, entao nao ha pacote pra
         // baixar. Sao ~5 MB por conto: puxar isso pra deixar parado num
         // player desabilitado gastaria dados e espaco da pessoa a toa.
