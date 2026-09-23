@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Magic World Carousel</title>
+<style>
+  :root {
+    --ink: #0D0F16;
+    --surface: #171A24;
+    --raised: #212636;
+    --hairline: #2C3244;
+    --text: #F2EFE9;
+    --text2: #9AA0B4;
+    --lamp: #E9B44C;
+    --arcane: #8B72D9;
+    --W: 1242px;
+    --H: 2688px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: var(--W); height: var(--H); overflow: hidden; background: var(--ink); }
+  body.all { width: calc(var(--W) * 7); }
+  body {
+    font-family: -apple-system, "SF Pro Display", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #stage {
+    position: absolute; top: 0; left: 0;
+    width: calc(var(--W) * 7); height: var(--H);
+    background:
+      radial-gradient(1400px 900px at 50% 0%, rgba(139,114,217,.16), transparent 70%),
+      linear-gradient(180deg, #10131c 0%, var(--ink) 45%, #0a0c12 100%);
+    overflow: hidden;
+  }
+
+  #sky, #thread { position: absolute; inset: 0; width: 100%; height: 100%; }
+
+  .frame { position: absolute; top: 0; width: var(--W); height: var(--H); }
+
+  .glow {
+    position: absolute; left: 50%; top: 1640px;
+    width: 1300px; height: 1500px; transform: translate(-50%, -50%);
+    border-radius: 50%;
+    filter: blur(40px);
+  }
+  .glow.lamp { background: radial-gradient(closest-side, rgba(233,180,76,.22), transparent); }
+  .glow.arcane { background: radial-gradient(closest-side, rgba(139,114,217,.26), transparent); }
+
+  .caption { position: absolute; left: 110px; right: 110px; top: 190px; }
+  .eyebrow {
+    display: flex; align-items: center; gap: 22px; min-height: 88px;
+    font-size: 46px; font-weight: 600; color: var(--lamp); letter-spacing: .2px;
+  }
+  .eyebrow img { width: 88px; height: 88px; border-radius: 20px; }
+  h1 {
+    margin-top: 22px;
+    font-size: 104px; line-height: 1.04; font-weight: 700; letter-spacing: -2.5px;
+    color: var(--text);
+  }
+  .sub {
+    margin-top: 30px;
+    font-size: 44px; line-height: 1.3; color: var(--text2); font-weight: 400;
+  }
+
+  .phone {
+    position: absolute; left: 50%; top: 800px; transform: translateX(-50%);
+    width: 820px; padding: 20px; border-radius: 120px;
+    background: linear-gradient(160deg, #2a2f40, #14161f 40%, #1b1f2b);
+    box-shadow:
+      0 0 0 3px #343a4f,
+      0 0 0 5px #0a0b10,
+      0 70px 160px rgba(0,0,0,.65),
+      0 20px 50px rgba(0,0,0,.5);
+    z-index: 3;
+  }
+  .phone img.screen { display: block; width: 780px; height: 1691px; border-radius: 100px; object-fit: cover; }
+  .phone .island {
+    position: absolute; left: 50%; top: 42px; transform: translateX(-50%);
+    width: 246px; height: 72px; border-radius: 40px; background: #000;
+  }
+
+  .cover {
+    position: absolute; width: 400px; height: 548px;
+    border-radius: 36px; overflow: hidden;
+    box-shadow: 0 0 0 2px rgba(255,255,255,.06), 0 50px 110px rgba(0,0,0,.7);
+    z-index: 2;
+  }
+  .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <svg id="sky"></svg>
+  <svg id="thread"></svg>
+</div>
+
+<script>
+const W = 1242, H = 2688, N = 7;
+
+const frames = [
+  { shot: 'home', glow: 'lamp', icon: true,
+    eyebrow: 'Magic World',
+    title: 'Stories for the end of the day',
+    sub: 'Fifty original tales of magical animals, told quietly.' },
+  { shot: 'reader', glow: 'lamp',
+    eyebrow: 'Read aloud',
+    title: 'Every word lights up as it is read',
+    sub: 'Each chapter is narrated. Follow along, or just listen.' },
+  { shot: 'library', glow: 'arcane',
+    eyebrow: 'The library',
+    title: 'Fifty creatures, five realms',
+    sub: 'From the Deep Forest and the Tides to Nightfall and the Frost.' },
+  { shot: 'detail', glow: 'arcane',
+    eyebrow: 'One story a night',
+    title: 'Four chapters, fifteen minutes',
+    sub: 'Short enough for a school night. Long enough to matter.' },
+  { shot: 'profile', glow: 'lamp',
+    eyebrow: 'Reading, noticed',
+    title: 'Badges for the nights they read',
+    sub: 'Twenty-two to earn, from the first story to the fiftieth.' },
+  { shot: 'languages', glow: 'arcane',
+    eyebrow: 'Seven languages',
+    title: 'In the language of home',
+    sub: 'English, Português, Español, Français, Deutsch, Italiano and العربية.' },
+  { shot: 'paywall', glow: 'lamp',
+    eyebrow: 'Three free stories a week',
+    title: 'All fifty, for the whole family',
+    sub: 'One subscription covers the family group. Stories play with no signal.' },
+];
+
+// One cover on every seam between frames: half of it shows at the right edge
+// of one screenshot and the other half at the left edge of the next — the peek.
+const seams = [
+  { id: 'the-lantern-otter',                  y: 1180, r: -7 },
+  { id: 'the-firefly-bridge',                 y: 1860, r:  6 },
+  { id: 'the-snow-leopard-nobody-photographed', y: 1260, r: -5 },
+  { id: 'the-owl-who-knows-your-middle-name', y: 1900, r:  7 },
+  { id: 'the-glass-heron',                    y: 1220, r: -6 },
+  { id: 'the-weathercock-that-turns-early',   y: 1840, r:  5 },
+];
+
+const stage = document.getElementById('stage');
+
+frames.forEach((f, i) => {
+  const el = document.createElement('section');
+  el.className = 'frame';
+  el.style.left = (i * W) + 'px';
+  el.innerHTML = `
+    <div class="glow ${f.glow}"></div>
+    <div class="caption">
+      <div class="eyebrow">${f.icon ? '<img src="img/icon.png" alt="">' : ''}${f.eyebrow}</div>
+      <h1>${f.title}</h1>
+      <p class="sub">${f.sub}</p>
+    </div>
+    <div class="phone">
+      <img class="screen" src="img/${f.shot}.jpeg" alt="">
+      <div class="island"></div>
+    </div>`;
+  stage.appendChild(el);
+});
+
+seams.forEach((s, i) => {
+  const c = document.createElement('div');
+  c.className = 'cover';
+  c.style.left = ((i + 1) * W - 200) + 'px';
+  c.style.top = (s.y - 274) + 'px';
+  c.style.transform = `rotate(${s.r}deg)`;
+  c.innerHTML = `<img src="img/${s.id}.jpg" alt="">`;
+  stage.appendChild(c);
+});
+
+// Deterministic stars, so every render of every frame matches its neighbours.
+let seed = 7;
+const rand = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+const NS = 'http://www.w3.org/2000/svg';
+const sky = document.getElementById('sky');
+sky.setAttribute('viewBox', `0 0 ${W * N} ${H}`);
+for (let k = 0; k < 520; k++) {
+  const star = document.createElementNS(NS, 'circle');
+  const y = Math.pow(rand(), 1.6) * H;
+  star.setAttribute('cx', rand() * W * N);
+  star.setAttribute('cy', y);
+  star.setAttribute('r', 1.2 + rand() * 2.6);
+  star.setAttribute('fill', '#F2EFE9');
+  star.setAttribute('opacity', (0.12 + rand() * 0.45) * (1 - y / H));
+  sky.appendChild(star);
+}
+
+// A lamplight thread that runs through every seam cover, with fireflies on it.
+const thread = document.getElementById('thread');
+thread.setAttribute('viewBox', `0 0 ${W * N} ${H}`);
+const pts = [[-100, 1600], ...seams.map((s, i) => [(i + 1) * W, s.y]), [W * N + 100, 1500]];
+let d = `M ${pts[0][0]} ${pts[0][1]}`;
+for (let i = 1; i < pts.length; i++) {
+  const [x0, y0] = pts[i - 1], [x1, y1] = pts[i];
+  const mx = (x0 + x1) / 2;
+  d += ` C ${mx} ${y0 + (i % 2 ? 420 : -420)}, ${mx} ${y1 + (i % 2 ? 420 : -420)}, ${x1} ${y1}`;
+}
+thread.innerHTML = `
+  <defs>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="halo" x="-300%" y="-300%" width="700%" height="700%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <path d="${d}" fill="none" stroke="#E9B44C" stroke-width="10" opacity=".22" filter="url(#soft)"/>
+  <path id="line" d="${d}" fill="none" stroke="#E9B44C" stroke-width="2.5" opacity=".45" stroke-dasharray="2 22" stroke-linecap="round"/>`;
+const line = document.getElementById('line');
+const len = line.getTotalLength();
+for (let t = 0; t < len; t += 150 + rand() * 260) {
+  const p = line.getPointAtLength(t);
+  const ox = (rand() - .5) * 90, oy = (rand() - .5) * 90, r = 4 + rand() * 6;
+  thread.insertAdjacentHTML('beforeend',
+    `<circle cx="${p.x + ox}" cy="${p.y + oy}" r="${r * 3.2}" fill="#E9B44C" opacity=".35" filter="url(#halo)"/>
+     <circle cx="${p.x + ox}" cy="${p.y + oy}" r="${r}" fill="#FFE3A3" opacity=".95"/>`);
+}
+
+// ?f=0..6 renders one frame; ?f=all renders the whole panorama.
+const f = new URLSearchParams(location.search).get('f') ?? '0';
+if (f === 'all') document.body.classList.add('all');
+else stage.style.transform = `translateX(${-Number(f) * W}px)`;
+</script>
+</body>
+</html>
