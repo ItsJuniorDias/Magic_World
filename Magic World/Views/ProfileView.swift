@@ -275,6 +275,22 @@ struct ProfileView: View {
                             .foregroundStyle(Palette.textPrimary)
                     }
                     .tint(Palette.lamplight)
+                    // Ligar aqui precisa da permissao, como no onboarding.
+                    // Sem ela o interruptor ficava ligado e nada tocava.
+                    // O agendamento nao mora aqui: o Magic_WorldApp reagenda
+                    // sempre que o interruptor ou a hora mudam.
+                    .onChange(of: app.bedtimeReminderEnabled) { _, enabled in
+                        guard enabled else { return }
+                        Task {
+                            let status = await ReminderScheduler.authorizationStatus()
+                            let granted = switch status {
+                            case .notDetermined: await ReminderScheduler.requestAuthorization()
+                            case .denied: false
+                            default: true
+                            }
+                            if !granted { app.bedtimeReminderEnabled = false }
+                        }
+                    }
 
                     if app.bedtimeReminderEnabled {
                         DatePicker("At", selection: bedtime,
@@ -301,7 +317,7 @@ struct ProfileView: View {
                     }
                 } else {
                     row("lock.open.fill", "Unlock all fifty",
-                        String(localized: "\(library.freeStories.count) free now")) {
+                        String(localized: "\(store.freeWeek.storyIDs.count) free this week")) {
                         showPaywall = true
                     }
                 }

@@ -3,7 +3,6 @@ id: the-lark-holding-morning-open
 title: The Lark Holding Morning Open
 creature: A lark whose song keeps the morning from closing
 realm: skies
-isFree: false
 publishedAt: 2027-02-10
 summary: On the day she does not sing, the village finds out what the song was for.
 setting: A great flat barley field on a plain before sunrise. A road, a distant village and church tower, an enormous sky, one bird very high.

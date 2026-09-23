@@ -3,7 +3,6 @@ id: the-seal-who-waits
 title: The Seal Who Waits
 creature: A seal who surfaces only for someone about to give up
 realm: tides
-isFree: false
 publishedAt: 2026-09-16
 summary: Every fisherman in the bay has seen her once. None of them twice.
 setting: A small open rowing boat on flat grey bay water under a low sky. Creel ropes and buoys, a rocky headland far off.

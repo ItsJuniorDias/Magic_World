@@ -3,7 +3,6 @@ id: the-dragonfly-in-two-summers
 title: The Dragonfly in Two Summers
 creature: A dragonfly who is in this summer and one other
 realm: skies
-isFree: false
 publishedAt: 2027-05-19
 summary: Elin sees the pond twice at once, and there is a boy on the far bank who is not there.
 setting: A small farm pond in July. Reeds along one side, a fallen willow still growing lying down, four rotten posts where a jetty was.

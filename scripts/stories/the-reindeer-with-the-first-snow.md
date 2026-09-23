@@ -3,7 +3,6 @@ id: the-reindeer-with-the-first-snow
 title: The Reindeer With the First Snow
 creature: A reindeer who brings the first snow down
 realm: frost
-isFree: false
 publishedAt: 2027-06-02
 summary: He has been late three years running, and the herders have stopped pretending not to notice.
 setting: A Scottish mountain plateau in November. Granite, heather, old snow in the hollows, a corrie wall behind, a wide bare slope going down.

@@ -3,7 +3,6 @@ id: the-shoal-that-writes-the-tide
 title: The Shoal That Writes the Tide
 creature: A shoal who spell out the water to come
 realm: tides
-isFree: false
 publishedAt: 2027-05-12
 summary: The harbour used to read them. Now there is an app, and the app was wrong on the Tuesday.
 setting: The end of a granite harbour wall at low water. A vast expanse of mud, boats standing on their legs, a channel running out over a sand bar.

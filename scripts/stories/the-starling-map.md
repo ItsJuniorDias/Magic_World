@@ -3,7 +3,6 @@ id: the-starling-map
 title: The Starling Map
 creature: Starlings who murmurate into a map of somewhere
 realm: skies
-isFree: false
 publishedAt: 2027-03-17
 summary: Every evening for a week they draw the same coastline, and it is not this one.
 setting: A flat coastal marsh at last light. A long straight dyke, reed beds, an immense low sky, a dense band of birds folding over the horizon.

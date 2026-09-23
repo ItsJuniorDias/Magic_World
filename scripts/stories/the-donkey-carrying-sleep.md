@@ -3,7 +3,6 @@ id: the-donkey-carrying-sleep
 title: The Donkey Carrying Sleep
 creature: A donkey who takes sleep up the hill each evening
 realm: nightfall
-isFree: false
 publishedAt: 2027-01-13
 summary: The top houses always get it last — and this week the donkey is lame.
 setting: A steep village road climbing a hillside at night. Whitewashed houses on both sides, one street lamp low down, four dark houses at the top.

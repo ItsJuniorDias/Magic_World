@@ -3,7 +3,6 @@ id: the-ants-who-carry-arguments
 title: The Ants Who Carry Arguments
 creature: Ants who take away what a house has been arguing about
 realm: forest
-isFree: false
 publishedAt: 2027-05-05
 summary: Leaving the window open is how you ask. Asking has a cost that nobody mentions.
 setting: A holm oak wood behind a stone house at dusk. Dry ground and needle litter, a large domed ant mound, one open lit window in the wall behind.

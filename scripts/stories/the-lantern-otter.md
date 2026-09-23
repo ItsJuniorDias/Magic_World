@@ -3,7 +3,6 @@ id: the-lantern-otter
 title: The Lantern Otter
 creature: An otter who carries a light underwater
 realm: tides
-isFree: false
 publishedAt: 2026-09-02
 summary: Under the pier the water goes black at two metres. Something down there is carrying a lamp.
 setting: Under a wooden pier at night. Barnacled pilings going down into black water, weed, the underside of the decking, one small warm light below.

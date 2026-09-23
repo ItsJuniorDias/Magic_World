@@ -3,7 +3,6 @@ id: the-bear-who-kept-winter
 title: The Bear Who Kept Winter
 creature: A bear with a whole winter in her fur
 realm: frost
-isFree: false
 publishedAt: 2026-08-12
 summary: Spring is four weeks late, and Tolek is the only one who goes up the mountain to find out why.
 setting: A hollow under a leaning rock high on a mountain in late spring. Old snow with a clean edge, thin birch, frost standing in the grass.

@@ -3,7 +3,6 @@ id: the-eel-who-maps-the-drowned-lane
 title: The Eel Who Maps the Drowned Lane
 creature: An eel who knows the streets under the reservoir
 realm: tides
-isFree: false
 publishedAt: 2026-11-25
 summary: The village is six metres down. Somebody still has to remember the way to the church.
 setting: A drained reservoir bed in drought. A plain of cracked mud, a roofless stone church tower standing alone, shallow pools in a straight line.

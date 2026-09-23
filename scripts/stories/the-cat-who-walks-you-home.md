@@ -3,7 +3,6 @@ id: the-cat-who-walks-you-home
 title: The Cat Who Walks You Home
 creature: A cat who appears at the far end of a dark street
 realm: nightfall
-isFree: true
 publishedAt: 2026-09-30
 summary: It never comes when you call it, and it is always there when you are frightened.
 setting: A narrow unlit street at night between a high wall and the blank back of a warehouse. One recessed doorway. Light returning only at the far corner.

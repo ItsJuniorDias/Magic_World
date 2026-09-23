@@ -15,8 +15,6 @@ calculadas pelo script — não edite à mão.
 | nightfall | 10 |
 | frost | 10 |
 
-Grátis: 3 de 50.
-
 ## Escritos
 
 | # | id | criatura | habitat | publica |

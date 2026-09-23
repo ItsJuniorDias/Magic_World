@@ -3,7 +3,6 @@ id: where-the-moths-sleep
 title: Where the Moths Sleep
 creature: Moths that carry dreams people dropped
 realm: nightfall
-isFree: true
 publishedAt: 2026-08-05
 summary: Ines finds the attic full of pale moths, and every one of them is holding a dream that somebody forgot.
 setting: The inside of an attic at night. Rafters and roof slates close overhead, one bare bulb, dust in the air, pale shapes folded flat against the beams.

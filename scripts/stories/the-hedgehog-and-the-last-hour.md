@@ -3,7 +3,6 @@ id: the-hedgehog-and-the-last-hour
 title: The Hedgehog and the Last Hour
 creature: A hedgehog who collects the last hour of the day
 realm: nightfall
-isFree: false
 publishedAt: 2026-11-04
 summary: Rui finds a shoebox under the hedge with nine evenings in it.
 setting: The bottom of a small back yard at dusk. A dense hedge, wet ground, a cardboard box, the backs of houses and one lit window behind.

@@ -3,7 +3,6 @@ id: the-ermine-with-the-thaw
 title: The Ermine With the Thaw
 creature: An ermine who carries the thaw in her mouth
 realm: frost
-isFree: false
 publishedAt: 2026-11-11
 summary: She will not put it down until somebody in the valley asks her to, properly.
 setting: A dry-stone wall running across a scree slope high on an alpine mountain in late winter. A ruined byre, deep snow, a black sky.

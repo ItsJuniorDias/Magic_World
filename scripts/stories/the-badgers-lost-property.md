@@ -3,7 +3,6 @@ id: the-badgers-lost-property
 title: The Badger's Lost Property
 creature: A badger who runs a lost-property office under a root
 realm: forest
-isFree: false
 publishedAt: 2026-12-23
 summary: Everything left in the wood since 1911, catalogued — and the catalogue is the problem.
 setting: A boundary bank in a wood in November. A great beech with exposed roots, a dark gap between two of them, wet leaf litter, rain.

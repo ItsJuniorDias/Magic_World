@@ -3,7 +3,6 @@ id: the-nightingale-of-forgotten-parts
 title: The Nightingale of Forgotten Parts
 creature: A nightingale who sings the parts of a story people drop
 realm: nightfall
-isFree: false
 publishedAt: 2027-04-21
 summary: Every family in the village tells the same story about the fire. The bird sings the rest of it.
 setting: Elder scrub behind a village church at night in May. Dense leaf, a whitewashed wall, a bell tower, houses beyond with two lit windows.

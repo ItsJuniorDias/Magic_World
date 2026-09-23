@@ -3,7 +3,6 @@ id: the-wolf-on-the-boundary
 title: The Wolf on the Boundary
 creature: A wolf who walks the line between two villages
 realm: forest
-isFree: false
 publishedAt: 2027-06-09
 summary: Neither village has spoken to the other since 1974. The wolf goes to both.
 setting: A wooded ridge between two valleys in snow. An overgrown stone-edged mule track, hornbeam, the roofs of a village visible far below.

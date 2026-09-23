@@ -103,7 +103,8 @@ struct Story: Codable, Identifiable, Hashable {
     let creature: String
     let summary: String
     let realm: Realm
-    let isFree: Bool
+    // Nao ha mais `isFree`: o que esta aberto de graca muda toda semana e
+    // e decidido pelo calendario, nao pelo conto. Ver FreeWeek.
     let publishedAt: Date
     /// Nome do asset da capa. Vazio enquanto nao houver arte.
     let coverAsset: String

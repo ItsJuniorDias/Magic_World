@@ -3,7 +3,6 @@ id: the-goose-under-the-ice
 title: The Goose Under the Ice
 creature: A goose in the lake ice who is not dead
 realm: frost
-isFree: false
 publishedAt: 2027-02-24
 summary: Every child in the village has been told not to look. Sanna looks.
 setting: The frozen edge of a northern lake. Clear black ice, reeds, a low bank of birch, something pale held a few centimetres below the surface.

@@ -3,7 +3,6 @@ id: the-boar-who-remembered-roads
 title: The Boar Who Remembered Roads
 creature: A boar who has walked every path that ever existed
 realm: forest
-isFree: false
 publishedAt: 2026-09-09
 summary: The lane to the mill was closed in 1890. The boar still uses it.
 setting: A walled kitchen garden at night, seen from above. Vegetable beds, a shed, two apple trees, a thick blackthorn hedge, a stone wall.

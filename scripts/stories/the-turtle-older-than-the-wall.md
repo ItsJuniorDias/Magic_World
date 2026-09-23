@@ -3,7 +3,6 @@ id: the-turtle-older-than-the-wall
 title: The Turtle Older Than the Wall
 creature: A turtle who was there before the harbour
 realm: tides
-isFree: false
 publishedAt: 2027-03-10
 summary: The engineers want to move the wall. Somebody ought to ask her first.
 setting: A Mediterranean beach at night beside a concrete harbour arm. Sand, a wide flipper track going up from the water, the town lights turned off.

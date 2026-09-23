@@ -3,7 +3,6 @@ id: the-hare-that-turns-first
 title: The Hare That Turns First
 creature: A hare who goes white a week before the snow
 realm: frost
-isFree: false
 publishedAt: 2026-10-07
 summary: The village plants by the hare, not by the calendar. This year the hare turned in October.
 setting: A bare northern hillside above a small village in October. Cut grass, stone walls, birch, the roofs and one lit window far below.

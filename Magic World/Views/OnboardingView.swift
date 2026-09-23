@@ -202,8 +202,9 @@ struct OnboardingView: View {
             let hour = parts.hour ?? 19
             let minute = parts.minute ?? 30
             app.setBedtime(hour: hour, minute: minute)
+            // Agendar e com o Magic_WorldApp: ele reagenda sempre que o
+            // interruptor ou a hora mudam, e sabe as segundas de conto novo.
             app.bedtimeReminderEnabled = true
-            await ReminderScheduler.schedule(hour: hour, minute: minute)
         } else {
             app.bedtimeReminderEnabled = false
         }

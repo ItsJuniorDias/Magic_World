@@ -3,7 +3,6 @@ id: what-the-gull-brought-back
 title: What the Gull Brought Back
 creature: A gull who returns what the sea took
 realm: tides
-isFree: false
 publishedAt: 2026-10-21
 summary: She leaves things on the harbour wall. Nobody has ever claimed the small blue shoe.
 setting: A stone harbour wall at dawn. A line of cast iron bollards, wet steps going down, moored boats, a small object left on the third bollard.

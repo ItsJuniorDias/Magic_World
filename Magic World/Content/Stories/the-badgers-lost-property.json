@@ -4,7 +4,6 @@
   "creature": "A badger who runs a lost-property office under a root",
   "summary": "Everything left in the wood since 1911, catalogued — and the catalogue is the problem.",
   "realm": "forest",
-  "isFree": false,
   "publishedAt": "2026-12-23",
   "coverAsset": "the-badgers-lost-property-cover",
   "chapters": [

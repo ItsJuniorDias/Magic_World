@@ -54,6 +54,40 @@ struct PremiumBadge: View {
     }
 }
 
+/// Gratis so nesta semana. Mesma forma do selo premium, em ambar e nao em
+/// arcano: arcano e o que e pago, e este e o que abre agora — mas tranca
+/// na segunda, e por isso diz "this week" e nao so "free".
+struct FreeWeekBadge: View {
+    var body: some View {
+        HStack(spacing: Space.xs) {
+            Image(systemName: "gift.fill")
+            Text("Free this week")
+        }
+        .font(Typography.badge)
+        .tracking(0.6)
+        .textCase(.uppercase)
+        .foregroundStyle(Palette.ink)
+        .padding(.horizontal, Space.sm)
+        .padding(.vertical, 5)
+        .background(Palette.lamplight.opacity(0.95), in: .rect(cornerRadius: Radius.pill))
+    }
+}
+
+/// O selo que cabe na capa: premium quando tranca, "gratis esta semana"
+/// quando abre so pela semana, nada quando a pessoa assina.
+struct AccessBadge: View {
+    let story: Story
+    @Environment(Store.self) private var store
+
+    var body: some View {
+        if !store.canOpen(story) {
+            PremiumBadge()
+        } else if store.isFreeThisWeek(story) {
+            FreeWeekBadge()
+        }
+    }
+}
+
 /// Patente do leitor. Mesma forma do selo premium, cor diferente, porque
 /// e conquista e nao trava.
 struct RankBadge: View {

@@ -3,7 +3,6 @@ id: the-weathercock-that-turns-early
 title: The Weathercock That Turns Early
 creature: A weathervane bird who turns before the wind does
 realm: skies
-isFree: false
 publishedAt: 2027-06-23
 summary: It moved on a still Thursday, and the whole town watched it move.
 setting: A Dutch town in flat country under a huge sky. A brick church tower, a copper weathervane cockerel on its spindle, low roofs, a dyke beyond.

@@ -3,7 +3,6 @@ id: the-glass-heron
 title: The Glass Heron
 creature: A heron made of river glass
 realm: tides
-isFree: true
 publishedAt: 2026-07-29
 summary: The year the river came into the streets, a bird made of glass stood on Wren's roof and would not leave.
 setting: A flooded village lane at first light. Water up to the gate tops between two rows of houses, fence posts breaking the surface, wet slate roofs.

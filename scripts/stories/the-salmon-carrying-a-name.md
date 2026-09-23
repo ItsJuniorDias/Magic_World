@@ -3,7 +3,6 @@ id: the-salmon-carrying-a-name
 title: The Salmon Carrying a Name
 creature: A salmon who takes a name upriver
 realm: tides
-isFree: false
 publishedAt: 2027-02-03
 summary: You give it a name at the mouth, and it takes the name to the source. That is the whole of it.
 setting: A wide river mouth on a June morning. Green shallow water over shingle, a line of people standing knee deep, low green hills behind.

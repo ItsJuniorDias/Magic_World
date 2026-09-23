@@ -3,7 +3,6 @@ id: the-musk-ox-where-wind-starts
 title: The Musk Ox Where the Wind Starts
 creature: A musk ox who stands at the place the wind begins
 realm: frost
-isFree: false
 publishedAt: 2027-01-20
 summary: Kenna walks north to ask him to stand somewhere else, which is not how any of it works.
 setting: A saddle between two low arctic hills. Bare frozen ground, no vegetation above ankle height, an enormous flat sky, snow driving from one side only.

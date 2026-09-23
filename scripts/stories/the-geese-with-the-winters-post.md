@@ -3,7 +3,6 @@ id: the-geese-with-the-winters-post
 title: The Geese With the Winter's Post
 creature: Geese who carry a season of letters at once
 realm: skies
-isFree: false
 publishedAt: 2026-12-02
 summary: They go over on one night in October, and everything nobody could say goes with them.
 setting: The roofs of a small village at one in the morning. Chimneys, a chapel wall, folded papers left on windowsills, a great many birds passing low.

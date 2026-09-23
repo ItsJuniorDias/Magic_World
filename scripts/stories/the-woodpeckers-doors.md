@@ -3,7 +3,6 @@ id: the-woodpeckers-doors
 title: The Woodpecker's Doors
 creature: A woodpecker who opens doors in trees
 realm: forest
-isFree: false
 publishedAt: 2027-04-07
 summary: Nils gets in easily. Getting out is a separate arrangement.
 setting: A northern spruce and birch forest in low light. Straight dark trunks, moss and blaeberry, a single round hole in one living trunk at head height.

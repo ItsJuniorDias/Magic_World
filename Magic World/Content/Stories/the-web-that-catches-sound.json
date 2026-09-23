@@ -4,7 +4,6 @@
   "creature": "A spider whose web catches what was said",
   "summary": "It is full by August, and in September it has to be emptied somewhere.",
   "realm": "forest",
-  "isFree": false,
   "publishedAt": "2027-03-03",
   "coverAsset": "the-web-that-catches-sound-cover",
   "chapters": [

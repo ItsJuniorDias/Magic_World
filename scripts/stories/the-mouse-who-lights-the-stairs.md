@@ -3,7 +3,6 @@ id: the-mouse-who-lights-the-stairs
 title: The Mouse Who Lights the Stairs
 creature: A mouse who carries a light up ahead of you
 realm: nightfall
-isFree: false
 publishedAt: 2027-03-24
 summary: The lamp on the Scalinata has been out since March, and nobody has fixed it on purpose.
 setting: A covered stone staircase climbing between old houses at night. Vaulting overhead, worn steps, an iron rail, one dead lamp on a landing.

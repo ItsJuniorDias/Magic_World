@@ -3,7 +3,6 @@ id: the-marten-who-trades
 title: The Marten Who Trades
 creature: A marten who leaves something better than what she takes
 realm: nightfall
-isFree: false
 publishedAt: 2027-05-26
 summary: The rule is that you may not choose what she takes. Everybody tries anyway.
 setting: The north wall of a small alpine church at dusk. Rough stone, a buttress, a narrow ledge at head height with small objects set out on it.

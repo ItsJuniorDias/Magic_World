@@ -21,6 +21,10 @@ Depois de gerar conto novo, ou quando entrar MP3/MP4 novo em Content/,
 rode tambem scripts/odr_tags.py: sem ele a midia nova entra no .app sem
 tag de On-Demand Resources e o app volta a pesar centenas de MB na loja.
 
+Conto novo tambem precisa entrar no calendario dos gratis: rode
+scripts/free_weeks.py. Sem isso ele nunca fica gratis, e o --check de la
+acusa.
+
 Formato do markdown:
 
     ---
@@ -28,7 +32,6 @@ Formato do markdown:
     title: The Glass Heron
     creature: A heron made of river glass
     realm: tides
-    isFree: true
     publishedAt: 2026-07-29
     summary: Uma linha que aparece no cartao.
     ---
@@ -60,7 +63,9 @@ SENTENCE_GAP = 0.35
 SPLIT = re.compile(r'(?<=[.!?])\s+')
 
 REALMS = {"forest", "tides", "skies", "nightfall", "frost"}
-REQUIRED = {"id", "title", "creature", "realm", "isFree", "publishedAt", "summary"}
+# Sem `isFree`: o que abre de graca muda toda semana e mora no calendario
+# (scripts/free_weeks.py), nao no conto.
+REQUIRED = {"id", "title", "creature", "realm", "publishedAt", "summary"}
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 # Escrito pelo narrate.py quando a narracao existe. Quando ele esta aqui,
@@ -174,7 +179,6 @@ def main():
             "creature": meta["creature"],
             "summary": meta["summary"],
             "realm": meta["realm"],
-            "isFree": meta["isFree"].lower() == "true",
             "publishedAt": meta["publishedAt"],
             "coverAsset": meta.get("coverAsset", ""),
             "chapters": [
@@ -223,9 +227,8 @@ def main():
         total_words += words
         total_seconds += seconds
 
-        flag = "" if story["isFree"] else "  premium"
         print(f"{story['id']:30} {story['realm']:10} {len(chapters):>4} "
-              f"{words:>9,} {seconds/60:>5.0f}{flag}")
+              f"{words:>9,} {seconds/60:>5.0f}")
 
         # Meta e 15-20 min. Avisa em 14 pra pegar o que so raspa por baixo.
         if seconds / 60 < 14:

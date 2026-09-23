@@ -89,7 +89,7 @@ struct StoryDetailView: View {
         MotionCover(story: story, showsScrim: false)
             .frame(height: fold.coverHeight)
             .overlay(alignment: .topLeading) {
-                if !store.canOpen(story) { PremiumBadge().padding(Space.md) }
+                AccessBadge(story: story).padding(Space.md)
             }
     }
 

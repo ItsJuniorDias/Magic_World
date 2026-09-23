@@ -3,7 +3,6 @@ id: the-weather-stag
 title: The Weather Stag
 creature: A stag whose antlers grow the shape of the coming season
 realm: forest
-isFree: false
 publishedAt: 2026-10-14
 summary: Petra learns to read the new points before the first frost does the telling.
 setting: The edge of a birch wood seen across a hill field in late summer. Pale trunks in ranks, long shadows, an animal standing well back in the trees.

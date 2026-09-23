@@ -3,7 +3,6 @@ id: the-snow-leopard-nobody-photographed
 title: The Snow Leopard Nobody Photographed
 creature: A snow leopard who has never been in a picture
 realm: frost
-isFree: false
 publishedAt: 2027-07-07
 summary: Sixty-one people have seen her. There are sixty-one photographs of an empty slope.
 setting: A Himalayan scree slope in February. Grey rock and thin snow, a rock spur, a frozen river far below, enormous brown mountains behind.

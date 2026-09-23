@@ -166,9 +166,8 @@ PLAN = [
      "Sixty-one people have seen her. There are sixty-one photographs of an empty slope."),
 ]
 
-# Que contos ficam grátis. Padrão do Grimoire: 3 de 50.
-# Dois já estão escritos (the-glass-heron, where-the-moths-sleep).
-FREE_EXTRA = {"the-cat-who-walks-you-home"}
+# Quais contos ficam grátis nao e mais decisao deste plano: nenhum e
+# grátis pra sempre, três abrem por semana. Ver scripts/free_weeks.py.
 
 
 def existing():
@@ -177,14 +176,14 @@ def existing():
     for sid in ids:
         s = json.loads((CONTENT / f"{sid}.json").read_text())
         out.append((sid, s["title"], s["creature"], s["realm"],
-                    s["isFree"], s["publishedAt"]))
+                    s["publishedAt"]))
     return out
 
 
 def main():
     done = existing()
     written = {e[0] for e in done}
-    last = max(datetime.date.fromisoformat(e[5]) for e in done)
+    last = max(datetime.date.fromisoformat(e[4]) for e in done)
 
     # Conto que ja saiu do plano e virou arquivo nao entra na fila de novo,
     # senao ele conta duas vezes no balanco e empurra todas as datas.
@@ -194,14 +193,12 @@ def main():
     for i, (sid, title, creature, realm, premise) in enumerate(pending, start=1):
         rows.append({
             "id": sid, "title": title, "creature": creature, "realm": realm,
-            "isFree": sid in FREE_EXTRA,
             "publishedAt": (last + datetime.timedelta(weeks=i)).isoformat(),
             "premise": premise,
         })
 
     balance = collections.Counter(e[3] for e in done)
     balance.update(r["realm"] for r in rows)
-    free_total = sum(1 for e in done if e[4]) + sum(1 for r in rows if r["isFree"])
 
     lines = [
         "# Plano — 50 contos",
@@ -218,19 +215,17 @@ def main():
     ]
     for realm in ["forest", "tides", "skies", "nightfall", "frost"]:
         lines.append(f"| {realm} | {balance[realm]} |")
-    lines += ["", f"Grátis: {free_total} de 50.", "",
-              "## Escritos", "",
+    lines += ["", "## Escritos", "",
               "| # | id | criatura | habitat | publica |",
               "| --- | --- | --- | --- | --- |"]
-    for n, (sid, _t, creature, realm, _f, date) in enumerate(done, start=1):
+    for n, (sid, _t, creature, realm, date) in enumerate(done, start=1):
         lines.append(f"| {n} | `{sid}` | {creature} | {realm} | {date} |")
 
     lines += ["", "## Por escrever", "",
               "| # | id | criatura | habitat | publica | premissa |",
               "| --- | --- | --- | --- | --- | --- |"]
     for n, r in enumerate(rows, start=len(done) + 1):
-        free = " ·grátis" if r["isFree"] else ""
-        lines.append(f"| {n} | `{r['id']}`{free} | {r['creature']} | "
+        lines.append(f"| {n} | `{r['id']}` | {r['creature']} | "
                      f"{r['realm']} | {r['publishedAt']} | {r['premise']} |")
 
     OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
@@ -238,7 +233,6 @@ def main():
     print(f"{OUT.relative_to(ROOT)}")
     print(f"  {len(done)} escritos, {len(rows)} por escrever")
     print(f"  balanço: {dict(balance)}")
-    print(f"  grátis: {free_total}")
     if rows:
         print(f"  última publicação: {rows[-1]['publishedAt']}")
     else:

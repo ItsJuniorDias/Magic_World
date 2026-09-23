@@ -54,6 +54,16 @@ final class Store {
     /// dizer alguma coisa em vez de nao fazer nada.
     private(set) var hasPendingPurchase = false
 
+    /// Falso ate a primeira leitura de `currentEntitlements` terminar. Ate
+    /// la `isSubscribed` e falso tambem pra quem assina — quem baixa coisa
+    /// "so pra quem nao assina" precisa esperar isto.
+    private(set) var hasCheckedEntitlements = false
+
+    /// Os tres contos abertos de graca nesta semana. Mora aqui porque o
+    /// acesso inteiro passa por `canOpen`, e assim as views continuam
+    /// fazendo uma pergunta so.
+    let freeWeek: FreeWeek
+
     /// Guardado so pra deixar explicito que existe e que e proposital que
     /// ninguem o cancele.
     private var updates: Task<Void, Never>?
@@ -72,6 +82,8 @@ final class Store {
     // MARK: - Ciclo de vida
 
     init() {
+        freeWeek = FreeWeek()
+
         // Comeca antes de qualquer compra e nao e cancelado enquanto o app
         // vive. Ver observacao 1 no topo.
         updates = Task.detached { [weak self] in
@@ -138,6 +150,7 @@ final class Store {
             }
         }
         isSubscribed = active
+        hasCheckedEntitlements = true
     }
 
     // MARK: - Compra
@@ -211,8 +224,18 @@ final class Store {
     // MARK: - Acesso
 
     /// A unica pergunta que o resto do app faz.
+    ///
+    /// Depende da data: um conto gratis nesta semana tranca na segunda,
+    /// e como `freeWeek` e observavel as telas que perguntaram isto sao
+    /// redesenhadas sozinhas na virada.
     func canOpen(_ story: Story) -> Bool {
-        story.isFree || isSubscribed
+        isSubscribed || freeWeek.contains(story.id)
+    }
+
+    /// Aberto so por ser a semana dele — o que as telas destacam pra quem
+    /// nao assina. Pra quem assina, "gratis esta semana" nao quer dizer nada.
+    func isFreeThisWeek(_ story: Story) -> Bool {
+        !isSubscribed && freeWeek.contains(story.id)
     }
 }
 

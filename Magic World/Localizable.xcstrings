@@ -467,7 +467,7 @@
         }
       }
     },
-    "%lld free now": {
+    "%lld free this week": {
       "extractionState": "manual",
       "localizations": {
         "ar": {
@@ -476,37 +476,37 @@
               "few": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld قصص مجانية الآن"
+                  "value": "%lld قصص مجانية هذا الأسبوع"
                 }
               },
               "many": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld قصة مجانية الآن"
+                  "value": "%lld قصة مجانية هذا الأسبوع"
                 }
               },
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "قصة واحدة مجانية الآن"
+                  "value": "قصة واحدة مجانية هذا الأسبوع"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld قصة مجانية الآن"
+                  "value": "%lld قصة مجانية هذا الأسبوع"
                 }
               },
               "two": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "قصتان مجانيتان الآن"
+                  "value": "قصتان مجانيتان هذا الأسبوع"
                 }
               },
               "zero": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "لا قصص مجانية الآن"
+                  "value": "لا قصص مجانية هذا الأسبوع"
                 }
               }
             }
@@ -518,13 +518,13 @@
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld jetzt gratis"
+                  "value": "%lld diese Woche gratis"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld jetzt gratis"
+                  "value": "%lld diese Woche gratis"
                 }
               }
             }
@@ -536,13 +536,13 @@
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld free now"
+                  "value": "%lld free this week"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld free now"
+                  "value": "%lld free this week"
                 }
               }
             }
@@ -554,13 +554,13 @@
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld gratis ahora"
+                  "value": "%lld gratis esta semana"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld gratis ahora"
+                  "value": "%lld gratis esta semana"
                 }
               }
             }
@@ -572,13 +572,13 @@
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld gratuit maintenant"
+                  "value": "%lld gratuite cette semaine"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld gratuits maintenant"
+                  "value": "%lld gratuites cette semaine"
                 }
               }
             }
@@ -590,13 +590,13 @@
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld gratis ora"
+                  "value": "%lld gratis questa settimana"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld gratis ora"
+                  "value": "%lld gratis questa settimana"
                 }
               }
             }
@@ -608,13 +608,13 @@
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld grátis agora"
+                  "value": "%lld grátis esta semana"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld grátis agora"
+                  "value": "%lld grátis esta semana"
                 }
               }
             }
@@ -2065,7 +2065,7 @@
         }
       }
     },
-    "%lld stories free": {
+    "%lld stories free this week": {
       "extractionState": "manual",
       "localizations": {
         "ar": {
@@ -2074,37 +2074,37 @@
               "few": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld قصص مجانية"
+                  "value": "%lld قصص مجانية هذا الأسبوع"
                 }
               },
               "many": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld قصة مجانية"
+                  "value": "%lld قصة مجانية هذا الأسبوع"
                 }
               },
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "قصة واحدة مجانية"
+                  "value": "قصة واحدة مجانية هذا الأسبوع"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld قصة مجانية"
+                  "value": "%lld قصة مجانية هذا الأسبوع"
                 }
               },
               "two": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "قصتان مجانيتان"
+                  "value": "قصتان مجانيتان هذا الأسبوع"
                 }
               },
               "zero": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "لا توجد قصص مجانية"
+                  "value": "لا توجد قصص مجانية هذا الأسبوع"
                 }
               }
             }
@@ -2116,13 +2116,13 @@
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld Geschichte gratis"
+                  "value": "%lld Geschichte gratis diese Woche"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld Geschichten gratis"
+                  "value": "%lld Geschichten gratis diese Woche"
                 }
               }
             }
@@ -2134,13 +2134,13 @@
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld story free"
+                  "value": "%lld story free this week"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld stories free"
+                  "value": "%lld stories free this week"
                 }
               }
             }
@@ -2152,13 +2152,13 @@
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld historia gratis"
+                  "value": "%lld historia gratis esta semana"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld historias gratis"
+                  "value": "%lld historias gratis esta semana"
                 }
               }
             }
@@ -2170,13 +2170,13 @@
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld histoire gratuite"
+                  "value": "%lld histoire gratuite cette semaine"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld histoires gratuites"
+                  "value": "%lld histoires gratuites cette semaine"
                 }
               }
             }
@@ -2188,13 +2188,13 @@
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld storia gratis"
+                  "value": "%lld storia gratis questa settimana"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld storie gratis"
+                  "value": "%lld storie gratis questa settimana"
                 }
               }
             }
@@ -2206,13 +2206,13 @@
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld história grátis"
+                  "value": "%lld história grátis esta semana"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld histórias grátis"
+                  "value": "%lld histórias grátis esta semana"
                 }
               }
             }
@@ -8353,49 +8353,96 @@
         }
       }
     },
-    "Free to start": {
+    "Free this week": {
       "extractionState": "manual",
       "localizations": {
         "ar": {
           "stringUnit": {
             "state": "translated",
-            "value": "ابدأ مجانًا"
+            "value": "مجانية هذا الأسبوع"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Kostenlos starten"
+            "value": "Diese Woche gratis"
           }
         },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Free to start"
+            "value": "Free this week"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Gratis para empezar"
+            "value": "Gratis esta semana"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Gratuit pour commencer"
+            "value": "Gratuit cette semaine"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Gratis per iniziare"
+            "value": "Gratis questa settimana"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Comece de graça"
+            "value": "Grátis esta semana"
+          }
+        }
+      }
+    },
+    "Free until Sunday: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مجانية حتى يوم الأحد: %@"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gratis bis Sonntag: %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Free until Sunday: %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gratis hasta el domingo: %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gratuites jusqu’à dimanche : %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gratis fino a domenica: %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grátis até domingo: %@"
           }
         }
       }
@@ -10708,6 +10755,100 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nenhuma das aldeias fala com a outra desde 1974. O lobo vai às duas."
+          }
+        }
+      }
+    },
+    "New free stories": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قصص مجانية جديدة"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neue kostenlose Geschichten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New free stories"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuevas historias gratis"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouvelles histoires gratuites"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuove storie gratis"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novas histórias grátis"
+          }
+        }
+      }
+    },
+    "New ones every Monday": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قصص جديدة كل يوم اثنين"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jeden Montag neue"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New ones every Monday"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuevas cada lunes"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De nouvelles chaque lundi"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuove ogni lunedì"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novas toda segunda-feira"
           }
         }
       }
@@ -23575,161 +23716,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Desbloqueie as cinquenta histórias"
-          }
-        }
-      }
-    },
-    "Unlock the other %lld": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "variations": {
-            "plural": {
-              "few": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "افتح الـ %lld قصص الأخرى"
-                }
-              },
-              "many": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "افتح الـ %lld قصة الأخرى"
-                }
-              },
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "افتح القصة الأخرى"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "افتح الـ %lld قصة المتبقية"
-                }
-              },
-              "two": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "افتح القصتين الأخريين"
-                }
-              },
-              "zero": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "لا شيء متبقي"
-                }
-              }
-            }
-          }
-        },
-        "de": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Die andere %lld freischalten"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Die anderen %lld freischalten"
-                }
-              }
-            }
-          }
-        },
-        "en": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Unlock the other %lld"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Unlock the other %lld"
-                }
-              }
-            }
-          }
-        },
-        "es": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Desbloquea la otra %lld"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Desbloquea las otras %lld"
-                }
-              }
-            }
-          }
-        },
-        "fr": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Débloque l’autre %lld"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Débloque les %lld autres"
-                }
-              }
-            }
-          }
-        },
-        "it": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Sblocca l’altra %lld"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Sblocca le altre %lld"
-                }
-              }
-            }
-          }
-        },
-        "pt-BR": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Desbloqueie a outra %lld"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "Desbloqueie as outras %lld"
-                }
-              }
-            }
           }
         }
       }

@@ -3,7 +3,6 @@ id: the-firefly-bridge
 title: The Firefly Bridge
 creature: Fireflies who light a crossing one night a year
 realm: nightfall
-isFree: false
 publishedAt: 2027-06-30
 summary: The bridge fell in 1998. For one night in June you can still see where it was.
 setting: A steep wooded gorge in Japan at night. Concrete bridge anchors on the near rim, cut cable stubs, a loud river far below, dense cedar.

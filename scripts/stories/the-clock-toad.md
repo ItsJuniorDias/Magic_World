@@ -3,7 +3,6 @@ id: the-clock-toad
 title: The Clock Toad
 creature: A toad who keeps the only clock the wood agrees on
 realm: forest
-isFree: false
 publishedAt: 2027-01-27
 summary: He has been seven minutes slow since the war, and nobody wants to be the one to mention it.
 setting: A ford at the bottom of a hornbeam wood at dusk. Flat stones, shallow fast water, a ruined mill gable, deep shadow under the trees.

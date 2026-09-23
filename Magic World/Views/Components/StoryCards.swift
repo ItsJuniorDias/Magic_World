@@ -76,7 +76,7 @@ struct HeroStoryCard: View {
             // hospeda, entao o texto fica ancorado na altura real do cartao.
             .overlay(alignment: .bottomLeading) { caption }
             .overlay(alignment: .topLeading) {
-                if !store.canOpen(story) { PremiumBadge().padding(Space.md) }
+                AccessBadge(story: story).padding(Space.md)
             }
             .clipShape(.rect(cornerRadius: Radius.cover))
     }
@@ -123,7 +123,7 @@ struct ShelfStoryCard: View {
                 .frame(width: fold.shelfCard.width, height: fold.shelfCard.height)
                 .clipShape(.rect(cornerRadius: Radius.cover))
                 .overlay(alignment: .topLeading) {
-                    if !store.canOpen(story) { PremiumBadge().padding(Space.sm) }
+                    AccessBadge(story: story).padding(Space.sm)
                 }
 
             Text(story.localizedTitle)

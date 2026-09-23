@@ -3,7 +3,6 @@ id: the-wolves-who-keep-the-ice-honest
 title: The Wolves Who Keep the Ice Honest
 creature: Wolves who will not cross ice that will not hold
 realm: frost
-isFree: false
 publishedAt: 2027-03-31
 summary: The safest route across the lake is wherever they walked yesterday.
 setting: A frozen lake before dawn. Snow-crust and wind-scour, a reed edge, a single-file line of tracks running out across the open ice.

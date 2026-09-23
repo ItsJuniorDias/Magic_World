@@ -3,7 +3,6 @@ id: the-octopus-and-the-net-library
 title: The Octopus and the Net Library
 creature: An octopus who keeps what the nets bring up
 realm: tides
-isFree: false
 publishedAt: 2026-12-30
 summary: Eight shelves, arranged by what the object was for — not by what it is.
 setting: An underwater rock ledge eight metres down, seen sideways. An overhang with horizontal cracks in it, objects set into them, blue water above.

@@ -3,7 +3,6 @@ id: the-fox-only-the-lost-can-see
 title: The Fox Only the Lost Can See
 creature: A fox visible only to someone who has lost their way
 realm: forest
-isFree: false
 publishedAt: 2026-11-18
 summary: Tam sees it constantly, which worries him a great deal more than the wood does.
 setting: A village car park at dusk in winter. Bins, a low wall, a minibus, wet tarmac, a dark wood rising immediately behind.

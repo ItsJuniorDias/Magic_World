@@ -24,6 +24,8 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 STORIES = REPO / "Magic World" / "Content" / "Stories"
+FREE_WEEKS = REPO / "Magic World" / "Content" / "free-weeks.json"
+NOT_SCHEDULED = 10_000
 CATALOG = REPO / "Magic World" / "Localizable.xcstrings"
 
 # Source language is excluded: its "translation" is the key itself.
@@ -31,15 +33,29 @@ LANGUAGES = ["pt-BR", "es", "fr", "de", "it", "ar"]
 STORIES_PER_SESSION = 3
 
 
+def first_free_week() -> dict[str, int]:
+    """story id → the first week of the free rotation it opens in.
+
+    Written by free_weeks.py. A story missing from it sorts last."""
+    weeks = json.loads(FREE_WEEKS.read_text())["weeks"]
+    first: dict[str, int] = {}
+    for n, week in enumerate(weeks):
+        for sid in week:
+            first.setdefault(sid, n)
+    return first
+
+
 def load_stories() -> list[dict]:
     ids = json.loads((STORIES / "stories.json").read_text())["stories"]
+    week = first_free_week()
     out = []
     for sid in ids:
         data = json.loads((STORIES / f"{sid}.json").read_text())
         out.append({
             "id": sid,
             "title": data["title"],
-            "isFree": data["isFree"],
+            # Missing from the rotation (free_weeks.py not rerun): last.
+            "week": week.get(sid, NOT_SCHEDULED),
             "chapters": [c["text"] for c in data["chapters"]],
             "words": sum(len(c["text"].split()) for c in data["chapters"]),
         })
@@ -68,28 +84,37 @@ def coverage(stories: list[dict]) -> dict[str, dict[str, int]]:
 
 
 def build_sessions(stories: list[dict], cov: dict) -> list[dict]:
-    """Remaining work, ordered: free stories first (they are what an
-    unpaid reader and an App Store reviewer open), pt-BR first among
-    languages (it is the market the paywall prices in Reais for)."""
+    """Remaining work, language by language — pt-BR first (it is the market
+    the paywall prices in Reais for) — and within each language by the week
+    each story first turns free (free-weeks.json), so what an unpaid reader
+    opens next is translated first IN THAT LANGUAGE.
+
+    Language-major, not week-major, on purpose: it keeps the session
+    numbers the parallel translation sessions already work from. The cost
+    is that next week's free stories get a human translation in pt-BR long
+    before the other five languages, which show machine translation meanwhile.
+
+    free_weeks.py lays the rotation out in these same batches of three, in
+    stories.json order after week 0, so a session is normally one week."""
     ordered_langs = LANGUAGES  # pt-BR is already first
-    free = [s for s in stories if s["isFree"]]
-    paid = [s for s in stories if not s["isFree"]]
+    # sorted() is stable: stories that open in the same week keep their
+    # stories.json order.
+    by_week = sorted(stories, key=lambda s: s["week"])
 
     sessions: list[dict] = []
-    for group_name, group in (("free", free), ("paid", paid)):
-        for lang in ordered_langs:
-            pending = [
-                s for s in group
-                if cov[s["id"]][lang] < len(s["chapters"])
-            ]
-            for i in range(0, len(pending), STORIES_PER_SESSION):
-                batch = pending[i:i + STORIES_PER_SESSION]
-                sessions.append({
-                    "group": group_name,
-                    "lang": lang,
-                    "stories": batch,
-                    "words": sum(s["words"] for s in batch),
-                })
+    for lang in ordered_langs:
+        pending = [
+            s for s in by_week
+            if cov[s["id"]][lang] < len(s["chapters"])
+        ]
+        for i in range(0, len(pending), STORIES_PER_SESSION):
+            batch = pending[i:i + STORIES_PER_SESSION]
+            sessions.append({
+                "week": batch[0]["week"],
+                "lang": lang,
+                "stories": batch,
+                "words": sum(s["words"] for s in batch),
+            })
     return sessions
 
 
@@ -138,7 +163,7 @@ def main() -> None:
     print(f"NEXT SESSIONS  ({len(sessions)} remaining, "
           f"{STORIES_PER_SESSION} stories each)")
     for n, s in enumerate(show, 1):
-        tag = "free" if s["group"] == "free" else "paid"
+        tag = f"wk{s['week']:02d}"
         print(f"  S{n:02d}  {s['lang']:6s} {tag}  {s['words']:>6,}w")
         for story in s["stories"]:
             print(f"        {story['id']}")

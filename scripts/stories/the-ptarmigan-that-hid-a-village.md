@@ -3,7 +3,6 @@ id: the-ptarmigan-that-hid-a-village
 title: The Ptarmigan That Hid a Village
 creature: A ptarmigan who hides what the storm is looking for
 realm: frost
-isFree: false
 publishedAt: 2026-12-16
 summary: For two days in 1953 the pass could not find the houses, and the houses were perfectly fine.
 setting: A snow ridge above a hollow full of small roofs. Rock, deep drift, smoke lying flat, a whiteout closing the pass beyond.

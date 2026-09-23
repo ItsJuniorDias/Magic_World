@@ -39,6 +39,7 @@ struct ReaderView: View {
     @Environment(ReadingProgress.self) private var progress
     @Environment(NarrationPlayer.self) private var player
     @Environment(StoryPacks.self) private var packs
+    @Environment(Store.self) private var store
     @Environment(\.dismiss) private var dismiss
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
@@ -419,6 +420,16 @@ struct ReaderView: View {
     // MARK: - Apoio
 
     private func open() async {
+        // O conto gratis tranca na virada da semana, mesmo pela metade. Com
+        // o leitor aberto a meia-noite de segunda, o capitulo da tela vai
+        // ate o fim — cortar a frase no meio nao ajuda ninguem — mas o
+        // proximo, manual ou encadeado, ja nao abre: volta pro detalhe,
+        // que mostra o cadeado e o caminho pra assinar.
+        guard store.canOpen(story) else {
+            dismiss()
+            return
+        }
+
         // Decide a traducao antes de qualquer coisa: as saidas rapidas
         // resolvem sincronas e o capitulo ja traduzido aparece sem piscar.
         if let chapter {

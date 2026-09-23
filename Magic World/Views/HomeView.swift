@@ -18,6 +18,7 @@ struct HomeView: View {
     @Environment(ReadingProgress.self) private var progress
     @Environment(AppState.self) private var app
     @Environment(Store.self) private var store
+    @Environment(StoryPacks.self) private var packs
 
     @State private var showPaywall = false
     /// Altura real da saudacao. A barra so revela o titulo depois que ela
@@ -53,14 +54,16 @@ struct HomeView: View {
                         shelf("Pick up where you left off", stories: continueReading)
                     }
 
+                    // Logo depois do que ela ja comecou: pra quem nao assina,
+                    // e o que da pra abrir agora, e muda toda segunda.
+                    if !store.isSubscribed && !freeThisWeek.isEmpty {
+                        shelf("Free this week", stories: freeThisWeek)
+                    }
+
                     realmsRow
 
                     if !newlyPublished.isEmpty {
                         shelf("Just arrived", stories: newlyPublished)
-                    }
-
-                    if !freeToStart.isEmpty {
-                        shelf("Free to start", stories: freeToStart)
                     }
 
                     if library.stories.isEmpty { emptyState }
@@ -75,6 +78,19 @@ struct HomeView: View {
             .toolbarBackground(Palette.ink, for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
             .navigationDestination(for: Story.self) { StoryDetailView(story: $0) }
+            // Os gratis da semana nao vem mais instalados com o app — mudam
+            // toda segunda. Adiantar a narracao deles aqui devolve o que a
+            // instalacao inicial garantia: quem nao assina ouve o conto
+            // gratis numa noite sem sinal. O id refaz o pedido na virada, e
+            // fica vazio pra quem assina — inclusive no lancamento, antes de
+            // a assinatura ser conferida, quando `isSubscribed` ainda e falso
+            // pra todo mundo e isto baixaria ~15 MB a toa.
+            .task(id: freeNarrationToPrefetch) {
+                guard ContentLanguage.hasNarration else { return }
+                for id in freeNarrationToPrefetch {
+                    packs.prefetch(.narration, for: id)
+                }
+            }
         }
         .tint(Palette.lamplight)
     }
@@ -122,10 +138,10 @@ struct HomeView: View {
                 Image(systemName: "lock.open.fill")
                     .foregroundStyle(Palette.arcane)
                 VStack(alignment: .leading, spacing: 2) {
-                    Text("\(library.freeStories.count) stories free")
+                    Text("\(freeThisWeek.count) stories free this week")
                         .font(Typography.uiEmphasis)
                         .foregroundStyle(Palette.textPrimary)
-                    Text("Unlock the other \(library.stories.count - library.freeStories.count)")
+                    Text("New ones every Monday")
                         .font(Typography.caption)
                         .foregroundStyle(Palette.textSecondary)
                 }
@@ -220,21 +236,29 @@ struct HomeView: View {
 
     // MARK: - Selecao
 
-    /// O destaque e sempre o que ela ja comecou. Se nao comecou nada,
-    /// a mais recente. Retomar vale mais que descobrir.
+    /// O destaque e sempre o que ela ja comecou e ainda pode abrir. Se nao
+    /// ha, um gratis da semana que ela nao comecou. Retomar vale mais que
+    /// descobrir.
     ///
     /// `eyebrow` volta como `LocalizedStringKey` pra o `HeroStoryCard`
     /// pegar o overload de Text que localiza — String traria os literais
     /// em ingles no idioma alvo.
     private var heroStory: (story: Story, progress: Double, eyebrow: LocalizedStringKey)? {
-        if let inProgress = continueReading.first {
+        // So o que ainda abre. Um conto gratis que trancou na virada da
+        // semana continua na prateleira de retomar, com o cadeado — mas
+        // nao no destaque, que viraria um "Continue reading" que nao continua.
+        if let inProgress = continueReading.first(where: { store.canOpen($0) }) {
             return (inProgress, progress.completion(of: inProgress), "Continue reading")
         }
         // Quem ainda nao comecou nada ve uma historia que pode abrir. Botar a
         // mais recente no destaque coloca um cadeado como primeira coisa da
         // primeira sessao, e isso e um paywall antes de qualquer valor.
-        if let newestFree = library.recentlyPublished.first(where: \.isFree) {
-            return (newestFree, 0, "Start here")
+        // Se ja leu os tres, um deles mesmo assim — como o destaque antigo
+        // fazia com o gratis mais novo. Qualquer outro seria um cadeado.
+        if !store.isSubscribed,
+           let free = freeThisWeek.first(where: { progress.completion(of: $0) == 0 })
+                ?? freeThisWeek.first {
+            return (free, 0, "Start here")
         }
         if let newest = library.recentlyPublished.first {
             return (newest, 0, "Start here")
@@ -259,7 +283,15 @@ struct HomeView: View {
             .map { $0 }
     }
 
-    private var freeToStart: [Story] {
-        library.freeStories.filter { progress.completion(of: $0) == 0 }
+    /// Os tres da semana, na ordem do calendario — inclusive os que ela ja
+    /// comecou ou terminou: a prateleira mostra o lote da semana inteiro,
+    /// pra ficar claro o que abre agora e o que tranca na segunda.
+    private var freeThisWeek: [Story] {
+        library.stories(ids: store.freeWeek.storyIDs)
+    }
+
+    private var freeNarrationToPrefetch: [String] {
+        guard store.hasCheckedEntitlements, !store.isSubscribed else { return [] }
+        return store.freeWeek.storyIDs
     }
 }

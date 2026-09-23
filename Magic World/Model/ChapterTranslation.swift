@@ -30,10 +30,12 @@
 //
 //  Traducao de maquina achata a voz. "It was not frightening in
 //  October" vira alguma coisa correta e morta, e a voz e o produto
-//  aqui. Por isso os tres contos GRATIS sao traduzidos a mao e vivem no
-//  String Catalog — sao o que um revisor da App Store abre e o que
-//  decide assinatura. A maquina cobre o resto, e conto que as pessoas
-//  realmente lerem pode ser promovido para traducao humana depois.
+//  aqui. Por isso a traducao humana segue o calendario dos gratis (ver
+//  scripts/free_weeks.py e translation_status.py): dentro de cada idioma,
+//  os contos das proximas semanas sao traduzidos a mao primeiro e vivem no
+//  String Catalog — sao o que quem nao assina, e um revisor da App Store,
+//  abre e o que decide assinatura. A maquina cobre o resto, inclusive gratis
+//  da semana num idioma cuja fila ainda nao chegou nele.
 //
 //  A PRECEDENCIA, ENTAO, E:
 //

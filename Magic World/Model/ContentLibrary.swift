@@ -75,7 +75,10 @@ final class ContentLibrary {
         stories.first { $0.id == id }
     }
 
-    var freeStories: [Story] { stories.filter(\.isFree) }
+    /// Os contos destes ids, na ordem dos ids. Id sem conto e pulado.
+    func stories(ids: [String]) -> [Story] {
+        ids.compactMap(story(id:))
+    }
 
     /// Publicadas mais recentemente primeiro.
     var recentlyPublished: [Story] {

@@ -3,7 +3,6 @@ id: the-kite-crows
 title: The Kite Crows
 creature: Seven crows who fly kites on purpose
 realm: skies
-isFree: false
 publishedAt: 2026-08-26
 summary: Dai's kite will not rise. Seven crows on the telephone wire have opinions about why.
 setting: A flat empty field under an enormous sky. A telephone wire across the frame, a low horizon, a distant church tower, a paper kite very high.

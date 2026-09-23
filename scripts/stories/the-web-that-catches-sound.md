@@ -3,7 +3,6 @@ id: the-web-that-catches-sound
 title: The Web That Catches Sound
 creature: A spider whose web catches what was said
 realm: forest
-isFree: false
 publishedAt: 2027-03-03
 summary: It is full by August, and in September it has to be emptied somewhere.
 setting: A stand of hornbeam on a valley side in August. Smooth grey trunks close together, a large grey sheet of web slung between two of them.

@@ -3,7 +3,6 @@ id: the-fox-who-hid-warm-things
 title: The Fox Who Hid Warm Things
 creature: An arctic fox who buries anything warm
 realm: frost
-isFree: false
 publishedAt: 2027-04-28
 summary: The lost gloves are all in one place, and it is not a hiding place. It is a store.
 setting: A treeless Icelandic ridge above the sea. Lava rock, low turf, a flat slab lying half buried, grey water and a farm roof far below.

@@ -16,8 +16,11 @@ Tags:
     narration-<id>   os MP3 de todos os capitulos do conto
     motion-<id>      o loop MP4 da capa
 
-Os contos com `isFree: true` viram tags de instalacao inicial: baixam junto
-com o app, e quem nunca assinou tem narracao sem precisar de rede.
+Nenhuma tag e de instalacao inicial. Eram os tres contos gratis enquanto
+eram sempre os mesmos; agora os gratis mudam toda segunda (ver
+scripts/free_weeks.py e Model/FreeWeek.swift), e a Home adianta a narracao
+dos da semana corrente. ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS fica vazio
+de proposito — e o --check confere que continua assim.
 
 O que este script escreve:
     Magic World.xcodeproj/project.pbxproj
@@ -126,13 +129,9 @@ def plan(stories):
         if size > MAX_TAG_BYTES:
             fail(f"{tag} tem {size / 1e6:.0f} MB; o limite da Apple por tag e 512 MB")
 
+    # Vazio de proposito: ver o topo do arquivo. A conta de tamanho fica
+    # pra quando alguma tag voltar a descer junto com o app.
     initial = []
-    for story in stories:
-        if story["isFree"]:
-            for kind in ("narration", "motion"):
-                tag = f"{kind}-{story['id']}"
-                if tag in sizes:
-                    initial.append(tag)
     if sum(sizes[t] for t in initial) > MAX_INITIAL_BYTES:
         fail("as tags de instalacao inicial passam de 2 GB")
 

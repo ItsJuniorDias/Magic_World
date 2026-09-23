@@ -3,7 +3,6 @@ id: the-swift-that-never-landed
 title: The Swift That Never Landed
 creature: A swift eleven years in the air
 realm: skies
-isFree: false
 publishedAt: 2026-09-23
 summary: Ada works out that the bird outside her window has not touched ground since she was born.
 setting: A council estate yard at dusk. Four telephone wires, a bin store, one tree, brick flats, an orange sky and birds very high above the roofs.

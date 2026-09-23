@@ -3,7 +3,6 @@ id: the-cartographer-hare
 title: The Cartographer Hare
 creature: A hare who maps paths that do not exist yet
 realm: forest
-isFree: false
 publishedAt: 2026-08-19
 summary: The hare's map shows a road through the wood. There is no road through the wood. Not yet.
 setting: The floor of a beech wood. Grey trunks, deep bracken, a bank of exposed roots, hard slanted bars of light between the stems.

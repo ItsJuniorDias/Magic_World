@@ -4,7 +4,6 @@
   "creature": "A hare who maps paths that do not exist yet",
   "summary": "The hare's map shows a road through the wood. There is no road through the wood. Not yet.",
   "realm": "forest",
-  "isFree": false,
   "publishedAt": "2026-08-19",
   "coverAsset": "the-cartographer-hare-cover",
   "chapters": [

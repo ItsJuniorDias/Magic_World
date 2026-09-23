@@ -3,7 +3,6 @@ id: the-stork-of-apologies
 title: The Stork of Apologies
 creature: A stork who delivers the apology you could not say
 realm: skies
-isFree: false
 publishedAt: 2027-04-14
 summary: It arrives. It is not signed. You are never going to find out who.
 setting: An Alsatian village church in late August. A stone north wall, a small wire basket on a bracket, tiled roofs, a stork nest on a chimney.

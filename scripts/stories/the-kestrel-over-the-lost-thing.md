@@ -3,7 +3,6 @@ id: the-kestrel-over-the-lost-thing
 title: The Kestrel Over the Lost Thing
 creature: A kestrel who hangs still above whatever is missing
 realm: skies
-isFree: false
 publishedAt: 2026-10-28
 summary: She held her place over the same field for four days before anyone thought to go and look.
 setting: A neglected stubble field in autumn. Thistle, a cracked concrete pad, a wire fence and a road along one edge, wide flat country beyond.

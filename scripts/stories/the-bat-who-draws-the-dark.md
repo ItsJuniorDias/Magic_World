@@ -3,7 +3,6 @@ id: the-bat-who-draws-the-dark
 title: The Bat Who Draws the Dark
 creature: A bat who can describe a room she has never seen lit
 realm: skies
-isFree: false
 publishedAt: 2027-01-06
 summary: Joaquim is losing his sight, and the bat is the first thing in that house that does not talk around it.
 setting: The inside of a house attic at night, unlit. Bare rafters and the underside of tiles, a water tank, stacked boxes, one small dark shape crossing the space.

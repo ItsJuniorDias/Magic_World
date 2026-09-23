@@ -3,7 +3,6 @@ id: the-cormorants-count
 title: The Cormorant's Count
 creature: A cormorant who counts the boats out and in
 realm: tides
-isFree: false
 publishedAt: 2027-06-16
 summary: Twenty-two out. She waits on the post until twenty-two come back, however long that takes.
 setting: A small Cornish harbour at dusk. A stone inner wall, a black oak post standing proud of it, crab boats, houses stacked up the hill behind.

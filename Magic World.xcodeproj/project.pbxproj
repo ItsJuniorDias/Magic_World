@@ -637,7 +637,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 5.0.14;
-				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "narration-the-glass-heron motion-the-glass-heron narration-where-the-moths-sleep motion-where-the-moths-sleep narration-the-cat-who-walks-you-home motion-the-cat-who-walks-you-home";
+				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexandre.juniort10.magicworld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -673,7 +673,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 5.0.14;
-				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "narration-the-glass-heron motion-the-glass-heron narration-where-the-moths-sleep motion-where-the-moths-sleep narration-the-cat-who-walks-you-home motion-the-cat-who-walks-you-home";
+				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexandre.juniort10.magicworld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;

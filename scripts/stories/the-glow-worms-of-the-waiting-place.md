@@ -3,7 +3,6 @@ id: the-glow-worms-of-the-waiting-place
 title: The Glow-Worms of the Waiting Place
 creature: Glow-worms who mark where somebody waited
 realm: nightfall
-isFree: false
 publishedAt: 2027-02-17
 summary: There is a bright patch by the bus stop that has been bright for forty years.
 setting: A high-banked country lane at night. A bus stop pole and timetable, a low wall, hedge on both sides, green points of light on the bank.

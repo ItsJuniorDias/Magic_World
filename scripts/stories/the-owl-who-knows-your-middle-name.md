@@ -3,7 +3,6 @@ id: the-owl-who-knows-your-middle-name
 title: The Owl Who Knows Your Middle Name
 creature: An owl who knows the name nobody uses
 realm: nightfall
-isFree: false
 publishedAt: 2026-12-09
 summary: It says hers out loud on the landing, and she has not told a single person at that school.
 setting: A concrete stairwell landing in a tower block at night. A window with a narrow gap at the top corner, an external sill, city lights beyond.

@@ -23,10 +23,14 @@
 //  nem pode abrir. Baixar 5 MB de audio so por olhar a vitrine seria
 //  desperdicio.
 //
-//  Os contos livres sao tags de instalacao inicial: descem junto com o app.
-//  Mesmo assim passam por NSBundleResourceRequest como os outros — o sistema
-//  pode apagar qualquer pacote quando falta espaco, e sem o pedido o arquivo
-//  simplesmente nao aparece no Bundle.main.
+//  Nenhum pacote desce junto com o app. Os contos gratis eram tags de
+//  instalacao inicial enquanto eram sempre os mesmos tres; agora mudam toda
+//  segunda (ver FreeWeek), e instalar os de uma semana deixaria o app
+//  carregando pacotes que trancam na seguinte. Em troca, a Home adianta a
+//  narracao dos gratis da semana corrente, que e o que mantem "funciona sem
+//  sinal" pra quem nao assina. Todo acesso passa por NSBundleResourceRequest:
+//  o sistema pode apagar qualquer pacote quando falta espaco, e sem o pedido
+//  o arquivo simplesmente nao aparece no Bundle.main.
 //
 
 import Foundation
